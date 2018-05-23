@@ -1,5 +1,7 @@
 <!-- docs/_sidebar.md -->
 
+**Para começar**
+
 * [Home](/)
 * [Guide](guide.md)
 * [Teste](teste.md)
