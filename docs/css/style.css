@@ -1,0 +1,15 @@
+.patch {
+	width: 45px;		
+	border-radius: 2px;
+	padding: 6px;
+	color: #FFF;
+	background-color: #D38042;
+	font-size: 0.7em;
+	font-weight: normal;	
+}
+
+.beforePost {
+	color: #a8a7a7;
+	font-size: 13px;
+	padding-left: 20px;
+}

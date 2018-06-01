@@ -1,6 +1,5 @@
 # Conhecendo a Yapay
 
-## Introdução
 
 Seja bem-vindo a nossa documentação!
 
