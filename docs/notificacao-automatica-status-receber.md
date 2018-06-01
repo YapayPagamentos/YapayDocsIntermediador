@@ -1,13 +1,4 @@
-# Notificação Automática de Status
-
-## Introdução
-
-O Yapay pode comunicar com sua aplicação a cada alteração de status de uma transação, fazendo com que seu sistema acompanhe todo o fluxo de status e esteja sempre atualizado quanto a situação da transação.
-
-![API Transação Yapay](/images/Notificacao_automatica.png "Notificação Automática de Status Yapay")
-
-
-## Receber Notificação
+# Receber Notificação
 
 Para receber a notificação automática de status, é necessário configurar uma URL que receberá a chamada, processará os dados recebidos, e em seguida irá obter mais detalhes da transação através de uma API específica. Esse parâmetro está disponível em ambas as integrações (POST ou API) e chama-se transaction[url_notification].
 
@@ -72,8 +63,3 @@ O Yapay irá realizar o POST tipo formulário com a seguinte informação:
 
 
 A notificação será realizada através de um POST, que espera receber o retorno **“HTTP 200”** de sua aplicação. Caso a página esteja fora do ar ou com algum outro erro e não retorne “HTTP 200”, **serão feitas novas tentativas a cada 12 horas durante 3 dias**.
-
-
-## Consulta da Transação
-
-Após receber esta informação, você pode consultar as informações completas da transação através da API de Consulta de Transação.

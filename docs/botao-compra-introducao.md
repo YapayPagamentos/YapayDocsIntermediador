@@ -1,4 +1,4 @@
-## Introdução
+# Introdução
 
 Você vende um único produto? Quer fazer alguma venda em seu site ou blog? Utilize o botão comprar para receber os pagamentos.
 

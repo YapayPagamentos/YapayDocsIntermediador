@@ -1,3 +1,33 @@
+.post {
+	width: 38px;		
+	border-radius: 2px;
+	padding: 6px;
+	color: #FFF;
+	background-color: #10a54a;
+	font-size: 0.7em;
+	font-weight: normal;	
+}
+
+.get {
+	width: 34px;		
+	border-radius: 2px;
+	padding: 6px;
+	color: #FFF;
+	background-color: #0f6ab4;
+	font-size: 0.7em;
+	font-weight: normal;	
+}
+
+.put {
+	width: 45px;		
+	border-radius: 2px;
+	padding: 6px;
+	color: #FFF;
+	background-color: #D38042;
+	font-size: 0.7em;
+	font-weight: normal;	
+}
+
 .patch {
 	width: 45px;		
 	border-radius: 2px;

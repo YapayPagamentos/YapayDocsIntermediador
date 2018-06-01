@@ -1,4 +1,4 @@
-## Realizando split de pagamento
+# Realizando split de pagamento
 
 Para que o repasse ao revendedor seja automático, utilizamos a API de Transação na integração com Marketplace informando os campos affiliates[], esses campos quando são enviados são identificamos que é referente a transações Marketplace:
 

@@ -1,4 +1,4 @@
-## Introdução
+# Introdução
 
 O Yapay disponibiliza a integração transparente com Marketplace, onde o usuário consegue finalizar a compra dentro Marketplace, sem necessitar de redirecionamento para outra aplicação e preenchar novos formulários. O usuário finaliza a compra e os dados da transação são enviados via API para o Yapay, após a conclusão é enviado um comprovante de compra para o usuário:
 
