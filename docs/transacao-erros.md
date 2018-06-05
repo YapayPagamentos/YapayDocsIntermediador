@@ -5,7 +5,7 @@ No caso de erro, a API retorna uma mensagem de erro. Assim é possível identifi
 Abaixo segue os detalhes de cada nó do JSON de resposta:
 
 
-```json
+```javascript
 {
     "message_response": {
         "message": "error"

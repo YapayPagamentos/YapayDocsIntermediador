@@ -183,21 +183,25 @@ Abaixo você consegue visualizar um exemplo em JSON da criação de uma Transaç
 
 > **Exemplo em JSON**
 
-```javascript
-    {  
-        "token_account":"SEU_TOKEN_AQUI",
-        "customer":{  
-            "contacts":[  
-                {  
+```bash
+    curl  --request POST \
+          --url 'https://api.intermediador.sandbox.yapay.com.br/api/v3/transactions/payment' \
+          --header 'Content-Type: application/json' \
+          --data '{  
+              "token_account":"SEU_TOKEN_AQUI",
+              "customer":{  
+                "contacts":[  
+                  {  
                     "type_contact":"H",
                     "number_contact":"1133221122"
-                },{  
+                  },
+                  {  
                     "type_contact":"M",
                     "number_contact":"11999999999"
-                }         
-            ],
-            "addresses":[  
-                {  
+                  }
+                ],
+                "addresses":[  
+                  {  
                     "type_address":"B",
                     "postal_code":"17000-000",
                     "street":"Av Themyscira",
@@ -206,50 +210,47 @@ Abaixo você consegue visualizar um exemplo em JSON da criação de uma Transaç
                     "neighborhood":"Jd das Rochas",
                     "city":"Themyscira",
                     "state":"SP"
+                  }
+                ],
+                "name":"Diana Prince",
+                "birth_date":"21/05/1941",
+                "cpf":"50235335142",
+                "email":"email@cliente.com.br"
+              },
+              "transaction_product":[  
+                {  
+                  "description":"Camiseta Wonder Woman",
+                  "quantity":"1",
+                  "price_unit":"130.00",
+                  "code":"1",
+                  "sku_code":"0001",
+                  "extra":"Informação Extra"
                 }
-            ],
-            "name":"Diana Prince",
-            "birth_date": "21/05/1941",
-            "cpf":"50235335142",
-            "email":"email@cliente.com.br"
-        },
-        "transaction_product":[  
-            {  
-                "description":"Camiseta Wonder Woman",
-                "quantity":"1",
-                "price_unit":"130.00",
-                "code": "1",
-                "sku_code": "0001",
-                "extra": "Informação Extra"
-            }
-        ],
-        "transaction":{  
-            "available_payment_methods": "2,3,4,5,6,7,14,15,16,18,19,21,22,23",
-            "customer_ip":"127.0.0.1",
-            "shipping_type":"Sedex",
-            "shipping_price":"12",
-            "price_discount": "",
-            "url_notification":"http://www.loja.com.br/notificacao",
-            "free": "Campo Livre"      
-            
-        },
-	    "payment":{  
-	       "payment_method_id":"3",
-	       "card_name": "DIANA PRINCE",
-	       "card_number": "4111111111111111",
-	       "card_expdate_month": "01",
-	       "card_expdate_year": "2021",
-	       "card_cvv": "644",
-	       "split": "1"
-	    }
-    }
+              ],
+              "transaction":{  
+                "available_payment_methods":"2,3,4,5,6,7,14,15,16,18,19,21,22,23",
+                "customer_ip":"127.0.0.1",
+                "shipping_type":"Sedex",
+                "shipping_price":"12",
+                "price_discount":"",
+                "url_notification":"http://www.loja.com.br/notificacao",
+                "free":"Campo Livre"
+              },
+              "payment":{  
+                "payment_method_id":"3",
+                "card_name":"DIANA PRINCE",
+                "card_number":"4111111111111111",
+                "card_expdate_month":"01",
+                "card_expdate_year":"2021",
+                "card_cvv":"644",
+                "split":"1"
+              }
+            }'
 
 ```
 
 
-
-
-# Tabela de Campos
+## Tabela de Campos
 
 Para a integração via <span class="post">POST</span>, segue abaixo os dados necessários para envio:
 
@@ -316,10 +317,10 @@ Para a integração via <span class="post">POST</span>, segue abaixo os dados ne
 > <sup>3</sup> O parâmetro `payment[person_card_id]` é informado com o código do cartão de crédito cadastrado em nossos cofres. Esse código é vinculado ao Vendedor e ao Cliente do Cartão de Crétido.
 
 
-> <sup>4</sup> O parâmetro `affiliates[][]` é informado quando é necessário que seja feito Repasse Automático ao Revendedor. Essa opção é utilizada na <a href="/intermediador/integracao-marketplace/#repasse-automatico-ao-revendedor" target="_blank" class="linkPadraoVerde">Integração com Marketplace</a>.
+> <sup>4</sup> O parâmetro `affiliates[][]` é informado quando é necessário que seja feito Repasse Automático ao Revendedor. Essa opção é utilizada na Integração com Marketplace.
 
 
-> <sup>5</sup> O parâmetro `transaction[url_notification]` é informado para comunicar a sua aplicação a cada alteração de status de uma transação. Saiba mais em <a href="/intermediador/notificacao-automatica-status/" target="_blank" class="linkPadraoVerde">Notificação Automática de Status</a>.
+> <sup>5</sup> O parâmetro `transaction[url_notification]` é informado para comunicar a sua aplicação a cada alteração de status de uma transação. Saiba mais em Notificação Automática de Status.
 
 
 > <sup>6</sup> O parâmetro `reseller_token` é informado para comunicar que a transação é vinculada a um revendedor. Dessa forma todas as transações que são enviadas com esse parâmetro ficam vinculadas ao revendedor.

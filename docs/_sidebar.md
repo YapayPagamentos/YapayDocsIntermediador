@@ -44,4 +44,4 @@
 	* [API Código de Rastreio](api-codigo-rastreio.md)
 
 * Tabelas Auxiliares
-	* [Tabelas X](tabela-x.md)
+	* [Tabelas](tabelas.md)

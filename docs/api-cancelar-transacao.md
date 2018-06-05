@@ -15,6 +15,8 @@ Através do access_token e o id da transação, é possivel realizar um <span cl
 | Protocolo                | Rest                                                              |
 
 
+
+
 # Códigos de Exemplo
 
 
@@ -25,6 +27,18 @@ Através do access_token e o id da transação, é possivel realizar um <span cl
      "reason_cancellation_id": "6"
   }
 ```
+
+
+# Tabela de Campos
+
+Para a integração via <span class="patch">PATCH</span>, segue abaixo os dados necessários para envio:
+
+
+| Dados de Entrada                       |  Obrig.  | Descrição                                  |
+|----------------------------------------|----------|--------------------------------------------|
+| access_token                           |   Sim    |  Access Token de identificação do vendedor |
+| transaction_id                         |   Sim    |  ID da Transação                           |
+| reason_cancellation_id                 |   Sim    |  Motivo Cancelamento<sup>1</sup>           |
 
 
 # Resposta da API
@@ -110,13 +124,3 @@ Através do access_token e o id da transação, é possivel realizar um <span cl
 
 
 
-# Tabela de Campos
-
-Para a integração via <span class="patch">PATCH</span>, segue abaixo os dados necessários para envio:
-
-
-| Dados de Entrada                       |  Obrig.  | Descrição                                  |
-|----------------------------------------|----------|--------------------------------------------|
-| access_token                           |   Sim    |  Access Token de identificação do vendedor |
-| transaction_id                         |   Sim    |  ID da Transação                           |
-| reason_cancellation_id                 |   Sim    |  Motivo Cancelamento<sup>1</sup>           |

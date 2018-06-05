@@ -1,6 +1,6 @@
-Na Integração POST são utilizadas as Tabelas Auxiliares:
+Na Integração <span class="post">POST</span> são utilizadas as Tabelas Auxiliares:
 
-## Tabela - Contato
+> ** Tabela - Contato**
 
 
 | Tabela 1 - Contato |
@@ -10,7 +10,7 @@ Na Integração POST são utilizadas as Tabelas Auxiliares:
 | Comercial          | W |
 
 
-## Tabela - Tipos de Endereço
+> **Tabela - Tipos de Endereço**
 
 
 | Tabela 2 - Tipos de Endereço |

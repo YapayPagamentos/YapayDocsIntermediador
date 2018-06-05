@@ -11,7 +11,7 @@ Para que o repasse ao revendedor seja automático, utilizamos a API de Transaç�
 
 > Caso o afiliado não tenha cadastro na Yapay, o valor repassado fica aguardando o cadastro do afiliado.
 
-## Código de Exemplo
+# Código de Exemplo
 
 Abaixo você consegue visualizar um exemplo em JSON da criação passando 15% para o afiliado `emaildoafiliado@afiliado.com`:
 
@@ -89,8 +89,8 @@ Abaixo você consegue visualizar um exemplo em JSON da criação passando 15% pa
 ```
 
 
-## Notificação Automática de Status
+# Notificação Automática de Status
 
 Para realizar a atualização automática do pedido, o Yapay pode realizar a comunicação a cada alteração de status de uma transação, fazendo com que seu sistema acompanhe todo o fluxo de status e esteja sempre atualizado quanto a situação da transação.
 
-Dessa forma você precisa configurar uma URL que receberá a chamada, processará os dados recebidos, e em seguida irá obter mais detalhes da transação através da API de Consulta de Transação. Esse parâmetro está disponível em ambas as integrações (POST ou API) e chama-se `transaction[url_notification]`.
+Dessa forma você precisa configurar uma URL que receberá a chamada, processará os dados recebidos, e em seguida irá obter mais detalhes da transação através da **API de Consulta de Transação**. Esse parâmetro está disponível em ambas as integrações (POST ou API) e chama-se `transaction[url_notification]`.

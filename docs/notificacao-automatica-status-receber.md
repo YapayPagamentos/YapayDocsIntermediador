@@ -2,7 +2,9 @@
 
 Para receber a notificação automática de status, é necessário configurar uma URL que receberá a chamada, processará os dados recebidos, e em seguida irá obter mais detalhes da transação através de uma API específica. Esse parâmetro está disponível em ambas as integrações (POST ou API) e chama-se transaction[url_notification].
 
-O Yapay irá realizar o POST tipo formulário com a seguinte informação:
+O Yapay irá realizar o <span class="post">POST</span> tipo formulário com a seguinte informação:
+
+## Tabela de Campos
 
 | Parâmetros enviados via Post                                                      |
 |--------------------------------------------------|--------------------------------|
