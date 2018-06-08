@@ -13,7 +13,7 @@ Com a API de Consulta de Carrinho de Compra você consegue visualizar se a trans
 | Protocolo                | Rest/HTTP                                                                    |
 
 
-> **Observação:** Observe que no retorno da API tem o campo `<payment>`, esse campo é o parâmetro o token_transaction da transação definitiva. Nesse caso essa transação temporária já foi realizado o pagamento. Caso não tenha pagamento será retornado `<payment nil="true"/>`. Com o token_transaction da transação definitiva você consegue realizar uma consulta na <a href="/intermediador/apis/#api-consulta-transacao" target="_blank" class="linkPadraoVerde">API de Consulta de Transação</a> e manipular as informações da forma que precisar!
+> **Observação:** Observe que no retorno da API tem o campo `<payment>`, esse campo é o parâmetro o token_transaction da transação definitiva. Nesse caso essa transação temporária já foi realizado o pagamento. Caso não tenha pagamento será retornado `<payment nil="true"/>`. Com o token_transaction da transação definitiva você consegue realizar uma consulta na <a href="/#/api-consultar-transacao" target="_blank">API de Consulta de Transação</a> e manipular as informações da forma que precisar!
 
 # Códigos de Exemplo
 

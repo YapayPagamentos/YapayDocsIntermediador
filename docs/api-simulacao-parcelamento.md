@@ -6,7 +6,7 @@
 
 O Yapay disponibiliza a API de Simulação de Cálculo de Parcelamento para facilitar o calculo de parcelamento, onde através do token do lojista e o valor da transação, é retornada a simulação do parcelamento de todas as formas de pagamento.
 
-A API de Simulação de Cálculo de Parcelamento é utilizada somente para facilitar a exibição deste parcelamento na loja virtual, onde é enviada somente a quantidade de parcelas para a <a href="/intermediador/apis/#api-transacao" target="_blank" class="linkPadraoVerde">API de Transação</a>.
+A API de Simulação de Cálculo de Parcelamento é utilizada somente para facilitar a exibição deste parcelamento na loja virtual, onde é enviada somente a quantidade de parcelas para a <a href="/#/transacao-introducao" target="_blank" class="linkPadraoVerde">API de Transação</a>.
 
 | Endereço para Integração                                                                                |
 |--------------------------|------------------------------------------------------------------------------|
