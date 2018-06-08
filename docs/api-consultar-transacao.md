@@ -6,20 +6,20 @@ O Yapay disponibiliza um recurso para a consulta da transação. Com este recurs
 
 Para esta integração, deverá ser feito uso da API a seguir:
 
-| Endereço para Integração                                                                            |
-|--------------------------|--------------------------------------------------------------------------|
+| Endereço para Integração                                                                                   |
+|--------------------------|---------------------------------------------------------------------------------|
 | Ambiente de Testes       | https://api.intermediador.sandbox.yapay.com.br/api/v3/transactions/get_by_token |
-| Ambiente de Produção     | http://api.intermediador.yapay.com.br/v3/transactions/get_by_token             |
-| Protocolo                | Rest/HTTP                                                                |
+| Ambiente de Produção     | http://api.intermediador.yapay.com.br/v3/transactions/get_by_token              |
+| Protocolo                | Rest/HTTP                                                                       |
 
 
 # Códigos de Exemplo
 
 
-```shell
+```bash
     curl --request GET \
-        --url 'https://api.intermediador.sandbox.yapay.com.br/api/v3/transactions/get_by_token?token_account=SEU_TOKEN&token_transaction=cb22c716c80ddbaa16f8b8dbc49302a2' \
-        --data '{}'
+         --url 'https://api.intermediador.sandbox.yapay.com.br/api/v3/transactions/get_by_token?token_account=SEU_TOKEN&token_transaction=cb22c716c80ddbaa16f8b8dbc49302a2' \
+         --data '{}'
 ```
 
 
@@ -39,7 +39,7 @@ Para esta integração, deverá ser feito uso da API a seguir:
             "transaction_id": 79690,
             "status_name": "Aprovada",
             "status_id": 6,
-            "token_transaction": "cb22c716c80ddbaa16f8b8dbc49302a2",
+            "token_transaction": "cb22c716c80ddpaa16f8b8dbc49302a2",
             "payment": {
                 "price_original": "142.0",
                 "price_payment": "147.69",
@@ -52,20 +52,20 @@ Para esta integração, deverá ser feito uso da API a seguir:
                 "linha_digitavel": null
             },
             "customer": {
-                "name": "Diana Prince",
+                "name": "Stephen Strange",
                 "cpf": "37573138792",
-                "email": "dianaprince9834347522@amaf4343sdfdsfdszonas1587.com",
+                "email": "stephen.strange@avengers.com",
                 "company_name": "",
                 "trade_name": "",
                 "cnpj": "",
                 "addresses": [
                     {
-                        "street": "Av Themyscira",
+                        "street": "Av Esmeralda",
                         "number": "1001",
-                        "neighborhood": "Jd das Rochas",
+                        "neighborhood": "Jd Esmeralda",
                         "postal_code": "17000000",
                         "completion": "A",
-                        "city": "Themyscira",
+                        "city": "Marilia",
                         "state": "SP"
                     }
                 ],
@@ -111,9 +111,9 @@ Para esta integração, deverá ser feito uso da API a seguir:
 
 Para a integração via <span class="get">GET</span>, segue abaixo os dados necessários para envio:
 
-| Dados de Entrada                       |  Obrig.  | Formato / Tam. Max   | Descrição                                                |
-|----------------------------------------|----------|----------------------|----------------------------------------------------------|
-| token_account                          |   Sim    |  Texto / 15          |  Token de identificação do vendedor                      |         
-| token_transaction                      | Sim      |  Texto / 32          |  Token de identificação da transação                     |
+| Dados de Entrada                       |  Obrig.  | Formato   | Descrição                                                |
+|----------------------------------------|----------|-----------|----------------------------------------------------------|
+| token_account                          | Sim      |  Texto    |  Token de identificação do vendedor                      |         
+| token_transaction                      | Sim      |  Texto    |  Token de identificação da transação                     |
 
 

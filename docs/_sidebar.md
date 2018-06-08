@@ -9,6 +9,7 @@
 	* [Introdução](transacao-introducao.md)
 	* [Cartão de Crédito](transacao-cartao-credito.md)
 	* [Boleto](transacao-boleto.md)
+	* [Tabela de Campos](transacao-tabela-campos.md)
 	* [Mensagens de Erro](transacao-erros.md)
 
 * Pagamento Recorrente
@@ -16,8 +17,7 @@
 
 * Integração POST
 	* [Introdução](integracao-post-introducao.md)	
-	* [Criando Transação](integracao-post-criando.md)	
-	* [Tabelas Auxiliares](integracao-post-tabelas-auxiliares.md)		
+	* [Criando Transação](integracao-post-criando.md)			
 
 * Marketplace
 	* [Introdução](marketplace-introducao.md)
@@ -38,6 +38,7 @@
 	* [API Cancelar Transação](api-cancelar-transacao.md)
 	* [API Listagem de Transações](api-listar-transacoes.md)
 	* [API Carrinho de Compra](api-carrinho-compra.md)
+	* [API Consultar Carrinho de Compra](api-consultar-carrinho-compra.md)
 	* [API Cadastrar Cliente](api-cadastrar-cliente.md)
 	* [API Consultar Clientes](api-consulta-cliente.md)
 	* [API Simulação de Parcelamento](api-simulacao-parcelamento.md)

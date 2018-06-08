@@ -6,7 +6,7 @@ O Yapay irá realizar o <span class="post">POST</span> tipo formulário com a se
 
 ## Tabela de Campos
 
-| Parâmetros enviados via Post                                                      |
+| Parâmetros enviados via Post                     |                                |
 |--------------------------------------------------|--------------------------------|
 | token_transaction                                | Token da transação             |
 | transaction[products][][extra]                   | Informação Extra               |
@@ -64,4 +64,4 @@ O Yapay irá realizar o <span class="post">POST</span> tipo formulário com a se
 | transaction[price_original]                      | Valor                          |
 
 
-A notificação será realizada através de um POST, que espera receber o retorno **“HTTP 200”** de sua aplicação. Caso a página esteja fora do ar ou com algum outro erro e não retorne “HTTP 200”, **serão feitas novas tentativas a cada 12 horas durante 3 dias**.
+A notificação será realizada através de um <span class="post">POST</span>, que espera receber o retorno **“HTTP 200”** de sua aplicação. Caso a página esteja fora do ar ou com algum outro erro e não retorne “HTTP 200”, **serão feitas novas tentativas a cada 12 horas durante 3 dias**.

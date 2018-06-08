@@ -10,13 +10,32 @@ Basta você alterar o nó payment para:
 	    }
 ```	    
 
+No parâmetro `payment[billet_date_expiration]` você pode enviar a data de vencimento do boleto, caso não queira utilizar a padrão das contas Yapay.
 
-## Código de Exemplo
+Adicionando no nó payment:
 
-Abaixo você consegue visualizar um exemplo em JSON da criação de uma Transação em Boleto:
+```javascript
+      "payment":{  
+         "payment_method_id":"6",
+         "billet_date_expiration": "15/03/2018"
+      }
+```
+
+## Enviando uma transação
 
 
-> **Exemplo em JSON**
+Para esta integração, deverá ser feito <span class="post">POST</span> uso da API a seguir:
+
+| Endereço para Integração                                                                              |
+|--------------------------|----------------------------------------------------------------------------|
+| Ambiente de Testes       | https://api.intermediador.sandbox.yapay.com.br/api/v3/transactions/payment |
+| Ambiente de Produção     | https://api.intermediador.yapay.com.br/api/v3/transactions/payment |
+| Protocolo                | Rest/HTTP                                                                  |
+
+Abaixo você consegue visualizar um exemplo em cURL da criação de uma Transação em Boleto:
+
+
+> **Exemplo de criação de Transação com Boleto**
 
 ```bash
     curl  --request POST \
@@ -39,22 +58,22 @@ Abaixo você consegue visualizar um exemplo em JSON da criação de uma Transaç
                   {  
                     "type_address":"B",
                     "postal_code":"17000-000",
-                    "street":"Av Themyscira",
+                    "street":"Av Esmeralda",
                     "number":"1001",
                     "completion":"A",
-                    "neighborhood":"Jd das Rochas",
-                    "city":"Themyscira",
+                    "neighborhood":"Jd Esmeralda",
+                    "city":"Marilia",
                     "state":"SP"
                   }
                 ],
-                "name":"Diana Prince",
+                "name":"Stephen Strange",
                 "birth_date":"21/05/1941",
                 "cpf":"50235335142",
-                "email":"email@cliente.com.br"
+                "email":"stephen.strange@avengers.com"
               },
               "transaction_product":[  
                 {  
-                  "description":"Camiseta Wonder Woman",
+                  "description":"Camiseta Tony Stark",
                   "quantity":"1",
                   "price_unit":"130.00",
                   "code":"1",
@@ -72,10 +91,55 @@ Abaixo você consegue visualizar um exemplo em JSON da criação de uma Transaç
                 "free":"Campo Livre"
               },
               "payment":{  
-                "payment_method_id":"3"
+                "payment_method_id":"6"
               }
             }'
 
 ```
+
+
+
+> Resposta da API
+
+A API de Transações retorna a resposta em JSON.
+
+Exemplo de resposta com sucesso baseando no envio do exemplo acima:
+
+
+```javascript
+{
+    "message_response": {
+        "message": "success"
+    },
+    "data_response": {
+        "transaction": {
+            "order_number": "79690",
+            "free": "Campo Livre",
+            "transaction_id": 79690,
+            "status_name": "Aprovada",
+            "status_id": 6,
+            "token_transaction": "cb22c716c80ddbaa16f8b8dbc49302a2",
+            "payment": {
+                "price_payment": "142.0",
+                "price_original": "142.0",
+                "payment_response": "",
+                "url_payment": "https://tc.intermediador.sandbox.yapay.com.br/payment/billet/fc0579d4217be829b06755078e26a493",
+                "split": 3,
+                "payment_method_id": 6,
+                "payment_method_name": "Boleto Bancário",
+                "linha_digitavel": "123123123123123131232131232131313211231321321"
+            },
+            "customer": {
+                "name": "Stephen Strange",
+                "company_name": "",
+                "trade_name": "",
+                "cnpj": ""
+            }
+        }
+    }
+}
+```
+
+
 
 

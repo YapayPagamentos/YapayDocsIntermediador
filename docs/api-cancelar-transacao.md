@@ -19,26 +19,19 @@ Através do access_token e o id da transação, é possivel realizar um <span cl
 
 # Códigos de Exemplo
 
+Abaixo você consegue visualizar um exemplo do <span class="patch">PATCH</span> em cURL da criação de uma Transação em Cartão de Crédito:
 
-```javascript
-  {  
-     "access_token":"SEU_ACCESS_TOKEN",
-     "transaction_id": 20867,
-     "reason_cancellation_id": "6"
-  }
+```bash
+    curl --request PATCH \
+         --url 'https://api.intermediador.sandbox.yapay.com.br/api/v3/transactions/cancel' \
+         --header 'Content-Type: application/json' \
+         --data '  {  
+                 "access_token":"SEU_ACCESS_TOKEN",
+                 "transaction_id": 79717,
+                 "reason_cancellation_id": "6"
+                }'
 ```
 
-
-# Tabela de Campos
-
-Para a integração via <span class="patch">PATCH</span>, segue abaixo os dados necessários para envio:
-
-
-| Dados de Entrada                       |  Obrig.  | Descrição                                  |
-|----------------------------------------|----------|--------------------------------------------|
-| access_token                           |   Sim    |  Access Token de identificação do vendedor |
-| transaction_id                         |   Sim    |  ID da Transação                           |
-| reason_cancellation_id                 |   Sim    |  Motivo Cancelamento<sup>1</sup>           |
 
 
 # Resposta da API
@@ -57,7 +50,7 @@ Para a integração via <span class="patch">PATCH</span>, segue abaixo os dados 
                 "transaction_id": 79717,
                 "status_name": "Cancelada",
                 "status_id": 7,
-                "token_transaction": "4101779e6b84332c8a31dd730c00b0dc",
+                "token_transaction": "4101779e6b84332c8a31pd730c00b0dc",
                 "payment": {
                     "price_original": "142.0",
                     "price_payment": "142.0",
@@ -70,20 +63,20 @@ Para a integração via <span class="patch">PATCH</span>, segue abaixo os dados 
                     "linha_digitavel": "123123123123123131232131232131313211231321321"
                 },
                 "customer": {
-                    "name": "Diana Prince",
+                    "name": "Stephen Strange",
                     "cpf": "37573138792",
-                    "email": "dianaprince9834347522@amaf4343sdfdsfdszonas1587.com",
+                    "email": "stephen.strange@avengers.com",
                     "company_name": "",
                     "trade_name": "",
                     "cnpj": "",
                     "addresses": [
                         {
-                            "street": "Av Themyscira",
+                            "street": "Av Esmeralda",
                             "number": "1001",
-                            "neighborhood": "Jd das Rochas",
+                            "neighborhood": "Jd Esmeralda",
                             "postal_code": "17000000",
                             "completion": "A",
-                            "city": "Themyscira",
+                            "city": "Marilia",
                             "state": "SP"
                         }
                     ],
@@ -124,3 +117,13 @@ Para a integração via <span class="patch">PATCH</span>, segue abaixo os dados 
 
 
 
+# Tabela de Campos
+
+Para a integração via <span class="patch">PATCH</span>, segue abaixo os dados necessários para envio:
+
+
+| Dados de Entrada                       |  Obrig.  | Descrição                                  |
+|----------------------------------------|----------|--------------------------------------------|
+| access_token                           |   Sim    |  Access Token de identificação do vendedor |
+| transaction_id                         |   Sim    |  ID da Transação                           |
+| reason_cancellation_id                 |   Sim    |  Motivo Cancelamento<sup>1</sup>           |

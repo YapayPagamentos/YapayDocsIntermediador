@@ -30,7 +30,7 @@ Abaixo você consegue visualizar o código de exemplo:
 
 ## Tabela de campos
 
-Os dados adicionais que podem ser enviados neste POST são:
+Os dados adicionais que podem ser enviados neste <span class="post">POST</span> são:
 
 | Dados de Entrada                      | Formato / Tam. Max              | Descrição                                |
 |---------------------------------------|---------------------------------|------------------------------------------|
