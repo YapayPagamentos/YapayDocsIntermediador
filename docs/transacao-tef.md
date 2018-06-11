@@ -24,7 +24,7 @@ Para esta integração, deverá ser feito <span class="post">POST</span> uso da 
 | Ambiente de Produção     | https://api.intermediador.yapay.com.br/api/v3/transactions/payment |
 | Protocolo                | Rest/HTTP                                                                  |
 
-Abaixo você consegue visualizar um exemplo em cURL da criação de uma Transação em Boleto:
+Abaixo você consegue visualizar um exemplo em cURL da criação de uma Transação em Transferência Bancária pelo Ítau:
 
 
 > **Exemplo de criação de Transação com Transferência Bancária para Ítau**
