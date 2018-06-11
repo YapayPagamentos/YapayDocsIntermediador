@@ -9,6 +9,7 @@
 	* [Introdução](transacao-introducao.md)
 	* [Cartão de Crédito](transacao-cartao-credito.md)
 	* [Boleto](transacao-boleto.md)
+	* [Transf. Bancária](transacao-tef.md)
 	* [Tabela de Campos](transacao-tabela-campos.md)
 	* [Mensagens de Erro](transacao-erros.md)
 
@@ -46,3 +47,4 @@
 
 * Tabelas Auxiliares
 	* [Tabelas](tabelas.md)
+

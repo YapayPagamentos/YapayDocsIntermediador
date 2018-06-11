@@ -162,6 +162,8 @@ Uma das funcionalidades do Yapay Intermediador é criação de transações pela
 
 É de extrema importância a utilização do nosso fingerprint, abaixo você verá uma explicação mais detalhada sobre isso.
 
+Você pode visualizar os IDs para as formas de pagamento nas nossa <a href="/#/tabelas?id=tabela-3-formas-de-pagamento">Tabela Auxiliar 3 - Formas de Pagamento</a>
+
 Basta você alterar o nó payment para:
 
 ```javascript

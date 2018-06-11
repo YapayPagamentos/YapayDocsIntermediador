@@ -1,6 +1,6 @@
-# Boleto
+# Transferência Bancária
 
-Também é dispobilizada a funcionalidade de pagamentos com o meio de pagamento Boleto pela API de Transação. É de extrema importância a utilização do nosso fingerprint, abaixo você verá uma explicação mais detalhada sobre isso.
+Também é dispobilizada a funcionalidade de pagamentos com o meio de pagamento por Transferência Bancária pela API de Transação. É de extrema importância a utilização do nosso fingerprint, abaixo você verá uma explicação mais detalhada sobre isso.
 
 Você pode visualizar os IDs para as formas de pagamento nas nossa <a href="/#/tabelas?id=tabela-3-formas-de-pagamento">Tabela Auxiliar 3 - Formas de Pagamento</a>
 
@@ -8,20 +8,10 @@ Basta você alterar o nó payment para:
 
 ```javascript
 	    "payment":{  
-	       "payment_method_id":"6"
+	       "payment_method_id":"7"
 	    }
 ```	    
 
-No parâmetro `payment[billet_date_expiration]` você pode enviar a data de vencimento do boleto, caso não queira utilizar a padrão das contas Yapay.
-
-Adicionando no nó payment:
-
-```javascript
-      "payment":{  
-         "payment_method_id":"6",
-         "billet_date_expiration": "15/03/2018"
-      }
-```
 
 ## Enviando uma transação
 
@@ -37,7 +27,7 @@ Para esta integração, deverá ser feito <span class="post">POST</span> uso da 
 Abaixo você consegue visualizar um exemplo em cURL da criação de uma Transação em Boleto:
 
 
-> **Exemplo de criação de Transação com Boleto**
+> **Exemplo de criação de Transação com Transferência Bancária para Ítau**
 
 ```bash
     curl  --request POST \
@@ -93,7 +83,7 @@ Abaixo você consegue visualizar um exemplo em cURL da criação de uma Transaç
                 "free":"Campo Livre"
               },
               "payment":{  
-                "payment_method_id":"6"
+                "payment_method_id":"7"
               }
             }'
 
@@ -103,7 +93,7 @@ Abaixo você consegue visualizar um exemplo em cURL da criação de uma Transaç
 
 > Resposta da API
 
-A API de Transações retorna a resposta em JSON. Observe que no retorno você recebe dentro do nó payment o campo url_payment, com esse campo você pode fazer o redirecionamento para o cliente realizar o pagamento. 
+A API de Transações retorna a resposta em JSON. Observe que no retorno você recebe dentro do nó payment o campo url_payment, com esse campo você pode fazer o redirecionamento para o cliente realizar o pagamento. Importante: Não pode ser `iframe`.
 
 Exemplo de resposta com sucesso baseando no envio do exemplo acima:
 
@@ -115,21 +105,22 @@ Exemplo de resposta com sucesso baseando no envio do exemplo acima:
     },
     "data_response": {
         "transaction": {
-            "order_number": "79690",
+            "order_number": "11384683",
             "free": "Campo Livre",
-            "transaction_id": 79690,
-            "status_name": "Aprovada",
-            "status_id": 6,
-            "token_transaction": "cb22c716c80ddbaa16f8b8dbc49302a2",
+            "transaction_id": 11384683,
+            "status_name": "Aguardando Pagamento",
+            "status_id": 4,
+            "token_transaction": "c4988bb7836b2a887d1d55b67bc97a27",
             "payment": {
                 "price_payment": "142.0",
                 "price_original": "142.0",
                 "payment_response": "",
-                "url_payment": "https://tc.intermediador.sandbox.yapay.com.br/payment/billet/fc0579d4217be829b06755078e26a493",
-                "split": 3,
-                "payment_method_id": 6,
-                "payment_method_name": "Boleto Bancário",
-                "linha_digitavel": "123123123123123131232131232131313211231321321"
+                "url_payment": "https://gtw.checkout.tray.com.br/api/print/1c2a5a9bf4c7a167dff6098b7afe704f",
+                "tid": null,
+                "split": 1,
+                "payment_method_id": 7,
+                "payment_method_name": "Transf. Online Itaú",
+                "linha_digitavel": null
             },
             "customer": {
                 "name": "Stephen Strange",
