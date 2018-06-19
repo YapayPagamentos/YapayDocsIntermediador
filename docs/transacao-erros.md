@@ -24,21 +24,20 @@ Abaixo segue os detalhes de cada nó do JSON de resposta:
 
 As mensagens de erros retornados pela API estão listadas na tabela abaixo:
 
-| Código    |  Mensagem                                        |
-|-----------|--------------------------------------------------|
-|  001001   |     Token inválido ou não encontrado             |
-|  003003   |     Forma de Pagamento Inválido                  |
-|  003004   |     Número da Parcela Inválido                   |
-|  003010   |     Forma de pagamento inválida                  |
-|  003011   |     Numero do cartão inválido                    |
-|  003012   |     Nome do cartão em branco                     |
-|  003014   |     Código de segurança inválido                 |
-|  003015   |     Mês de vencimento do cartão inválido         |
-|  003016   |     Número de parcelas inválido                  |
-|  003020   |     Ano de vencimento do cartão inválido         |
-|  003021   |     O vendedor não pode ser igual ao comprador   |
-|  003029   |     Código de segurança inválido                 |
-|  003039   |     Vendedor inválido ou não encontrado          |
-|  003065   |     Valor menor que mínimo permitido             |
-|  009006   |     Número da parcela maior que o permitido      |
-|  058001   |     Revendedor inválido.                         |
+| Código    |  Mensagem                                        | Solução                                               |
+|-----------|--------------------------------------------------|-------------------------------------------------------|
+|  001001   |     Token inválido ou não encontrado             | Verificar o `token_account`                             |
+|  003003   |     Forma de Pagamento Inválido                  | Verificar o parâmetro `transaction[payment_method_id]`  |
+|  003004   |     Número da Parcela Inválido                   | Verificar o parâmetro `transaction[split]`              |
+|  003011   |     Numero do cartão inválido                    | Verificar o parâmetro `transaction[card_number]`        |
+|  003012   |     Nome do cartão em branco                     | Verificar o parâmetro `transaction[card_name]`          |
+|  003014   |     Código de segurança inválido                 | Verificar o parâmetro `transaction[cvv]`                |
+|  003015   |     Mês de vencimento do cartão inválido         | Verificar o parâmetro `transaction[card_expdate_month]` |
+|  003020   |     Ano de vencimento do cartão inválido         | Verificar o parâmetro `transaction[card_expdate_year]`  |
+|  003021   |     O vendedor não pode ser igual ao comprador   | Verificar os parâmetros token_account, `costumer[email]` e `costumer[cpf]`. Os dados não podem ser iguais |
+|  003039   |     Vendedor inválido ou não encontrado          | Verificar o `token_account` |
+|  003065   |     Valor menor que mínimo permitido             | Verificar os transaction[split] e (`transaction_product[price_unit]` x `transaction_product[quantity]`). Somando os valores transaction[shipping_price] + (`transaction_product[price_unit]` x `transaction_product[quantity]`) o valor mínimo da parcela deve ser R$ 10,00 |
+|  009006   |     Número da parcela maior que o permitido      | Verificar os parâmetros `transaction[payment_method_id]` e `transaction[split]` se a quantidade de parcelas é aceita pelo Meio de Pagamento. <sup>1</sup> |
+|  058001   |     Revendedor inválido.                         | Verifique o parâmetro `reseller_token`. Deve estar devidamente configurado na Yapay como Revendedor |
+
+> <sup>1</sup> <a href="/#/transacao-introducao?id=bandeiras-e-produtos-suportados">Clique Aqui</a> e verifique pela nossa tabela de Produtos e Bandeiras Suportadas

@@ -157,7 +157,10 @@
 
     </div>
 </body>
+<script type="text/javascript">
+    alert('oi');    
 
+</script>
 <script src="/js/highlight.pack.js"></script>         
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -165,6 +168,7 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 
 <script>
+(function( $ ){
   if (!String.prototype.trim) {
     String.prototype.trim = function () {
       return this.replace(/^[suFEFFxA0]+|[suFEFFxA0]+$/g, '');
@@ -187,6 +191,8 @@
     return false;
   }
 
+  
+
   document.addEventListener("DOMContentLoaded", function(event) {
     console.log(hljs)
       hljs.configure({tabReplace: '    '});
@@ -194,7 +200,9 @@
 
       jQuery('#generator-product-price').maskMoney();
 
-      jQuery( "#form-generate-button" ).submit(function( event ) {
+      jQuery( "#form-content-button" ).submit(function( event ) {
+        event.preventDefault();
+
         var content = '<form id="form_pagamento" name="form_pagamento" method="post" target="blank" action="https://tc.intermediador.yapay.com.br/payment/transaction"> <input type="hidden" name="token_account" id="token_account" value="{TOKEN_ACCOUNT}"> <input type="hidden" name="transaction_product[][description]" id="product_description" value="{PRODUCT_DESCRIPTION}"> <input type="hidden" name="transaction_product[][quantity]" id="product_quantity" value="1"> <input type="hidden" name="transaction_product[][price_unit]" id="product_price" value="{PRODUCT_PRICE}"> <input type="hidden" name="transaction_product[][extra]" id="product_extra" value=""> <input type="image" src="http://integracao.traycheckout.com.br/btncomprar.png" value="Comprar" alt="Comprar" border="0"> </form>';
         var token = jQuery('#generator_token_account').val().trim();
         var product = jQuery('#generator_product_description').val().trim();
@@ -212,9 +220,10 @@
 
           jQuery('#block-result').fadeIn();
         }
-        event.preventDefault();
+        
       });
   });
+})(jQuery);  
 </script>
 
 

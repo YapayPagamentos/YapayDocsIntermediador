@@ -96,34 +96,3 @@ Abaixo segue tabelas com essas informações pré-definidas:
 | Residencial | H |
 | Celular     | M |
 | Comercial   | W |
-
-
-## **Tabela 9 - Status de Verificação de Conta**
-
-
-| Tabela 9 - Status de Verificação da Conta | |
-|------------------------|-----|
-| **Cliente**            |     |
-| Nova                   | 94  |
-| Aguardando Verificação | 95  |
-| Verificada             | 96  |
-| Negada                 | 97  |
-| Arquivos               |     |
-| Novo                   | 98  |
-| Válido                 | 99  |
-| Inválido               | 100 |
-| Excluído               | 101 |
-
-
-
-
-## **Tabela 10 - Status de Solicitação de Saque**
-
-| Tabela 10 - Status de Solicitação de Saque | |
-|-------------------|-----|
-| Pendente          | 29  |
-| Enviado Ao Banco  | 30  |
-| Confirmado        | 31  |
-| Cancelado         | 32  |
-| Devolvido         | 33  |
-| Pronto para envio | 121 |

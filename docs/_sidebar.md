@@ -7,6 +7,7 @@
 
 * Transação
 	* [Introdução](transacao-introducao.md)
+	* [Fingerprint](transacao-fingerprint.md)
 	* [Cartão de Crédito](transacao-cartao-credito.md)
 	* [Boleto](transacao-boleto.md)
 	* [Transf. Bancária](transacao-tef.md)

@@ -43,3 +43,9 @@
 	font-size: 13px;
 	padding-left: 20px;
 }
+
+sup {
+	font-weight: bold;
+	color: red;
+
+}
