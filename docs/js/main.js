@@ -1,8 +1,8 @@
-  $("section > div.highlighter-rouge:first-of-type").each(function(i) {
+$("section > div.highlighter-rouge:first-of-type").each(function (i) {
     var $this = $(this).before('<ul class="languages"></ul>'),
-      $languages = $this.prev(),
-      $notFirst = $this.nextUntil(":not(div.highlighter-rouge)"),
-      $all = $this.add($notFirst);
+        $languages = $this.prev(),
+        $notFirst = $this.nextUntil(":not(div.highlighter-rouge)"),
+        $all = $this.add($notFirst);
 
     $all.add($languages).wrapAll('<div class="code-viewer"></div>');
 
@@ -13,26 +13,25 @@
 
     $languages.find("a").first().addClass("active");
 
-    $languages.find("a").click(function() {
-      $all.css("display", "none");
-      $all.eq($(this).parent().index()).css("display", "block");
+    $languages.find("a").click(function () {
+        $all.css("display", "none");
+        $all.eq($(this).parent().index()).css("display", "block");
 
-      $languages.find("a").removeClass("active");
-      $(this).addClass("active");
-      return false;
+        $languages.find("a").removeClass("active");
+        $(this).addClass("active");
+        return false;
     });
 
     if ($languages.children().length === 0) {
-      $languages.remove();
+        $languages.remove();
     }
-  });
-
-  function listLanguages($el, $insert) {
-    $el.each(function(i) {
-      var title = $(this).attr("title");
-      if (title) {
-        $insert.append('<li><a href="#">' + title + "</a></li>");
-      }
-    });
-  }
 });
+
+function listLanguages($el, $insert) {
+    $el.each(function (i) {
+        var title = $(this).attr("title");
+        if (title) {
+            $insert.append('<li><a href="#">' + title + "</a></li>");
+        }
+    });
+}

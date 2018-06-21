@@ -28,6 +28,7 @@
       name: 'Intermediador',
       repo: '',
       loadSidebar: true,
+      executeScript: true,
       loadNavbar: true,
       subMaxLevel: 2,
       coverpage: false,
@@ -77,35 +78,6 @@
       }
       return false;
     }
-
-    document.addEventListener("DOMContentLoaded", function(event) {
-      console.log(hljs)
-        hljs.configure({tabReplace: '    '});
-        hljs.initHighlightingOnLoad();
-
-        jQuery('#generator-product-price').maskMoney();
-
-        jQuery( "#form-generate-button" ).submit(function( event ) {
-          var content = '<form id="form_pagamento" name="form_pagamento" method="post" target="blank" action="https://tc.intermediador.yapay.com.br/payment/transaction"> <input type="hidden" name="token_account" id="token_account" value="{TOKEN_ACCOUNT}"> <input type="hidden" name="transaction_product[][description]" id="product_description" value="{PRODUCT_DESCRIPTION}"> <input type="hidden" name="transaction_product[][quantity]" id="product_quantity" value="1"> <input type="hidden" name="transaction_product[][price_unit]" id="product_price" value="{PRODUCT_PRICE}"> <input type="hidden" name="transaction_product[][extra]" id="product_extra" value=""> <input type="image" src="http://integracao.traycheckout.com.br/btncomprar.png" value="Comprar" alt="Comprar" border="0"> </form>';
-          var token = jQuery('#generator_token_account').val().trim();
-          var product = jQuery('#generator_product_description').val().trim();
-          var price = jQuery('#generator-product-price').val().replace('R$','').replace('.', '').replace(',', '.').trim();
-
-          if( ( !empty(token) && token.length >= 5 )  && !empty(product) && !empty(price) ){
-          var c = content.replace('{TOKEN_ACCOUNT}', token)
-                .replace('{PRODUCT_DESCRIPTION}', product)
-                .replace('{PRODUCT_PRICE}', price)
-                .replace(/[u00A0-u9999<>&]/gim, function(i) { return '&#'+i.charCodeAt(0)+';'; });
-            jQuery('#result-button').html( c );
-            jQuery('pre code, .code').each(function(i, block) {
-              hljs.highlightBlock(block);
-            });
-
-            jQuery('#block-result').fadeIn();
-          }
-          event.preventDefault();
-        });
-    });
   </script>
   <!-- Fim Botão de Compra -->
 
