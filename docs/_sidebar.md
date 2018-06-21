@@ -34,6 +34,13 @@
 	* [Recebendo a Notificação](notificacao-automatica-status-receber.md)
 	* [Consultando Transação](notificacao-automatica-status-consulta-transacao.md)
 
+* Módulos Yapay
+	* [Magento](modulos-yapay-magento.md)
+	* [WooCommerce](modulos-yapay-woocommerce.md)
+	* [OpenCart](modulos-yapay-opencart.md)
+	* [OsCommerce](modulos-yapay-oscommerce.md)
+	* [PrestaShop](modulos-yapay-prestashop.md)
+
 
 * APIs
 	* [API Consultar Transação](api-consultar-transacao.md)
