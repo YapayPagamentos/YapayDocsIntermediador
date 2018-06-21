@@ -49,3 +49,109 @@ sup {
 	color: red;
 
 }
+
+/* BTN Compra */
+
+// Gerar
+
+	#page-developers span {
+		font-size: 10px;
+		line-height: 18px;
+		@media (max-width: $mobile-break and 1000px) { 
+			font-size: 9px;
+		}
+	}
+
+	#page-developers  a {
+        color: #293272;
+    }
+    
+
+    #page-developers #form-content-button{
+			position: relative;
+			background-color: #fff;
+			border-radius: 6px;
+			border: 1px solid #293272;
+			list-style-type: none;
+			font-size: 15px;
+			line-height: 21px;
+			padding: 35px 20px;
+
+		@media (max-width: $mobile-break) {
+			font-size: 10px;			
+		}	
+
+		@media (max-width: 1091px) {
+			font-size: 10px;			
+			width: 380px;
+		}	
+
+		@media (max-width: 949px) {
+			font-size: 10px;			
+			width: 300px;
+		}			
+
+	
+
+	}
+	
+	.form-control {
+		border-radius: 0px;
+
+		&:focus {
+			outline: none;
+			border-color: #293272;
+			border-left: 10px solid #293272;
+			padding-left: 10px;
+			transition: all 0.4s ease; 
+		}			
+
+	}	
+	
+	#page-developers .btnForm {
+		font-size: 15px;
+		line-height: 21px;
+		padding: 10px 65px;
+		color: #FFF;
+		background-color: #293272;
+		outline: none;
+		// border-radius: 6px;
+		border-radius: 0px;
+		border-top-left-radius: 10px;
+
+
+		@media (max-width: $mobile-break and 1000px) {
+			padding: 5px 35px;
+			font-size: 12px;
+			line-height: 18px;
+		}
+	}
+
+	#page-developers .btnForm:hover {
+		background-color: #FFF;
+		border: 1px solid #293272;
+		color: #293272;
+		transition: all 0.3s ease;		
+	}
+	
+    #page-developers .hljs, #page-help-center .hljs {
+        font-size: 10px;
+        font-weight: 300;
+        padding: 10px 15px;
+		background: #000;			
+				
+		@media (max-width: $mobile-break and 1000px) {
+			padding: 5px 8px;
+			font-size: 8px;
+		}				
+    }
+
+	#page-developers #block-result {
+		margin-top: 40px;
+	}
+
+	#page-developers #block-result .title-result {
+		font-size: 12px;		
+	}
+
+/* Fim BTN Compra */
