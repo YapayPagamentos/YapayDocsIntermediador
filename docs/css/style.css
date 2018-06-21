@@ -52,8 +52,6 @@ sup {
 
 /* BTN Compra */
 
-// Gerar
-
 	#page-developers span {
 		font-size: 10px;
 		line-height: 18px;
@@ -64,18 +62,42 @@ sup {
 
 	#page-developers  a {
         color: #293272;
-    }
-    
+	}
+	
+	#page-developers .form-group{
+		margin-bottom: 10px;
+	}
+	
+	#page-developers .form-label{
+		display: block;
+		line-height: 1.5;
+		font-size: 16px;
+	}
+
+	#page-developers .form-control{
+		padding: 7px 4px;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+		font-size: 16px;
+		color: #888;
+		margin-top: 3px;
+	}
+
+	@media (max-width: 767px){
+		#page-developers .form-control{
+			width: 100% !important;
+		}
+	}
 
     #page-developers #form-content-button{
 			position: relative;
 			background-color: #fff;
 			border-radius: 6px;
-			border: 1px solid #293272;
+			border: 1px solid #bbb;
 			list-style-type: none;
 			font-size: 15px;
 			line-height: 21px;
-			padding: 35px 20px;
+			padding: 5px;
 
 		@media (max-width: $mobile-break) {
 			font-size: 10px;			
@@ -109,15 +131,16 @@ sup {
 	}	
 	
 	#page-developers .btnForm {
-		font-size: 15px;
 		line-height: 21px;
-		padding: 10px 65px;
 		color: #FFF;
-		background-color: #293272;
+		background-color: #49b983;
 		outline: none;
-		// border-radius: 6px;
-		border-radius: 0px;
-		border-top-left-radius: 10px;
+		border: 0;
+		border-radius: 4px;
+		font-weight: 700;
+		font-size: 17px;
+		padding: 10px 21px;
+		margin-top: 10px;
 
 
 		@media (max-width: $mobile-break and 1000px) {
@@ -128,10 +151,8 @@ sup {
 	}
 
 	#page-developers .btnForm:hover {
-		background-color: #FFF;
-		border: 1px solid #293272;
-		color: #293272;
-		transition: all 0.3s ease;		
+		background-color: #339867;
+		cursor: pointer;
 	}
 	
     #page-developers .hljs, #page-help-center .hljs {
@@ -151,7 +172,18 @@ sup {
 	}
 
 	#page-developers #block-result .title-result {
-		font-size: 12px;		
+		font-size: 12px;	
+		padding-left: 15px;
+	}
+
+	#result-button{
+		background: #fff !important;
+		white-space: normal;
+		border: 1px solid #ddd !important;
+	}
+
+	#page-developers fieldset{
+		border: 0;
 	}
 
 /* Fim BTN Compra */
