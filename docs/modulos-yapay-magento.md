@@ -40,7 +40,7 @@ O próximo passo é configurar o módulo (veja o item 3).
 
 > 2- Configuração do Módulo
 
-Para utilizar o módulo da API de Pagamento do Yapay é necessário realizar duas etapas:
+Para utilizar o módulo da API de Pagamento da Yapay é necessário realizar duas etapas:
 
 1. Configurar sua loja virtual para disponibilizar os campos necessários para a integração
 
@@ -74,7 +74,7 @@ Segue abaixo imagem com a tela de configuração:
 > 2.3- Opções de configuração Yapay:
 
 
-**Ativado:** opção para habilitar o Yapay na finalização de compra
+**Ativado:** opção para habilitar a Yapay na finalização de compra
 
 **Título:** título que aparecerá para seu cliente na hora de escolher a forma de pagamento
 
@@ -84,11 +84,11 @@ Segue abaixo imagem com a tela de configuração:
 
 **Gerar Fatura automaticamente para pedidos com produtos virtuais:** caso esteja em “Sim”, os pedidos que contiverem ao menos um (1) produto virtual serão automaticamente marcados como “concluídos”, após o recebimento automático do pagamento. Isto se dá em função da não existência da etapa de “Envio” para estes produtos
 
-**Quantidade Máxima de Parcelas:** representa a quantidade máxima de parcelas oferecida pela loja virtual, utilizando o Yapay
+**Quantidade Máxima de Parcelas:** representa a quantidade máxima de parcelas oferecida pela loja virtual, utilizando a Yapay
 
 **Meios de Pagamento Disponíveis:** Meios de pagamento que serão exibidos para o consumidor ao finalizar a compra pelo Yapay
 
-**Parcelas sem Acréscimo:** as parcelas selecionadas serão exibidas como sem acréscimo ao consumidor quando o mesmo finalizar a compra através do Yapay. Esta opção somente representa a visualização no checkout da loja virtual, onde também é necessário configurar na área administrativa do Yapay (menu **Perfil da Conta > Configurações > Parcelamento de Vendas**)
+**Parcelas sem Acréscimo:** as parcelas selecionadas serão exibidas como sem acréscimo ao consumidor quando o mesmo finalizar a compra através da Yapay. Esta opção somente representa a visualização no checkout da loja virtual, onde também é necessário configurar na área administrativa da Yapay (menu **Perfil da Conta > Configurações > Parcelamento de Vendas**)
 
 **Taxa de Acréscimo:** representa o percentual de acréscimo cobrado pelo Yapay
 
