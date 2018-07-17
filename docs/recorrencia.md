@@ -1,6 +1,6 @@
 ## Entendendo a Recorrência
 
-O pagamento recorrente é um pagamento realizado ao vendedor por período, dessa forma o comprador realiza o pagamento na compra do produto/serviço e os outros meses não é necessário se preocupar com o pagamento, a cobrança ocorre automatiacmente no cartão de crédito.
+O pagamento recorrente é um pagamento realizado ao vendedor por período, dessa forma o comprador realiza o pagamento de sua compra (Produto/Serviço), e nos próximos meses não será necessário se preocupar em fazer um novo pedido, a cobrança e criação ocorrerá automatiacmente no cartão de crédito.
 
 
 ## Como utilizar?
