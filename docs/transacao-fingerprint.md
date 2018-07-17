@@ -1,8 +1,7 @@
 # Entendendo o Fingerprint
 
 
-Através do CPF do cliente é feita a consulta pela existência do seu cadastro e então as transações são atreladas ao mesmo. Caso não exista uma conta, o sistema irá criar uma nova conta com os dados que forem submetidos na integração. Para esta integração, deverá ser feito uso da API a seguir:
-
+Através do CPF do cliente é feita a consulta pela existência do seu cadastro e então as transações são atreladas ao mesmo. Caso não exista uma conta, o sistema irá criar uma nova conta com os dados que forem submetidos na integração.
 
 
 > **O que é antifraude?**
@@ -24,10 +23,10 @@ O fingerprint é um script criado em javascript que grava vários dados para que
 É importante que você adicione algumas informações para que a coleta de informações realizadas pelo fingerprint funcione corretamente. No código de exemplo ao lado, você consegue visualizar de uma maneira bem simplicada o funcionamento.
 
 
-> **Em que lugar da página eu cologo o fingerprint?**
+> **Em que lugar da página eu coloco o fingerprint?**
 
 
-**1-** No momento que você criou o formulário para envio das informações da transação, você deve adiionar a tag `data-yapay="payment-form"`. Incluindo essa tag será criado um input do tipo `hidden`, com o valor do parâmetro `finger_print` que deve ser enviado junto com os parâmetros de criação na API de Transação. Exemplo de form em HTML:
+**1-** No momento que você criou o formulário para envio das informações da transação, você deve adicionar o atributo `data-yapay="payment-form"`. Incluindo esse atributo será criado um input do tipo `hidden`, com o valor do parâmetro `finger_print` que deve ser enviado junto com os parâmetros de criação na API de Transação. Exemplo de form em HTML:
 
 ```html
     <html>
