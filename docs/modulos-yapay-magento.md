@@ -1,6 +1,6 @@
 # Magento
 
-Para disponibilizar a API de Pagamento do **Yapay** como facilitador de pagamento na plataforma Magento, basta acessar o _Magento Connect Manager_ de sua loja e instalar o módulo disponível no repositório Magento Connect ou baixar o pacote disponível no site institucional do Yapay.
+Para disponibilizar a API de Pagamento do **Yapay** como facilitador de pagamento na plataforma Magento, basta acessar o _Magento Connect Manager_ de sua loja e instalar o módulo disponível no repositório Magento Connect ou baixar o pacote disponível no site institucional da Yapay.
 
 > **Instalação do Módulo Magento**
 
@@ -20,7 +20,7 @@ Para instalar o módulo é necessário baixar o arquivo através da página a se
 
 <a href="http://integracao.traycheckout.com.br/documentacao/download/yapay/magento/Yapay_Intermediador.tgz" class="btnMagento"><i class="fa fa-arrow-circle-down" aria-hidden="true"></i>Magento</a>
 
-Acesse o _Magento Connect Manager_ de sua loja Magento (menu **Sistema > Conexão Magento > Gerenciador de Conexão Magento**), e clique no botão **Selecionar arquivo** da opção _Upload Package File_, conforme imagem abaixo. Selecione o pacote do Yapay baixado anteriormente, em seguida clique em **Upload**.
+Acesse o _Magento Connect Manager_ de sua loja Magento (menu **Sistema > Conexão Magento > Gerenciador de Conexão Magento**), e clique no botão **Selecionar arquivo** da opção _Upload Package File_, conforme imagem abaixo. Selecione o pacote da Yapay baixado anteriormente, em seguida clique em **Upload**.
 
 
 ![Magento Connect, instalação](/images/magento/install_magento_4.png "Magento Connect, instalação")
@@ -49,7 +49,7 @@ Para utilizar o módulo da API de Pagamento do Yapay é necessário realizar dua
 
 > 2.1- Configuração dos Campos de Integração do Magento
 
-Na integração com a API de Pagamento do Yapay é necessário o envio de alguns campos obrigatórios, onde será necessário disponibilizar estes campos na plataforma Magento.
+Na integração com a API de Pagamento da Yapay é necessário o envio de alguns campos obrigatórios, onde será necessário disponibilizar estes campos na plataforma Magento.
 
 Para a configuração do módulo, acesse o menu **Sistema > Configuração**, e no menu lateral esquerdo procure por **Configuração do Cliente** (faz parte do sub-menu **Clientes**). Ao clicar no link, serão listados as opções para configuração do cliente na loja virtual, procure pela aba **Opções de Nome e Endereço** para configurar os campos no Magento.
 
