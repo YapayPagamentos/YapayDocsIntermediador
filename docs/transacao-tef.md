@@ -2,7 +2,7 @@
 
 Também é dispobilizada a funcionalidade de pagamentos com o meio de pagamento por Transferência Bancária pela API de Transação. É de extrema importância a utilização do nosso fingerprint, abaixo você verá uma explicação mais detalhada sobre isso.
 
-Você pode visualizar os IDs para as formas de pagamento nas nossa <a href="/#/tabelas?id=tabela-3-formas-de-pagamento">Tabela Auxiliar 3 - Formas de Pagamento</a>
+Você pode visualizar os IDs para as formas de pagamento na nossa <a href="/#/tabelas?id=tabela-3-formas-de-pagamento">Tabela Auxiliar 3 - Formas de Pagamento</a>
 
 Basta você alterar o nó payment para:
 
@@ -93,7 +93,7 @@ Abaixo você consegue visualizar um exemplo em cURL da criação de uma Transaç
 
 > Resposta da API
 
-A API de Transações retorna a resposta em JSON. Observe que no retorno você recebe dentro do nó payment o campo url_payment, com esse campo você pode fazer o redirecionamento para o cliente realizar o pagamento. Importante: Não pode ser `iframe`.
+A API de Transações retorna a resposta em JSON. Observe que no retorno você recebe dentro do nó payment o campo `url_payment`, com esse campo você pode fazer o redirecionamento para o cliente realizar o pagamento. Importante: Não pode ser `iframe`.
 
 Exemplo de resposta com sucesso baseando no envio do exemplo acima:
 
