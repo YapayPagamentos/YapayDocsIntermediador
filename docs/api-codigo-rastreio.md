@@ -6,7 +6,7 @@
 <span class="post">POST</span><span class="beforePost">/v1/transactions/trace</span>
 
 
-O Yapay disponibiliza uma versão transparente para a integração do código de postagem do produto da transação.
+A Yapay disponibiliza uma versão transparente para a integração do código de postagem do produto da transação.
 
 | Endereço para Integração                                                                             |
 |--------------------------|---------------------------------------------------------------------------|
