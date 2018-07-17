@@ -56,9 +56,9 @@ Os dados adicionais que podem ser enviados neste <span class="post">POST</span> 
 | customer[cpf]                         |  Texto /14                      |  CPF do Comprador                        |
 | customer[email]                       |  Texto /100                     |  E-mail do Comprador                     |
 | customer[birth_date]                  |  Data / 10                      |  Data de Nascimento do Comprador         |
-| customer[contacts][][type_contact]    |  Texto /1                       |  Tipo do Contato.<sup>1</sup> (Tabela 1) |
+| customer[contacts][][type_contact]    |  Texto /1                       |  Tipo do Contato.<sup>1</sup> [(Tabela 1)](tabelas.md) |
 | customer[contacts][][number_contact]  |  Texto /10                      |  Número do telefone do Comprador         |
-| customer[addresses][][type_address]   |  Texto /1                       |  Tipo do Endereço <sup>1</sup> (Tabela 2)           |
+| customer[addresses][][type_address]   |  Texto /1                       |  Tipo do Endereço <sup>1</sup> [(Tabela 2)](tabelas.md)           |
 | customer[addresses][][postal_code]    |  Texto /8                       |  CEP do endereço do Comprador            |
 | customer[addresses][][street]         |  Texto /120                     |  Nome da rua do Comprador                |
 | customer[addresses][][number]         |  Texto /10                      |  Número do endereço do Comprador         |
@@ -68,5 +68,6 @@ Os dados adicionais que podem ser enviados neste <span class="post">POST</span> 
 | customer[addresses][][state]          |  Texto /2                       |  Estado do endereço do Comprador         |
 
 
+> <sup>1</sup> Note que nas informações acima que alguns dados possuem uma característica diferente, tendo um elemento [] dentro de sua formatação. Isso ocorre justamente para permitir que sejam enviados diversos itens na mesma requisição.  
 
-> Para o redirecionamento basta utilizar somente o campo url_process, pois caso seja omitido os campos url_success e url_cancel, é utilizado o campo url_process para o redirecionamento.
+> <sup>2</sup> Para o redirecionamento basta utilizar somente o campo '[url_process]', pois caso seja omitido os campos '[url_success]' e '[url_cancel]', é utilizado o campo '[url_process]' para o redirecionamento.
