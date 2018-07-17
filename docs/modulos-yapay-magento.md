@@ -71,7 +71,7 @@ Segue abaixo imagem com a tela de configuração:
 ![Magento Connect, instalação](/images/magento/install_magento_8.png "Magento Connect, instalação")
 
 
-> 3.3- Opções de configuração Yapay:
+> 2.3- Opções de configuração Yapay:
 
 
 **Ativado:** opção para habilitar o Yapay na finalização de compra
