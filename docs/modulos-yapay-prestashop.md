@@ -1,7 +1,7 @@
 # PrestaShop
 
 
-Para disponibilizar o Yapay como facilitador de pagamento na plataforma PrestaShop, basta baixar o pacote disponível no site institucional do Yapay, extrair a pasta com o módulo, copiar para o diretório padrão e configurar o módulo.
+Para disponibilizar a Yapay como facilitador de pagamento na plataforma PrestaShop, basta baixar o pacote disponível no site institucional da Yapay, extrair a pasta com o módulo, copiar para o diretório padrão e configurar o módulo.
 
 Fique atento que sua versão de instalação, a plataforma Prestashop deve ser compatível com o módulo Yapay.
 
@@ -20,7 +20,7 @@ Passos para instalação via FTP, utilizando o Filezilla:
 
 2. Ao efetuar a conexão no FTP, no lado direito serão mostradas as pastas que estão dentro do servidor, acesse a pasta do prestashop
 
-3. Dentro da pasta do PrestaShop existe um diretório chamado **“Modules”**, local onde devem ser instalados todos os arquivos do módulo, entrar na pasta **“Modules”** e enviar a pasta que extraída do Yapay
+3. Dentro da pasta do PrestaShop existe um diretório chamado **“Modules”**, local onde devem ser instalados todos os arquivos do módulo, entrar na pasta **“Modules”** e enviar a pasta que extraída da Yapay
 
 Cuidado para não arrastar em cima de uma pasta, se isso acontecer você terá uma pasta dentro da outra e então este módulo não funcionará.
 
