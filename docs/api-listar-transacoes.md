@@ -2,9 +2,9 @@
 
 <span class="get">GET</span><span class="beforePost">/api/v3/sales</span>
 
-O Yapay disponibiliza um recurso para a listagem de transações. Com este recurso, você poderá realizar a listagem para obter as informações detalhadas das transações, e assim comparar as informações e atualizar o status do pedido com segurança.
+A Yapay disponibiliza um recurso para a listagem de transações. Com este recurso, você poderá realizar a listagem para obter as informações detalhadas das transações, e assim comparar as informações e atualizar o status do pedido com segurança.
 
-Para utilizar a API Listagem de Transações será necessário obter o token de acesso, utilizando as APIs de Autorização do Yapay. Você precisará informar parâmetros no `Header` para conseguir a autenticação.
+Para utilizar a API Listagem de Transações será necessário obter o token de acesso, utilizando as APIs de Autorização da Yapay. Você precisará informar parâmetros no `Header` para conseguir a autenticação.
 
 Exemplo:
 
