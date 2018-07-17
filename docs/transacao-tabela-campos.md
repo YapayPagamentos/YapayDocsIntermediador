@@ -12,9 +12,9 @@ Para a integração via <span class="post">POST</span>, segue abaixo os dados ne
 | customer[company_name]                   |   Não    |  Texto /100          |  Razão Social do Comprador                               |
 | customer[cnpj]                           |   Não    |  Texto /18           |  CNPJ do Comprador                                       |
 | customer[inscricao_municipal]            |   Não    |  Texto /20           |  Inscrição Municipal do Comprador                        |
-| customer[contacts][][type_contact]       |   Sim    |  Texto /1            |  Tipo do Contato <sup>1</sup> (Tabela 1)                 |
+| customer[contacts][][type_contact]       |   Sim    |  Texto /1            |  Tipo do Contato <sup>1</sup> [(Tabela 1)](tabelas.md)                 |
 | customer[contacts][][number_contact]     |   Sim    |  Texto /11           |  Número do telefone do Comprador                         |
-| customer[addresses][][type_address]      |   Sim    |  Texto /1            |  Tipo do Endereço <sup>1</sup> (Tabela 2)                |
+| customer[addresses][][type_address]      |   Sim    |  Texto /1            |  Tipo do Endereço <sup>1</sup> [(Tabela 2)](tabelas.md)                |
 | customer[addresses][][postal_code]       |   Sim    |  Texto /8            |  CEP do endereço do Comprador                            |
 | customer[addresses][][street]            |   Sim    |  Texto /120          |  Nome da rua do Comprador                                |
 | customer[addresses][][number]            |   Sim    |  Texto /10           |  Número do endereço do Comprador                         |
@@ -23,7 +23,7 @@ Para a integração via <span class="post">POST</span>, segue abaixo os dados ne
 | customer[addresses][][city]              |   Sim    |  Texto /120          |  Cidade do endereço do Comprador                         |
 | customer[addresses][][state]             |   Sim    |  Texto /2            |  Estado do endereço do Comprador                         |
 | customer[birth_date]                     |   Não    |  Data / 10           |  Data de aniversário do Comprador                        |
-| transaction[available_payment_methods]   |   Não    |  Texto /20           |  Meios de Pagamento disponíveis <sup>2</sup> (Tabela 3)  |
+| transaction[available_payment_methods]   |   Não    |  Texto /20           |  Meios de Pagamento disponíveis <sup>2</sup> [(Tabela 3)](tabelas.md)  |
 | transaction[order_number]                |   Não    |  Texto /2            |  Número do pedido                                        |
 | transaction[customer_ip]                 |   Sim    |  Texto /15           |  IP do Comprador                                         |
 | transaction[shipping_type]               |   Não    |  Texto /100          |  Tipo do envio                                           |
