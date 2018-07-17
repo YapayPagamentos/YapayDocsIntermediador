@@ -5,7 +5,7 @@
 
 A Yapay disponibiliza uma versão transparente para cancelamento de transações, permitindo que seja cancelada a transação de forma transparente. 
 
-Através do `access_token` e o id da transação, é possivel realizar um <span class="patch">PATCH</span> na API de Cancelamento de Transação. Lembrando que o `access_token` você pega utilizando a [API de Autorização]().
+Através do `access_token` e o id da transação, é possivel realizar um <span class="patch">PATCH</span> na API de Cancelamento de Transação. Lembrando que o `access_token` você pega utilizando a [API de Autorização]()<sup>2<sup>.
 
 
 | Endereço para Integração                                                                          |
@@ -130,3 +130,5 @@ Para a integração via <span class="patch">PATCH</span>, segue abaixo os dados 
 
 
 > <sup>1</sup> Essa opção é necessário informar o motivo `6`. O Motivo 6 é relacionado ao **CANCELAMENTO PELA LOJA**, as outras opções são relacionadas ao cancelamento feito pelo cliente.
+
+> <sup>2</sup> Para maiores informações sobre esta API, entre em contato com através do email **integracao@yapay.com.br**.
