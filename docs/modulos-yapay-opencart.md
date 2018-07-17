@@ -2,7 +2,7 @@
 
 
 
-Para disponibilizar o Yapay como facilitador de pagamento na plataforma OpenCart, basta baixar o pacote disponível no site institucional do Yapay, extrair a pasta com o módulo e enviar para sua loja.
+Para disponibilizar a Yapay como facilitador de pagamento na plataforma OpenCart, basta baixar o pacote disponível no site institucional da Yapay, extrair a pasta com o módulo e enviar para sua loja.
 
 Fique atento que sua versão de instalação OpenCart deve ser compatível com o módulo Yapay. As versões compatíveis são mostradas na pagina de download do módulo.
 
