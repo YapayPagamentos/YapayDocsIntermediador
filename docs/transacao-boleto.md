@@ -103,7 +103,7 @@ Abaixo você consegue visualizar um exemplo em cURL da criação de uma Transaç
 
 > Resposta da API
 
-A API de Transações retorna a resposta em JSON. Observe que no retorno você recebe dentro do nó payment o campo url_payment, com esse campo você pode fazer o redirecionamento para o cliente realizar o pagamento. 
+A API de Transações retorna a resposta em JSON. Observe que no retorno você recebe dentro do nó payment o campo `url_payment`, com esse campo você pode fazer o redirecionamento para o cliente realizar o pagamento. 
 
 Exemplo de resposta com sucesso baseando no envio do exemplo acima:
 
