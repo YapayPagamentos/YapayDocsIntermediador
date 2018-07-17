@@ -1,7 +1,7 @@
 # WooCommerce
 
 
-Para disponibilizar o Yapay como facilitador de pagamento na plataforma WooCommerce, basta baixar o pacote disponível, extrair a pasta com o plugin, copiar para o diretório padrão e configurar o plugin.
+Para disponibilizar a Yapay como facilitador de pagamento na plataforma WooCommerce, basta baixar o pacote disponível, extrair a pasta com o plugin, copiar para o diretório padrão e configurar o plugin.
 
 Fique atento que sua versão de instalação, a plataforma WooCommerce deve ser compatível com o plugin Yapay.
 
@@ -42,7 +42,7 @@ Após a instalação, basta ativar o plugin e irá visualizar as 3 opções de c
 
 Para acessar as configurações do plugin, clique no menu **WooCommerce > Configurações**, e clique na aba **Checkout**.
 
-Clique em uma das opções de configuração do Yapay que será carregada a página do plugin com as opções de configuração abaixo:
+Clique em uma das opções de configuração da Yapay que será carregada a página do plugin com as opções de configuração abaixo:
 
 ![WooCommerce, instalação](/images/woocommerce/install_woocommerce_5.png "WooCommerce, instalação")
 
