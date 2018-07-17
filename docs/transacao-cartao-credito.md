@@ -1,13 +1,13 @@
 ## Dados do Cartão de Crédito
 
 
-Uma das funcionalidades do Yapay Intermediador é criação de transações pela API de Transação com o meio de pagamento **Cartão de Crédito**. Essa transação, dependendo da Tabela que você se encaixa é feito uma analise de antifraude.
+Uma das funcionalidades do Yapay Intermediador é criação de transações pela API de Transação com o meio de pagamento **Cartão de Crédito**.
 
-É de extrema importância a utilização do nosso fingerprint, abaixo você verá uma explicação mais detalhada sobre isso.
+É de extrema importância a utilização do nosso Fingerprint, visto que é uma importante ferramenta no processo de análise antifraude das transações criadas em sua loja. Você pode entender mais do sobre o Fingerprint clicando [aqui](https://intermediador.dev.yapay.com.br/#/transacao-fingerprint)
 
-Você pode visualizar os IDs para as formas de pagamento nas nossa <a href="/#/tabelas?id=tabela-3-formas-de-pagamento">Tabela Auxiliar 3 - Formas de Pagamento</a>
+Você pode visualizar os ID's referente as formas de pagamento na nossa <a href="/#/tabelas?id=tabela-3-formas-de-pagamento">Tabela Auxiliar 3 - Formas de Pagamento</a>
 
-Basta você alterar o nó payment para:
+Altere o 'nó payment' para:
 
 ```javascript
 	    "payment":{  
@@ -105,9 +105,9 @@ Abaixo você consegue visualizar um exemplo em cURL da criação de uma Transaç
 
 > Resposta da API
 
-A API de Transações retorna a resposta em JSON.
+A API de Transações retorna a resposta em <span class="post">JSON</span>.
 
-Exemplo de resposta com sucesso baseando no envio do exemplo acima:
+Exemplo de resposta com sucesso, se baseando no envio do exemplo acima:
 
 
 ```javascript
