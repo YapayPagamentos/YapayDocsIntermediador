@@ -2,10 +2,10 @@
 
 <span class="post">POST</span><span class="beforePost">/v1/tmp_transactions/create</span>
 
-O Yapay Intermediador fornece uma ferramenta poderosa para sites que não possuem um carrinho de compras e querem oferecer a possibilidade de visitantes escolherem produtos e finalizarem uma compra.
+A Yapay Intermediador fornece uma ferramenta poderosa para sites que não possuem um carrinho de compras e querem oferecer a possibilidade de visitantes escolherem produtos e finalizarem uma compra.
 
 
-Esta ferramenta exclusiva também permite que seja possível o seu uso em um ambiente multi-vendedor, onde o site/marketplace pode fornecer um carrinho de compras para todas as lojas simultaneamente, fazendo com que o comprador tenha uma experiência única de compra com o Yapay Intermediador.
+Esta ferramenta exclusiva também permite que seja possível o seu uso em um ambiente multi-vendedor, onde o site/marketplace pode fornecer um carrinho de compras para todas as lojas simultaneamente, fazendo com que o comprador tenha uma experiência única de compra com a Yapay Intermediador.
 
 
 | Endereço para Integração                                                                                |
@@ -91,26 +91,37 @@ Esta ferramenta exclusiva também permite que seja possível o seu uso em um amb
 
 As mensagens de erros retornados pela API estão listadas na tabela abaixo:
 
-| Código    |  Mensagem                             |
-|-----------|---------------------------------------|
-| 001001    | Token inválido ou não encontrado      |
-| 003022    | Data final inválida                   |
-| 003023    | Data inicial inválida                 |
-| 017001    | Token de sessão inválido              |
-| 058001    | Revendedor inválido.                  |
-| 060003    | Token de acesso inválido ou expirado. |
+| Código    |  Mensagem                                   |
+|-----------|---------------------------------------------|
+| 001001	| Token inválido ou não encontrado            |
+| 003003	| Forma de Pagamento Inválido                 |
+| 003004	| Número da Parcela Inválido                  |
+| 003010	| Forma de pagamento inválida                 |
+| 003011	| Numero do cartão inválido                   |
+| 003012	| Nome do cartão em branco                    |
+| 003014	| Código de segurança inválido                |
+| 003015	| Mês de vencimento do cartão inválido        |
+| 003016	| Número de parcelas inválido                 |
+| 003020	| Ano de vencimento do cartão inválido        |
+| 003021	| O vendedor não pode ser igual ao comprador  |
+| 003022    | Data final inválida                   	  |
+| 003023    | Data inicial inválida                       |
+| 003029	| Código de segurança inválido                |
+| 003039	| Vendedor inválido ou não encontrado         |
+| 003065	| Valor menor que mínimo permitido            |
+| 009006	| Número da parcela maior que o permitido     |
+| 017001    | Token de sessão inválido                    |
+| 058001	| Revendedor inválido.                        |
+| 060003    | Token de acesso inválido ou expirado.       |
 
 
 # Tabela de Parâmetros
 
 Para a integração via <span class="get">GET</span>, segue abaixo os dados necessários para envio:
 
-| Código    |  Mensagem                             |
-|-----------|---------------------------------------|
-| 001001    | Token inválido ou não encontrado      |
-| 003022    | Data final inválida                   |
-| 003023    | Data inicial inválida                 |
-| 017001    | Token de sessão inválido              |
-| 058001    | Revendedor inválido.                  |
-| 060003    | Token de acesso inválido ou expirado. |
+| Dados de Entrada  |	Obrig.  |	Descrição                  |
+|-------------------|-----------|------------------------------|
+| token_account     |	Sim     | Token da conta da Loja       |
+| token_transaction |	Sim	    | Token da Transação           |
+| order_number      |	Não     | Número do Pedido             |
 
