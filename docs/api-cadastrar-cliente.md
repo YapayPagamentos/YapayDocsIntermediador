@@ -2,7 +2,7 @@
 
 <span class="post">POST</span><span class="beforePost">/v1/people/create</span>
 
-O Yapay permite a criação de contas para auxiliar no processo de integração.
+A Yapay permite a criação de contas para auxiliar no processo de integração.
 
 Através da API de Cadastro de Cliente é possível criar clientes do tipo Pessoa Física ou Pessoa Jurídica, onde são retornados os dados do cliente para integração.
 
@@ -134,3 +134,4 @@ Para a integração via <span class="post">POST</span>, segue abaixo os dados ne
 
 > <sup>1</sup> Note que nas informações acima que alguns dados possuem uma característica diferente, tendo um elemento [] dentro de sua formatação. Isso ocorre justamente para permitir que sejam enviados diversos itens na mesma requisição.
 
+> <sup>2</sup> Campos obrigatórios para cadastros de pessoa jurídica.
