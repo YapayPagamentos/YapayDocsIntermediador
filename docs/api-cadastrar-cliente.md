@@ -129,7 +129,7 @@ Para a integração via <span class="post">POST</span>, segue abaixo os dados ne
 | payment_tax_code           | Não             | Número               | Código Tabela de Taxas         |
 | reseller_token             | Não             | Texto                | Token do Revendedor            |
 | password                   | Não             | Texto                | Senha do cliente para acessar o painel |
-| type_response              | Não             | Texto                | J = JSON <Enter> Outros = XML        |
+| type_response              | Não             | Texto                | J = JSON  / Outros = XML        |
 
 
 > <sup>1</sup> Note que nas informações acima que alguns dados possuem uma característica diferente, tendo um elemento [] dentro de sua formatação. Isso ocorre justamente para permitir que sejam enviados diversos itens na mesma requisição.
