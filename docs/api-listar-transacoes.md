@@ -4,7 +4,7 @@
 
 A Yapay disponibiliza um recurso para a listagem de transações. Com este recurso, você poderá realizar a listagem para obter as informações detalhadas das transações, e assim comparar as informações e atualizar o status do pedido com segurança.
 
-Para utilizar a API Listagem de Transações será necessário obter o token de acesso, utilizando as APIs de Autorização da Yapay. Você precisará informar parâmetros no `Header` para conseguir a autenticação.
+Para utilizar a API Listagem de Transações será necessário obter o token de acesso, utilizando a [API de Autorização]()<sup>1<sup> da Yapay. Você precisará informar parâmetros no `Header` para conseguir a autenticação.
 
 Exemplo:
 
@@ -21,6 +21,7 @@ Para esta integração, deverá ser feito uso da API a seguir:
 | Ambiente de Produção     | https://api.intermediador.yapay.com.br/api/v3/sales         |
 | Protocolo                | Rest/HTTP                                                                |
 
+> <sup>1</sup> Para maiores informações sobre esta API, entre em contato com através do email **integracao@yapay.com.br**.
 
 # Códigos de Exemplo
 
