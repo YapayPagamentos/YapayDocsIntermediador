@@ -3,7 +3,7 @@
 <span class="post">POST</span><span class="beforePost">/v1/tmp_transactions/get</span>
 
 
-Com a API de Consulta de Carrinho de Compra você consegue visualizar se a transação temporária criada no método `CREATE` virou uma transação definitiva.
+Com a API de Consulta de Carrinho de Compra você consegue visualizar se a transação temporária criada através da **API Carrinho de Compra** converteu para uma transação definitiva.
 
 
 | Endereço para Integração                                                                                |
@@ -13,7 +13,7 @@ Com a API de Consulta de Carrinho de Compra você consegue visualizar se a trans
 | Protocolo                | Rest/HTTP                                                                    |
 
 
-> **Observação:** Observe que no retorno da API tem o campo `<payment>`, esse campo é o parâmetro o token_transaction da transação definitiva. Nesse caso essa transação temporária já foi realizado o pagamento. Caso não tenha pagamento será retornado `<payment nil="true"/>`. Com o token_transaction da transação definitiva você consegue realizar uma consulta na <a href="/#/api-consultar-transacao" target="_blank">API de Consulta de Transação</a> e manipular as informações da forma que precisar!
+> **Observação:** Note que no retorno da API tem o campo `<payment>`, esse campo é o parâmetro o `token_transaction` da transação definitiva. Nesse caso foi realizado o pagamento para esta transação temporária. Caso não tenha pagamento será retornado `<payment nil="true"/>`. Com o `token_transaction` da transação definitiva você consegue realizar uma consulta na <a href="/#/api-consultar-transacao" target="_blank">API de Consulta de Transação</a> e manipular as informações da forma que precisar!
 
 # Códigos de Exemplo
 
