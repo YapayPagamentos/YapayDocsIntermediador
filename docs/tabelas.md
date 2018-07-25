@@ -5,7 +5,7 @@ Abaixo segue tabelas com essas informações pré-definidas:
 ## ** Tabela 1 - Contato**
 
 
-| Tabela 1 - Contato |   |
+| Contato |   |
 |--------------------|---|
 | Residencial        | H |
 | Celular            | M |
@@ -15,7 +15,7 @@ Abaixo segue tabelas com essas informações pré-definidas:
 ## **Tabela 2 - Tipos de Endereço**
 
 
-| Tabela 2 - Tipos de Endereço | |
+| Tipos de Endereço | |
 |-------------|---|
 | Cobrança    | D |
 | Entrega     | B |
@@ -23,34 +23,34 @@ Abaixo segue tabelas com essas informações pré-definidas:
 
 ## **Tabela 3 - Formas de Pagamento**
 
-| Tabela 3 – Formas de Pagamento  |    |
-|---------------------------------|----|
-| **Cartões de Crédito**          |    |
-| Diners Club                     | 2  |
-| Visa                            | 3  |
-| Mastercard                      | 4  |
-| American Express                | 5  |
-| Discover                        | 15 |
-| Elo                             | 16 |
-| Aura                            | 18 |
-| JCB                             | 19 |
-| Hipercard                       | 20 |
-| Hiper (Itaú)                    | 25 |
+| **Cartões de Crédito**          |    | Credito Parcelado |
+|---------------------------------|----:|-----:|
+| Diners Club                     | 2  | 12x |
+| Visa                            | 3  | 12x |
+| Mastercard                      | 4  | 12x |
+| American Express                | 5  | 12x |
+| Discover                        | 15 | À Vista |
+| Elo                             | 16 | 12x |
+| Aura                            | 18 | 12x |
+| JCB                             | 19 | 12x |
+| Hipercard                       | 20 | 12x |
+| Hiper (Itaú)                    | 25 | 12x |
+
+
 | **Transferências Online**       |    |
+|---------------------------------|---:|
 | Itaú Shopline                   | 7  |
 | Peela                           | 14 |
 | Transf. Online Bradesco         | 22 |
 | Transf. Online Banco do Brasil  | 23 |
-| **Boleto Bancário**             |    |
-| Boleto Bancário                 | 6  |
-| **Saldo em conta**              |    |
-| Pagamento com Saldo             | 8  |
+| **Boleto Bancário**             | 6  |
+| **Pagamento com Saldo**         | 8  |
 
 
 ## **Tabela 4 - Status da Transação**
 
-| Tabela 4 – Status da Transação  |    |
-|---------------------------------|----|
+| Status da Transação             |    |
+|---------------------------------|----:|
 | Aguardando Pagamento            | 4  |
 | Em Processamento                | 5  |
 | Aprovada                        | 6  |
@@ -63,7 +63,7 @@ Abaixo segue tabelas com essas informações pré-definidas:
 
 ## **Tabela 5 - Gênero**
 
-| Tabela 5 - Gênero | |
+| Gênero    | |
 |-----------|---|
 | Masculino | M |
 | Feminino  | F |
@@ -71,7 +71,7 @@ Abaixo segue tabelas com essas informações pré-definidas:
 
 ## **Tabela 6 - Estado Civil**
 
-| Tabela 6 - Estado Civil | |
+| Estado Civil | |
 |------------|---|
 | Solteiro   | S |
 | Casado     | M |
@@ -82,17 +82,10 @@ Abaixo segue tabelas com essas informações pré-definidas:
 
 ## **Tabela 7 - Status da Conta**
 
-| Tabela 7 - Status da Conta | |
-|----------|-----|
+| Status da Conta | |
+|----------|-----:|
 | Ativo    | 2   |
 | Inativo  | 3   |
 | Suspeito | 114 |
 
 
-## **Tabela 8 - Contato**
-
-| Tabela 8 - Contato | |
-|-------------|---|
-| Residencial | H |
-| Celular     | M |
-| Comercial   | W |
