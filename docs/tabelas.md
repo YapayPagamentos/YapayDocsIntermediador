@@ -23,6 +23,18 @@ Abaixo segue tabelas com essas informações pré-definidas:
 
 ## **Tabela 3 - Formas de Pagamento**
 
+| **Transferências Online**       |    |
+|---------------------------------|---:|
+| Itaú Shopline                   | 7  |
+| Peela                           | 14 |
+| Transf. Online Bradesco         | 22 |
+| Transf. Online Banco do Brasil  | 23 |
+|---------------------------------|---:|
+| **Boleto Bancário**             | 6  |
+| **Pagamento com Saldo**         | 8  |
+
+
+
 | **Cartões de Crédito**          |    | Credito Parcelado |
 |---------------------------------|----:|-----:|
 | Diners Club                     | 2  | 12x |
@@ -35,16 +47,6 @@ Abaixo segue tabelas com essas informações pré-definidas:
 | JCB                             | 19 | 12x |
 | Hipercard                       | 20 | 12x |
 | Hiper (Itaú)                    | 25 | 12x |
-
-
-| **Transferências Online**       |    |
-|---------------------------------|---:|
-| Itaú Shopline                   | 7  |
-| Peela                           | 14 |
-| Transf. Online Bradesco         | 22 |
-| Transf. Online Banco do Brasil  | 23 |
-| **Boleto Bancário**             | 6  |
-| **Pagamento com Saldo**         | 8  |
 
 
 ## **Tabela 4 - Status da Transação**
