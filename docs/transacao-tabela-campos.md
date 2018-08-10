@@ -49,9 +49,9 @@ Para a integração via <span class="post">POST</span>, segue abaixo os dados ne
 | payment[card_expdate_year]               |   Não    |  Número / 4          |  Ano de vencimento do cartão                             |
 | payment[card_cvv]                        |   Não    |  Número /3           |  Código de segurança do cartão                           |
 | payment[billet_date_expiration]          |   Não    |  Data / 10           |  Data de Vendimento do Boleto                            |
-| affiliates[][account_email]              |   Não    |  Texto / 100         |  Email do afiliado da transação                          |
+| affiliates[][account_email]              |   Não    |  Texto / 100         |  Email do afiliado da transação <sup>4</sup>                              |
 | affiliates[][percentage]                 |   Não    |  Número / 3          |  Percentual de repasse ao afiliado <sup>4</sup>          |
-| affiliates[][commission_amount]          |   Não    |  Decimal / 11        |  Valor de repasse ao afiliado <sup>5</sup>               |
+| affiliates[][commission_amount]          |   Não    |  Decimal / 11        |  Valor de repasse ao afiliado <sup>4</sup>               |
 | reseller_token                           |   Não    |  Texto               |  Valor de repasse ao afiliado <sup>6</sup>               |
 | finger_print                             |   Não    |  Texto /100          |  Token gerado pelo FingerPrint <sup>7</sup>              |
 
