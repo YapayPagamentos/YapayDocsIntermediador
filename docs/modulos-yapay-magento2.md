@@ -1,4 +1,4 @@
-## Módulo Magento 2 - Yapay
+## Módulo Magento 2.x - Yapay
 
 Módulo de pagamento para o Magento 2, cuja a finalidade é fornecer com a integração da plataforma Yapay.
 
