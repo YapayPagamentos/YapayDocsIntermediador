@@ -2,7 +2,7 @@
 
 Disponibilizamos uma integração com checkout totalmente transparente, disponíveis para todas as versões da plataforma **Magento**.
 
-## Versões disponíveis:
+### Versões disponíveis:
 
 Abaixo estão os modulos Yapay disponíveis para as Plataformas Magento 1.x e 2.x.
 
