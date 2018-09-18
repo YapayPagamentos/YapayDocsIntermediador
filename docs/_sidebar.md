@@ -35,7 +35,9 @@
 	* [Consultando Transação](notificacao-automatica-status-consulta-transacao.md)
 
 * Módulos Yapay
-	* [Magento](modulos-yapay-magento.md)
+	* [Magento](modulos-yapay-magento-introducao.md)
+		* [Versão 1.x](modulos-yapay-magento.md)
+		* [Versão 2.x](modulos-yapay-magento2.md)
 	* [WooCommerce](modulos-yapay-woocommerce.md)
 	* [OpenCart](modulos-yapay-opencart.md)
 	* [OsCommerce](modulos-yapay-oscommerce.md)

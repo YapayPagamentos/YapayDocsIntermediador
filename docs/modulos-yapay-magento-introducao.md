@@ -1,7 +1,6 @@
 # Magento
 
-Disponibilizamos uma integração com checkout totalmente transparente, disponíveis para todas as versões da plataforma *Magento*.
-
+Disponibilizamos uma integração com checkout totalmente transparente, disponíveis para todas as versões da plataforma **Magento**.
 
 ## Versões disponíveis:
 
@@ -9,15 +8,13 @@ Abaixo estão os modulos Yapay disponíveis para as Plataformas Magento 1.x e 2.
 
 ### Versão 1.x
 
-<a href="http://integracao.traycheckout.com.br/documentacao/download/yapay/magento/Yapay_Intermediador.tgz" class="btnMagento"><i class="fa fa-arrow-circle-down" aria-hidden="true"></i>Baixar 1.x </a>
-
-
+<a style="display:block; margin-bottom:15px;" href="http://integracao.traycheckout.com.br/documentacao/download/yapay/magento/Yapay_Intermediador.tgz" class="btnMagento"><i class="fa fa-arrow-circle-down" aria-hidden="true"></i>Baixar 1.x </a>
+<br>
 <a href="/#/modulos-yapay-magento" class="btnMagento"><i class="fa fa-arrow-circle-down" aria-hidden="true"></i>Como instalar </a>
 
 
 ### Versão 2.x
 
-<a href="http://integracao.traycheckout.com.br/documentacao/download/yapay/magento/Yapay-magento2.X.zip" class="btnMagento"><i class="fa fa-arrow-circle-down" aria-hidden="true"></i>Baixar 2.x </a>
-
-
+<a style="display:block; margin-bottom:15px;"  href="http://integracao.traycheckout.com.br/documentacao/download/yapay/magento/Yapay-magento2.X.zip" class="btnMagento"><i class="fa fa-arrow-circle-down" aria-hidden="true"></i>Baixar 2.x </a>
+<br>
 <a href="/#/modulos-yapay-magento" class="btnMagento"><i class="fa fa-arrow-circle-down" aria-hidden="true"></i>Como instalar </a>
