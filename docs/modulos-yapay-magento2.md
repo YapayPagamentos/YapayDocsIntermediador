@@ -1,4 +1,4 @@
-# Magento Extension for [Yapay Intermediador de Pagamentos](https://www.yapay.com.br/) 
+## Magento Extension for [Yapay Intermediador de Pagamentos](https://www.yapay.com.br/) 
 
 ## Instalação
 
