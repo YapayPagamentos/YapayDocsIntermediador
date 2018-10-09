@@ -21,6 +21,7 @@ Mesmo que você já possua uma conta no ambiente de produção, será necessári
  Conta Yapay (email): 
  
  Escopo Integração: 
+ 
  [ ] Integração Transparente - Magento
  
  [ ] Integração Transparente - WooCommerce
