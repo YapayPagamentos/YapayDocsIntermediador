@@ -14,7 +14,6 @@ Para realizar as integrações, o Yapay disponibiliza um ambiente de testes <a h
 Mesmo que você já possua uma conta no ambiente de produção, será necessário criar uma conta específica para testes. Basta enviar um email para `integracao@yapay.com.br` informando os dados descritos abaixo:
 
 
-<div id="form-content-button" class="form-traycheckout text-left clearfix center col-sm-6">
 
 *** CRIAÇÃO CONTA AMBIENTE SANDBOX - YAPAY ***
 
@@ -36,7 +35,6 @@ Mesmo que você já possua uma conta no ambiente de produção, será necessári
  
  [ ] Integração Out - APIs
 
-</div> 
 
 
 
