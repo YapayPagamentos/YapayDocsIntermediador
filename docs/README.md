@@ -20,13 +20,19 @@ Mesmo que você já possua uma conta no ambiente de produção, será necessári
  
  >Escopo Integração: 
  
+ 
  >[ ] Integração Transparente - Magento
  
  >[ ] Integração Transparente - WooCommerce
  
+ 
  >[ ] Integração Checkout Simples - OpenCart
+ 
  >[ ] Integração Checkout Simples - Prestashop
+ 
  >[ ] Integração Checkout Simples - OsCommerce
+ 
+ 
  >[ ] Integração Out - APIs
 
 
