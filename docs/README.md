@@ -14,28 +14,20 @@ Para realizar as integrações, o Yapay disponibiliza um ambiente de testes <a h
 Mesmo que você já possua uma conta no ambiente de produção, será necessário criar uma conta específica para testes. Basta enviar um email para `integracao@yapay.com.br` informando os dados descritos abaixo:
 
 
+>** _CRIAÇÃO CONTA AMBIENTE SANDBOX - YAPAY_ **
 
-*** CRIAÇÃO CONTA AMBIENTE SANDBOX - YAPAY ***
-
- Conta Yapay (email): 
+ >Conta Yapay (email):
  
- Escopo Integração: 
+ >Escopo Integração: 
  
- [ ] Integração Transparente - Magento
+ >[ ] Integração Transparente - Magento
  
- [ ] Integração Transparente - WooCommerce
+ >[ ] Integração Transparente - WooCommerce
  
- 
- [ ] Integração Checkout Simples - OpenCart
- 
- [ ] Integração Checkout Simples - Prestashop
- 
- [ ] Integração Checkout Simples - OsCommerce
- 
- 
- [ ] Integração Out - APIs
-
-
+ >[ ] Integração Checkout Simples - OpenCart
+ >[ ] Integração Checkout Simples - Prestashop
+ >[ ] Integração Checkout Simples - OsCommerce
+ >[ ] Integração Out - APIs
 
 
 Durante os testes em <a href="https://intermediador.sandbox.yapay.com.br/signin" target="_blank" class="linkPadraoVerde">Sandbox</a>, as compras que forem processadas com cartões de crédito poderão ser aprovadas ou reprovadas em tempo real. 
