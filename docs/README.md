@@ -11,14 +11,27 @@ O Yapay é o meio mais seguro para recebimento de pagamentos online, venda os se
 
 Para realizar as integrações, o Yapay disponibiliza um ambiente de testes <a href="https://intermediador.sandbox.yapay.com.br/signin" target="_blank" class="linkPadraoVerde">Sandbox</a>. Este ambiente permite que sejam efetuadas todas as operações disponíveis em produção, com simulações sem a necessidade de uso de dados reais.
 
-Mesmo que você já possua uma conta no ambiente de produção, será necessário criar uma conta específica para testes através do link abaixo:
+Mesmo que você já possua uma conta no ambiente de produção, será necessário criar uma conta específica para testes. Basta enviar um email para `integracao@yapay.com.br` informando os dados descritos abaixo:
 
 
-<a href="https://intermediador.sandbox.yapay.com.br" target="_blank" class="linkPadraoVerde">https://intermediador.sandbox.yapay.com.br/signin</a>
+<div id="form-content-button" class="form-traycheckout text-left clearfix center col-sm-6">
 
-Caso você tenha uma conta no Yapay, basta você clicar em **Perfil da Conta > Sandbox** e criar a conta em Sandbox.
+*** CRIAÇÃO CONTA AMBIENTE SANDBOX - YAPAY ***
 
-![Sandbox Yapay](/images/Sandbox-Yapay.png "Sandbox Yapay")
+ Conta Yapay (email): 
+ 
+ Escopo Integração: 
+ [ ] Integração Transparente - Magento
+ [ ] Integração Transparente - WooCommerce
+ 
+ [ ] Integração Checkout Simples - OpenCart
+ [ ] Integração Checkout Simples - Prestashop
+ [ ] Integração Checkout Simples - OsCommerce
+ 
+ [ ] Integração Out - APIs
+
+</div> 
+
 
 
 Durante os testes em <a href="https://intermediador.sandbox.yapay.com.br/signin" target="_blank" class="linkPadraoVerde">Sandbox</a>, as compras que forem processadas com cartões de crédito poderão ser aprovadas ou reprovadas em tempo real. 
