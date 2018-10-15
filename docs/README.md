@@ -33,7 +33,7 @@ Mesmo que você já possua uma conta no ambiente de produção, será necessári
  >[ ] Integração Checkout Simples - OsCommerce
  
  
- >[ ] Integração Out - APIs
+ >[ ] Integração - APIs
 
 
 Durante os testes em <a href="https://intermediador.sandbox.yapay.com.br/signin" target="_blank" class="linkPadraoVerde">Sandbox</a>, as compras que forem processadas com cartões de crédito poderão ser aprovadas ou reprovadas em tempo real. 
