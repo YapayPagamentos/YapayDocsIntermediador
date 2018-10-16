@@ -8,9 +8,9 @@ Para a integração via <span class="post">POST</span>, segue abaixo os dados ne
 | customer[name]                           |   Sim    |  Texto /100          |  Nome do Comprador                                       |
 | customer[cpf]                            |   Sim    |  Texto /14           |  CPF do Comprador                                        |
 | customer[email]                          |   Sim    |  Texto /100          |  E-mail do Comprador                                     |
-| customer[trade_name]                     |   Não    |  Texto /100          |  Nome Fantasia do Comprador <sup>1</sup>                              |
-| customer[company_name]                   |   Não    |  Texto /100          |  Razão Social do Comprador <sup>1</sup>                              |
-| customer[cnpj]                           |   Não    |  Texto /18           |  CNPJ do Comprador <sup>1</sup>                                       |
+| customer[trade_name]                     |   _Não_<sup>*</sup>    |  Texto /100          |  Nome Fantasia do Comprador <sup>1</sup>                              |
+| customer[company_name]                   |   _Não_<sup>*</sup>    |  Texto /100          |  Razão Social do Comprador <sup>1</sup>                              |
+| customer[cnpj]                           |   _Não_<sup>*</sup>    |  Texto /18           |  CNPJ do Comprador <sup>1</sup>                                       |
 | customer[inscricao_municipal]            |   Não    |  Texto /20           |  Inscrição Municipal do Comprador                        |
 | customer[contacts][][type_contact]       |   Sim    |  Texto /1            |  Tipo do Contato <sup>2</sup> [(Tabela 1)](tabelas.md)                 |
 | customer[contacts][][number_contact]     |   Sim    |  Texto /11           |  Número do telefone do Comprador                         |
