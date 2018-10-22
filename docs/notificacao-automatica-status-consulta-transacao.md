@@ -79,5 +79,3 @@ Após receber esta informação, você pode consultar as informações completas
 
 ```
 
-> Para saber mais sobre a `API de Consulta de Transação` <a href="/#/api-consultar-transacao">clique aqui</a>.
-
