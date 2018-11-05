@@ -6,7 +6,7 @@ O Yapay disponibiliza um recurso para a consulta da transação. Com este recurs
 
 Para esta integração, deverá ser feito uso da API a seguir:
 
-| Endereço para Integração                                                                                   |
+| Endereço para Integração |                                                                                  |
 |--------------------------|---------------------------------------------------------------------------------|
 | Ambiente de Testes       | https://api.intermediador.sandbox.yapay.com.br/api/v3/transactions/get_by_token |
 | Ambiente de Produção     | http://api.intermediador.yapay.com.br/v3/transactions/get_by_token              |
