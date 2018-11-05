@@ -6,7 +6,7 @@
 Com a API de Consulta de Carrinho de Compra você consegue visualizar se a transação temporária criada através da **API Carrinho de Compra** converteu para uma transação definitiva.
 
 
-| Endereço para Integração                                                                                |
+| Endereço para Integração |                                                                              |
 |--------------------------|------------------------------------------------------------------------------|
 | Ambiente de Testes       | https://api.intermediador.sandbox.yapay.com.br/v1/tmp_transactions/get       |
 | Ambiente de Produção     | http://api.intermediador.yapay.com.br/v1/tmp_transactions/get                |
