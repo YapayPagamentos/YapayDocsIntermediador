@@ -7,7 +7,7 @@ A Yapay permite a consulta de contas para auxiliar no processo de integração.
 
 Através da API de Consulta de Cliente é possível criar clientes do tipo Pessoa Física ou Pessoa Jurídica, onde são retornados os dados do cliente para integração.
 
-| Endereço para Integração                                                                          |
+| Endereço para Integração |                                                                         |
 |--------------------------|------------------------------------------------------------------------|
 | Ambiente de Testes       | https://api.intermediador.sandbox.yapay.com.br/v1/people/get_person_by_cpf_and_email  |
 | Ambiente de Produção     | https://api.intermediador.yapay.com.br/v1/people/get_person_by_cpf_and_email           |
