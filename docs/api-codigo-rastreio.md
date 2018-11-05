@@ -8,7 +8,7 @@
 
 A Yapay disponibiliza uma versão transparente para a integração do código de postagem do produto da transação.
 
-| Endereço para Integração                                                                             |
+| Endereço para Integração |                                                                           |
 |--------------------------|---------------------------------------------------------------------------|
 | Ambiente de Testes       | https://api.intermediador.sandbox.yapay.com.br/api/v1/transactions/trace  |
 | Ambiente de Produção     | https://api.intermediador.yapay.com.br/api/v1/transactions/trace          |
