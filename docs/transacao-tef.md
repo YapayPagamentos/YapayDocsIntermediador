@@ -18,7 +18,7 @@ Basta você alterar o nó payment para:
 
 Para esta integração, deverá ser feito <span class="post">POST</span> uso da API a seguir:
 
-| Endereço para Integração                                                                              |
+| Endereço para Integração |                                                                            |
 |--------------------------|----------------------------------------------------------------------------|
 | Ambiente de Testes       | https://api.intermediador.sandbox.yapay.com.br/api/v3/transactions/payment |
 | Ambiente de Produção     | https://api.intermediador.yapay.com.br/api/v3/transactions/payment |
