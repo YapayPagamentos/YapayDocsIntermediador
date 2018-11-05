@@ -8,7 +8,7 @@ A Yapay Intermediador fornece uma ferramenta poderosa para sites que não possue
 Esta ferramenta exclusiva também permite que seja possível o seu uso em um ambiente multi-vendedor, onde o site/marketplace pode fornecer um carrinho de compras para todas as lojas simultaneamente, fazendo com que o comprador tenha uma experiência única de compra com a Yapay Intermediador.
 
 
-| Endereço para Integração                                                                                |
+| Endereço para Integração |                                                                               |
 |--------------------------|------------------------------------------------------------------------------|
 | Ambiente de Testes       | https://api.intermediador.sandbox.yapay.com.br/v1/tmp_transactions/create   |
 | Ambiente de Produção     | http://api.intermediador.yapay.com.br/v1/tmp_transactions/create           |
