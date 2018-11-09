@@ -69,6 +69,8 @@ Para as integrações será necessário possuir o token da conta que será integ
 
 ![Obtendo o Token de Integração Yapay](/images/ObterToken2.png "Obtendo o Token de Integração Yapay")
 
+> **Nota**: O token é utilizado como chave nas integrações realizadas com nosso intermediador de pagamento.
+Para ter acesso ao token é necessário realizar o processo de verificação de conta, após a confirmação da verificação ele ficará visível e poderá ser utilizado. 
 
 
 ## Suporte
