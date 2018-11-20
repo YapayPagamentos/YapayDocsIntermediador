@@ -99,6 +99,76 @@ Abaixo você consegue visualizar um exemplo em cURL da criação de uma Transaç
 
 ```
 
+> **Exemplo de criação de Transação PHP + curl**
+
+```php
+  function callAPI($method, $url, $data){
+     $curl = curl_init();
+
+     switch ($method){
+        case "POST":
+           curl_setopt($curl, CURLOPT_POST, 1);
+           if ($data)
+              curl_setopt($curl, CURLOPT_POSTFIELDS, $data);
+           break;
+        case "PUT":
+           curl_setopt($curl, CURLOPT_CUSTOMREQUEST, "PUT");
+           if ($data)
+              curl_setopt($curl, CURLOPT_POSTFIELDS, $data);                
+           break;
+        default:
+           if ($data)
+              $url = sprintf("%s?%s", $url, http_build_query($data));
+     }
+
+     // OPTIONS:
+     curl_setopt($curl, CURLOPT_URL, $url);
+     curl_setopt($curl, CURLOPT_HTTPHEADER, array('Content-Type: application/json'));
+     curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+     curl_setopt($curl, CURLOPT_HTTPAUTH, CURLAUTH_BASIC);
+
+     // EXECUTE:
+     $result = curl_exec($curl);
+     if(!$result){die("Connection Failure");}
+     curl_close($curl);
+     return $result;
+  }
+
+  // DADOS DO PEDIDO
+  $data["token_account"] = "SEU_TOKEN_AQUI";
+
+  $data["customer"]["contacts"][1]["type_contact"] = "H";
+  $data["customer"]["contacts"][1]["number_contact"] = "1133221122";
+
+  $data["customer"]["addresses"][1]["type_address"] = "B";
+  $data["customer"]["addresses"][1]["postal_code"] = "17516000";
+  $data["customer"]["addresses"][1]["postal_code"] = "17000-000";
+  $data["customer"]["addresses"][1]["street"] = "Av Esmeralda";
+  $data["customer"]["addresses"][1]["number"] = "1001";
+  $data["customer"]["addresses"][1]["neighborhood"] = "Jd Esmeralda";
+  $data["customer"]["addresses"][1]["city"] = "Marilia";
+  $data["customer"]["addresses"][1]["state"] = "SP";
+
+  $data["customer"]["name"] = "Stephen Strange";
+  $data["customer"]["cpf"] = "74279789517";
+  $data["customer"]["email"] = "teste.teste@teste.com";
+
+  $data["transaction_product"][1]["description"] = "Camiseta Tony Stark";
+  $data["transaction_product"][1]["quantity"] = "1";
+  $data["transaction_product"][1]["price_unit"] = "130.00";
+
+  $data["transaction"]["shipping_type"] = "Sedex";
+  $data["transaction"]["shipping_price"] = "";
+  $data["transaction"]["url_notification"] = "";
+
+  $data["payment"]["payment_method_id"] = "6";
+  $data["payment"]["split"] = "1";
+
+  $data_string = json_encode($data);
+
+  $get_data = callAPI('POST', 'URL_END_POINT', $data_string );
+```
+
 
 
 > Resposta da API
