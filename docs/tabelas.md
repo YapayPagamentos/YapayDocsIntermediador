@@ -28,8 +28,14 @@ Abaixo segue tabelas com essas informações pré-definidas:
 | Itaú Shopline                   | 7  |
 | Transf. Online Bradesco         | 22 |
 | Transf. Online Banco do Brasil  | 23 |
+
+
+| **Boleto**       |    |
 |---------------------------------|---:|
 | **Boleto Bancário**             | 6  |
+
+| **Saldo**       |    |
+|---------------------------------|---:|
 | **Pagamento com Saldo**         | 8  |
 
 
@@ -58,14 +64,13 @@ Abaixo segue tabelas com essas informações pré-definidas:
 | Cancelada                       | 7  |
 | Em Contestação                  | 24 |
 | Em Monitoramento                | 87 |
-| Em Recuperação                  | 88 |
 | Reprovada                       | 89 |
 
 
 ## **Tabela 5 - Gênero**
 
 | Gênero    | |
-|-----------|---|
+|-----------|---:|
 | Masculino | M |
 | Feminino  | F |
 
@@ -73,7 +78,7 @@ Abaixo segue tabelas com essas informações pré-definidas:
 ## **Tabela 6 - Estado Civil**
 
 | Estado Civil | |
-|------------|---|
+|------------|---:|
 | Solteiro   | S |
 | Casado     | M |
 | Separado   | A |
