@@ -58,7 +58,7 @@ O fingerprint é um script criado em javascript que grava vários dados para que
 Também deve realizar a chamada do plugin, no final da mesma página. Essa chamada acionará o fingerprint para que seja realizada a coleta e analise de dados. Conforme código javascript abaixo:
 
 ```php
-    <script>$(document).FingerPrint({ env: 'sandbox' });</script>
+    <script>window.yapay.FingerPrint({ env: 'sandbox' });</script>
 ```
 > A TAG `env` quando não informada estará apontando para o ambiente Produção da Yapay. Portanto é necessário informar `env: 'sandbox'` para os testes em SANDBOX.
 
