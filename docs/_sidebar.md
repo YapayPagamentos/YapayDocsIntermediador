@@ -31,6 +31,7 @@
 
 * Notificação Automática de Status
 	* [Introdução](notificacao-automatica-status-introducao.md)
+	*[Notificação Automática de Status](notificacao-automatica-status-content.md)
 	* [Recebendo a Notificação](notificacao-automatica-status-receber.md)
 	* [Consultando Transação](notificacao-automatica-status-consulta-transacao.md)
 
