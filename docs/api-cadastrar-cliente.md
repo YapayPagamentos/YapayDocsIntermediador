@@ -6,11 +6,11 @@ A Yapay permite a criação de contas para auxiliar no processo de integração.
 
 Através da API de Cadastro de Cliente é possível criar clientes do tipo Pessoa Física ou Pessoa Jurídica, onde são retornados os dados do cliente para integração.
 
-| Endereço para Integração                                                                          |
-|--------------------------|------------------------------------------------------------------------|
+| Endereço para Integração |                                                                  |
+|--------------------------|------------------------------------------------------------------|
 | Ambiente de Testes       | https://api.intermediador.sandbox.yapay.com.br/v1/people/create  |
-| Ambiente de Produção     | https://api.intermediador.yapay.com.br/v1/people/create           |
-| Protocolo                | Rest/HTTP                                                              |
+| Ambiente de Produção     | https://api.intermediador.yapay.com.br/v1/people/create          |
+| Protocolo                | Rest/HTTP                                                        |
 
 
 # Códigos de Exemplo
