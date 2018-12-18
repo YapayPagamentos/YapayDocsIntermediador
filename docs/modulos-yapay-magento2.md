@@ -44,7 +44,12 @@
 
 ### Configuração
 
-Acesse no Painel Administrativo do Magento No menu lateral clique em  {+ Store +} na sequencia no sub-menu {+ Sales +} clique em {+ Payment Methods +}. Será carregada a tela para configurar os meios de pagamentos do site. 
+Acesse no Painel Administrativo do Magento no menu lateral clique em `Store`, depois clique em `Configuration`, na sequencia clique em `Customer`, depois `Customer Configurarion`, depois acesse a opção `Name and Address Options`. Em `Number of Lines in a Street Address` você deve informar a o número 4, conforme imagem abaixo:
+
+![FOTO 6](img/yapay_dashboard_customer_magento.png)
+
+
+Após realizar a configuração do Cliente, acesse no Painel Administrativo do Magento No menu lateral clique em `Store`, na sequencia clique em `Configuration`, no sub-menu `Sales` clique em `Payment Methods`. Será carregada a tela para configurar os meios de pagamentos do site.  
 
 ![FOTO 1](img/yapay_dashboard_magento.png)
 
