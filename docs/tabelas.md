@@ -68,7 +68,7 @@ Abaixo segue tabelas com essas informações pré-definidas:
 | Reprovada                       | 89 |
 
 
-> **Observação:** O status *Em Recuperação* ficará ativo até Janeiro/2019. Após essa data é necessário considerar o status **4 - Aguardando Pagamento**.
+> **Observação:** O status *Em Recuperação* ficará ativo até Março/2019. Após essa data é necessário considerar o status **4 - Aguardando Pagamento**.
 
 ## **Tabela 5 - Gênero**
 
