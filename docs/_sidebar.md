@@ -49,6 +49,7 @@
 	* [API Consultar Transação](api-consultar-transacao.md)
 	* [API Cancelar Transação](api-cancelar-transacao.md)
 	* [API Listagem de Transações](api-listar-transacoes.md)
+	* [API Envio de Cobrança](api-envio-cobranca.md)
 	* [API Carrinho de Compra](api-carrinho-compra.md)
 	* [API Consultar Carrinho de Compra](api-consultar-carrinho-compra.md)
 	* [API Cadastrar Cliente](api-cadastrar-cliente.md)
