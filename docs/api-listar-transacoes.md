@@ -119,15 +119,15 @@ Criando <span class="get">GET</span> de uma transação especifica:
                 },
                 "customer": {
                     "resource": "customer",
-                    "name": "Diana Prince",
-                    "email": "dianaprince9834347522@amaf4343sdfdsfdszonas1587.com",
+                    "name": "Stephen Strange",
+                    "email": "stephen.strange@avengers.com",
                     "cpf": "37573138792",
                     "phone": "1433225544"
                 },
                 "seller": {
                     "resource": "seller",
-                    "name": "Diana Prince",
-                    "email": "didianaprince@amazonaslelele.com.br",
+                    "name": "Thanos Titã",
+                    "email": "thanos@tita.com",
                     "cpf": "34236440440",
                     "cnpj": null,
                     "phone": "1433225544"
@@ -136,8 +136,8 @@ Criando <span class="get">GET</span> de uma transação especifica:
                     {
                         "resource": "transaction_product",
                         "code": "1",
-                        "description": "Camiseta Wonder Woman",
-                        "extra": "Informação Extra",
+                        "description": "Infinity Stone",
+                        "extra": "",
                         "unit_price": 130,
                         "quantity": "1.0",
                         "sku_code": "0001",

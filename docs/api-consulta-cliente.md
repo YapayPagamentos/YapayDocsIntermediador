@@ -26,15 +26,15 @@ Através da API de Consulta de Cliente é possível criar clientes do tipo Pesso
 
 # Resposta da API
 
-> Exemplo de resposta em JSON com `sucesso` baseando no envio do exemplo:
+> Exemplo de resposta em XML com `sucesso` baseando no envio do exemplo:
 
 ```xml
     <?xml version="1.0" encoding="UTF-8"?>
     <people>
         <data_response>
-            <name>Diana Prince</name>
+            <name>Tony Stak</name>
             <cpf>333.XXX.X18-XX</cpf>
-            <email>dianaprince@amazonas.br</email>
+            <email>tony@stak.com</email>
             <has_card type="boolean">true</has_card>
             <company nil="true"/>
         </data_response>

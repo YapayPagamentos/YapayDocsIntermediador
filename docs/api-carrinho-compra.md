@@ -27,9 +27,9 @@ Esta ferramenta exclusiva também permite que seja possível o seu uso em um amb
             
         "transaction_product":[  
             {  
-                "description": "Camiseta Wonder Woman",
+                "description": "Infinity Stone",
                 "quantity": "1",
-                "price_unit": "150.00",
+                "price_unit": "1500.00",
                 "code": "1"
             }
         ]   
@@ -54,9 +54,9 @@ Esta ferramenta exclusiva também permite que seja possível o seu uso em um amb
                     <code>1</code>
                     <img nil="true"/>
                     <sku_code nil="true"/>
-                    <description>Camiseta Wonder Woman</description>
+                    <description>Infinity Stone</description>
                     <extra nil="true"/>
-                    <price_unit type="decimal">130.0</price_unit>
+                    <price_unit type="decimal">1500.0</price_unit>
                     <quantity type="decimal">1.0</quantity>
                     <weight nil="true"/>
                     <id type="integer">8894</id>
@@ -117,7 +117,7 @@ As mensagens de erros retornados pela API estão listadas na tabela abaixo:
 
 # Tabela de Parâmetros
 
-Para a integração via <span class="get">GET</span>, segue abaixo os dados necessários para envio:
+Para a integração via <span class="post">post</span>, segue abaixo os dados necessários para envio:
 
 | Dados de Entrada  |	Obrig.  |	Descrição                  |
 |-------------------|-----------|------------------------------|
