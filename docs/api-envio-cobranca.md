@@ -96,7 +96,7 @@ As mensagens de erros retornados pela API estão listadas na tabela abaixo:
 
 # Tabela de Parâmetros
 
-Para a integração via <span class="get">POST</span>, segue abaixo os dados necessários para envio:
+Para a integração via <span class="post">POST</span>, segue abaixo os dados necessários para envio:
 
 | Dados de Entrada                    |	Obrig.  |	Descrição                                            |
 |-------------------------------------|---------|--------------------------------------------------------|
