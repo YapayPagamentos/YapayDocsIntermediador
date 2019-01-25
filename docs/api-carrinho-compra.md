@@ -119,9 +119,45 @@ As mensagens de erros retornados pela API estão listadas na tabela abaixo:
 
 Para a integração via <span class="post">post</span>, segue abaixo os dados necessários para envio:
 
-| Dados de Entrada  |	Obrig.  |	Descrição                  |
-|-------------------|-----------|------------------------------|
-| token_account     |	Sim     | Token da conta da Loja       |
-| token_transaction |	Sim	    | Token da Transação           |
-| order_number      |	Não     | Número do Pedido             |
+| Dados de Entrada                                |	Obrig.  |	Descrição                                |
+|-------------------------------------------------|---------|--------------------------------------------|
+| token_account                                   |  Sim    | Token da conta                             |
+| reseller_token                                  |  Não    | Token do revendedor                        |
+| payment_tax_code                                |  Não    | Tabela de Taxa                             |
+| token_transaction<sup>1</sup>                   |  Não    | Token da transação temporária já existente |
+| order_number                                    |  Não    | Número do pedido                           | 
+| sub_store                                       |  Não    | Nome da subloja                            |
+| free                                            |  Não    | Campo free                                 |
+| price_additional                                |  Não    | Preço adicional                            |
+| price_discount                                  |  Não    | Desconto Adicional                         |
+| url_notification                                |  Não    | URL de Notificação                         |
+| postal_code_seller                              |  Sim    | CEP do Vendedor                            |
+| postal_code_customer                            |  Não    | CEP do Cliente                             |
+| available_payment_methods                       |  Não    | Meios de Pagamento disponíveis             |
+| max_split_transaction                           |  Não    | Quantidade máxima de parcelamento          |
+| shipping_type                                   |  Não    | Tipo de Frete                              |
+| shipping_price                                  |  Não    | Valor do Frete                             |
+| transaction_product[][code]                     |  Sim    | Código do Produto                          |
+| transaction_product[][description]              |  Sim    | Descrição do Produto                       |
+| transaction_product[][quantity]                 |  Sim    | Quantidade do produto                      |
+| transaction_product[][price_unit]               |  Sim    | Valor unitário do Produto                  |
+| transaction_product[][weight]<sup>2</sup>       |  Não    | Peso do Produto                            |
+| transaction_product[][extra]                    |  Não    | Campo de informação extra                  |
+| transaction_product[][url_img]                  |  Não    | URL de Imagem do Produto                   |
+| transaction_product[][sku_code]                 |  Não    | Código SKU do Produto                      |
+| transaction_product[][type_product]<sup>3</sup> |  Sim    | Tipo do produto                            |
+| transaction_product[][edit] <sup>4</sup>        |  Não    | Permite edição do produto?                 |
+| affiliates[][reseller_token]                    |  Não    | Token do afiliado                          |
+| affiliates[][email]                             |  Não    | E-mail do afiliado                         |
+| affiliates[][percentage]                        |  Não    | Percentual do afiliado                     |
+| affiliates[][commission_amount]                 |  Não    | Valor fixo do afiliado                     |
+| affiliates[][type_affiliate]                    |  Não    | Tipo de afiliado                           |
 
+
+> <sup>1</sup> Enviando o token_transaction você está atualizando uma transação temporária que já existe.
+
+> <sup>2</sup> Informando o peso do produto você está possibilitando o cálculo do frete dessa transação.
+
+> <sup>3</sup> Tipo de produto deve ser S para Serviço ou vazio para produto normal.
+
+> <sup>4</sup> Nesse campo você informa se é possível realizar a alteração da quantidade do produto no checkout Yapay.  True ou false.
