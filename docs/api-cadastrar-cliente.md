@@ -102,7 +102,7 @@ Para a integração via <span class="post">POST</span>, segue abaixo os dados ne
 
 | Dados de Entrada           |  Obrig.         | Formato / Tam. Max   | Descrição                      |
 |----------------------------|-----------------|----------------------|--------------------------------|
-| account_type               | Sim             | Número               | Tipo de Conta                  |
+| account_type<sup>3</sup>   | Sim             | Texto                | Tipo de Conta                  |
 | trade_name                 | Sim<sup>2</sup> | Texto                | Nome Fantasia                  |
 | company_name               | Sim<sup>2</sup> | Texto                | Razão Social                   |
 | cnpj                       | Sim<sup>2</sup> | Texto                | CNPJ                           |
@@ -135,3 +135,5 @@ Para a integração via <span class="post">POST</span>, segue abaixo os dados ne
 > <sup>1</sup> Note que nas informações acima que alguns dados possuem uma característica diferente, tendo um elemento [] dentro de sua formatação. Isso ocorre justamente para permitir que sejam enviados diversos itens na mesma requisição.
 
 > <sup>2</sup> Campos obrigatórios para cadastros de pessoa jurídica.
+
+> <sup>3</sup> Tabela Auxiliar 8 - Tipo de Conta

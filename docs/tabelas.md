@@ -98,3 +98,10 @@ Abaixo segue tabelas com essas informações pré-definidas:
 | Suspeito | 114 |
 
 
+## **Tabela 8 - Tipo de Conta**
+
+| Tipo de Conta | |
+|--------------|-----:|
+| Pessoal      | 1   |
+| Empresarial  | 2   |
+
