@@ -17,8 +17,8 @@ Abaixo segue tabelas com essas informações pré-definidas:
 
 | Tipos de Endereço | |
 |-------------|---|
-| Cobrança    | D |
-| Entrega     | B |
+| Cobrança    | B |
+| Entrega     | D |
 
 
 ## **Tabela 3 - Formas de Pagamento**
