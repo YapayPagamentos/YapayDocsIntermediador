@@ -23,7 +23,7 @@ Para a integração via <span class="post">POST</span>, segue abaixo os dados ne
 | customer[addresses][][city]              |   Sim    |  Texto /120          |  Cidade do endereço do Comprador                         |
 | customer[addresses][][state]             |   Sim    |  Texto /2            |  Estado do endereço do Comprador                         |
 | customer[birth_date]                     |   Não    |  Data / 10           |  Data de aniversário do Comprador                        |
-| transaction[available_payment_methods]   |   Não    |  Texto /20           |  Meios de Pagamento disponíveis <sup>3</sup> [(Tabela 3)](tabelas.md)  |
+| transaction[available_payment_methods]   |   Não    |  Texto /150          |  Meios de Pagamento disponíveis <sup>3</sup> [(Tabela 3)](tabelas.md)  |
 | transaction[order_number]                |   Não    |  Texto /20           |  Número do pedido                                        |
 | transaction[customer_ip]                 |   Sim    |  Texto /15           |  IP do Comprador                                         |
 | transaction[shipping_type]               |   Não    |  Texto /100          |  Tipo do envio                                           |
