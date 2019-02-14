@@ -5,6 +5,8 @@ Para disponibilizar a Yapay como facilitador de pagamento na plataforma PrestaSh
 
 Fique atento que sua versão de instalação, a plataforma Prestashop deve ser compatível com o módulo Yapay.
 
+> Nosso módulo do PrestaShop está disponível apenas até a versão 1.6
+
 > 1- Instalação do Módulo Prestashop
 
 

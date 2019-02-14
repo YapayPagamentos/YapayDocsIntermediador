@@ -6,6 +6,8 @@ Para disponibilizar a Yapay como facilitador de pagamento na plataforma OpenCart
 
 Fique atento que sua versão de instalação OpenCart deve ser compatível com o módulo Yapay. As versões compatíveis são mostradas na pagina de download do módulo.
 
+> Nosso módulo do OpenCart está disponível apenas até a versão 2.3.X
+
 > 1- Instalação do Módulo OpenCart
 
 
