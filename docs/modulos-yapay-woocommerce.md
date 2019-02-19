@@ -18,7 +18,7 @@ Para instalar o plugin acesse o menu lateral `PLUGIN` e pesquise por `YAPAY` ins
 
 Para instalar plugin é necessário baixar o pacote do WooCommerce:
 
-<a href="http://integracao.traycheckout.com.br/documentacao/download/yapay/woocommerce/woo-yapay.zip" class="btnMagento"><i class="fa fa-arrow-circle-down" aria-hidden="true"></i>WooCommerce</a>
+<a href="https://intermediador.dev.yapay.com.br/download/yapay/woocommerce/woo-yapay.zip" class="btnMagento"><i class="fa fa-arrow-circle-down" aria-hidden="true"></i>WooCommerce</a>
 
 Acesse a área administrativa da plataforma e clique em **Plugins > Adicionar Novo**.
 
