@@ -9,7 +9,7 @@ Com a API de Consulta de Carrinho de Compra você consegue visualizar se a trans
 | Endereço para Integração |                                                                              |
 |--------------------------|------------------------------------------------------------------------------|
 | Ambiente de Testes       | https://api.intermediador.sandbox.yapay.com.br/v1/tmp_transactions/get       |
-| Ambiente de Produção     | http://api.intermediador.yapay.com.br/v1/tmp_transactions/get                |
+| Ambiente de Produção     | https://api.intermediador.yapay.com.br/v1/tmp_transactions/get                |
 | Protocolo                | Rest/HTTP                                                                    |
 
 

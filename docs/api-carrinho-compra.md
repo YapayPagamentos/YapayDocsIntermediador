@@ -11,7 +11,7 @@ Esta ferramenta exclusiva também permite que seja possível o seu uso em um amb
 | Endereço para Integração |                                                                               |
 |--------------------------|------------------------------------------------------------------------------|
 | Ambiente de Testes       | https://api.intermediador.sandbox.yapay.com.br/v1/tmp_transactions/create   |
-| Ambiente de Produção     | http://api.intermediador.yapay.com.br/v1/tmp_transactions/create           |
+| Ambiente de Produção     | https://api.intermediador.yapay.com.br/v1/tmp_transactions/create           |
 | Protocolo                | Rest/HTTP                                                                    |
 
 

@@ -11,7 +11,7 @@ Através do `access_token` e o id da transação, é possivel realizar um <span 
 | Endereço para Integração |                                                                         |
 |--------------------------|------------------------------------------------------------------------|
 | Ambiente de Testes       | https://api.intermediador.sandbox.yapay.com.br/api/v3/transactions/cancel   |
-| Ambiente de Produção     | http://api.intermediador.yapay.com.br/api/v3/transactions/cancel           |
+| Ambiente de Produção     | https://api.intermediador.yapay.com.br/api/v3/transactions/cancel           |
 | Protocolo                | Rest                                                              |
 
 

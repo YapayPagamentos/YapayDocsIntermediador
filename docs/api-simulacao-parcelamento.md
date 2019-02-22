@@ -11,7 +11,7 @@ A API de Simulação de Cálculo de Parcelamento é utilizada somente para facil
 | Endereço para Integração                                                                                |
 |--------------------------|------------------------------------------------------------------------------|
 | Ambiente de Testes       | https://api.intermediador.sandbox.yapay.com.br/v1/transactions/simulate_splitting   |
-| Ambiente de Produção     | http://api.intermediador.yapay.com.br/v1/transactions/simulate_splitting           |
+| Ambiente de Produção     | https://api.intermediador.yapay.com.br/v1/transactions/simulate_splitting           |
 | Protocolo                | Rest/HTTP                                                                    |
 
 

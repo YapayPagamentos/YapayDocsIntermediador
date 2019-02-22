@@ -30,7 +30,7 @@ Criando <span class="get">GET</span> de listagem de todas as transações:
 
 ```bash
     curl --request GET \
-         --url 'http://api.intermediador.sandbox.yapay.com.br/api/v3/sales' \
+         --url 'https://api.intermediador.sandbox.yapay.com.br/api/v3/sales' \
          --header 'Authorization: Token token=p07511206953c5e62dccfa320k74a17fc9838ac287765641a8e65ab32740ddb0, type=access_token' \
          --data '{}'
 ```
@@ -40,7 +40,7 @@ Criando <span class="get">GET</span> de uma transação especifica:
 
 ```bash
     curl --request GET \
-         --url 'http://api.intermediador.sandbox.yapay.com.br/api/v3/sales?id=109657' \
+         --url 'https://api.intermediador.sandbox.yapay.com.br/api/v3/sales?id=109657' \
          --header 'Authorization: Token token=p07511206953c5e62dccfa320k74a17fc9838ac287765641a8e65ab32740ddb0, type=access_token' \
          --data '{}'
 ```
