@@ -64,11 +64,8 @@ Abaixo segue tabelas com essas informações pré-definidas:
 | Cancelada                       | 7  |
 | Em Contestação                  | 24 |
 | Em Monitoramento                | 87 |
-| Em Recuperação*                 | 88 |
 | Reprovada                       | 89 |
 
-
-> **Observação:** O status *Em Recuperação* ficará ativo até Março/2019. Após essa data é necessário considerar o status **4 - Aguardando Pagamento**.
 
 ## **Tabela 5 - Gênero**
 
