@@ -49,7 +49,7 @@ Abaixo segue tabelas com essas informações pré-definidas:
 | Discover                        | 15 | À Vista |
 | Elo                             | 16 | 12x |
 | Aura                            | 18 | 12x |
-| JCB                             | 19 | 12x |
+| JCB                             | 19 | À Vista |
 | Hipercard                       | 20 | 12x |
 | Hiper (Itaú)                    | 25 | 12x |
 
