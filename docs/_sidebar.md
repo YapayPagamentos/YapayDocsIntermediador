@@ -5,6 +5,9 @@
 * Conhecendo a Yapay
 	* [Introdução](/)
 
+* Integração News
+	* [News](integracao-news.md)
+
 * Transação
 	* [Introdução](transacao-introducao.md)
 	* [Fingerprint](transacao-fingerprint.md)
