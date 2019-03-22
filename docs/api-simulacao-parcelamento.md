@@ -8,11 +8,11 @@ A Yapay disponibiliza a API de Simulação de Cálculo de Parcelamento para faci
 
 A API de Simulação de Cálculo de Parcelamento é utilizada somente para facilitar a exibição deste parcelamento na loja virtual, onde é enviada somente a quantidade de parcelas para a <a href="/#/transacao-introducao" target="_blank" class="linkPadraoVerde">API de Transação</a>.
 
-| Endereço para Integração                                                                                |
-|--------------------------|------------------------------------------------------------------------------|
-| Ambiente de Testes       | https://api.intermediador.sandbox.yapay.com.br/v1/transactions/simulate_splitting   |
-| Ambiente de Produção     | https://api.intermediador.yapay.com.br/v1/transactions/simulate_splitting           |
-| Protocolo                | Rest/HTTP                                                                    |
+| Endereço para Integração |                                                                                   |
+|--------------------------|-----------------------------------------------------------------------------------|
+| Ambiente de Testes       | https://api.intermediador.sandbox.yapay.com.br/v1/transactions/simulate_splitting |
+| Ambiente de Produção     | https://api.intermediador.yapay.com.br/v1/transactions/simulate_splitting         |
+| Protocolo                | Rest/HTTP                                                                         |
 
 
 # Códigos de Exemplo
