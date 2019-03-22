@@ -14,6 +14,8 @@ A Yapay disponibiliza uma versão transparente para a integração do código de
 | Ambiente de Produção     | https://api.intermediador.yapay.com.br/api/v1/transactions/trace          |
 | Protocolo                | Rest/HTTP                                                                 |
 
+> É necessario utilizar o Protocolo de Criptografia TLS na versão 1.2. 
+
 # Códigos de Exemplo
 
 

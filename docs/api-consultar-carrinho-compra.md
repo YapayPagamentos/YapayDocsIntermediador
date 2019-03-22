@@ -12,6 +12,7 @@ Com a API de Consulta de Carrinho de Compra você consegue visualizar se a trans
 | Ambiente de Produção     | https://api.intermediador.yapay.com.br/v1/tmp_transactions/get                |
 | Protocolo                | Rest/HTTP                                                                    |
 
+> É necessario utilizar o Protocolo de Criptografia TLS na versão 1.2. 
 
 > **Observação:** Note que no retorno da API tem o campo `<payment>`, esse campo é o parâmetro o `token_transaction` da transação definitiva. Nesse caso foi realizado o pagamento para esta transação temporária. Caso não tenha pagamento será retornado `<payment nil="true"/>`. Com o `token_transaction` da transação definitiva você consegue realizar uma consulta na <a href="/#/api-consultar-transacao" target="_blank">API de Consulta de Transação</a> e manipular as informações da forma que precisar!
 

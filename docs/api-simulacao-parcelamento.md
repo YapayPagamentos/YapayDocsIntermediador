@@ -14,6 +14,7 @@ A API de Simulação de Cálculo de Parcelamento é utilizada somente para facil
 | Ambiente de Produção     | https://api.intermediador.yapay.com.br/v1/transactions/simulate_splitting         |
 | Protocolo                | Rest/HTTP                                                                         |
 
+> É necessario utilizar o Protocolo de Criptografia TLS na versão 1.2. 
 
 # Códigos de Exemplo
 

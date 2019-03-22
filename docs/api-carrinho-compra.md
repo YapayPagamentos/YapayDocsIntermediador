@@ -14,6 +14,7 @@ Esta ferramenta exclusiva também permite que seja possível o seu uso em um amb
 | Ambiente de Produção     | https://api.intermediador.yapay.com.br/v1/tmp_transactions/create           |
 | Protocolo                | Rest/HTTP                                                                    |
 
+> É necessario utilizar o Protocolo de Criptografia TLS na versão 1.2. 
 
 # Códigos de Exemplo
 

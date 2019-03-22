@@ -12,6 +12,7 @@ Para esta integração, deverá ser feito uso da API a seguir:
 | Ambiente de Produção     | https://api.intermediador.yapay.com.br/v3/transactions/get_by_token              |
 | Protocolo                | Rest/HTTP                                                                       |
 
+> É necessario utilizar o Protocolo de Criptografia TLS na versão 1.2. 
 
 # Códigos de Exemplo
 

@@ -32,6 +32,8 @@ Para esta integração, deverá ser feito <span class="post">POST</span> uso da 
 | Ambiente de Produção     | https://api.intermediador.yapay.com.br/api/v3/transactions/payment |
 | Protocolo                | Rest/HTTP                                                                  |
 
+> É necessario utilizar o Protocolo de Criptografia TLS na versão 1.2. 
+
 Abaixo você consegue visualizar um exemplo em cURL da criação de uma Transação em Cartão de Crédito:
 
 > **Exemplo de criação de Transação com Cartão de Crédito**

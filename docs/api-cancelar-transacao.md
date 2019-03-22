@@ -14,7 +14,7 @@ Através do `access_token` e o id da transação, é possivel realizar um <span 
 | Ambiente de Produção     | https://api.intermediador.yapay.com.br/api/v3/transactions/cancel           |
 | Protocolo                | Rest                                                              |
 
-
+> É necessario utilizar o Protocolo de Criptografia TLS na versão 1.2. 
 
 
 # Códigos de Exemplo

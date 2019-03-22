@@ -22,6 +22,8 @@ Para esta integração, deverá ser feito uso da API a seguir:
 | Ambiente de Produção     | https://api.intermediador.yapay.com.br/api/v3/sales         |
 | Protocolo                | Rest/HTTP                                                                |
 
+> É necessario utilizar o Protocolo de Criptografia TLS na versão 1.2. 
+
 > <sup>1</sup> Para maiores informações sobre esta API, entre em contato com através do email **integracao@yapay.com.br**.
 
 # Códigos de Exemplo

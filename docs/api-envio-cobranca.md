@@ -13,6 +13,7 @@ A Yapay Intermediador fornece uma ferramenta poderosa para pessoas que desejam e
 | Ambiente de Produção     | https://api.intermediador.yapay.com.br/api/transaction_charges/create         |
 | Protocolo                | Rest/HTTP                                                                     |
 
+> É necessario utilizar o Protocolo de Criptografia TLS na versão 1.2. 
 
 # Códigos de Exemplo
 

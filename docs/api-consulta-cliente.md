@@ -13,6 +13,7 @@ Através da API de Consulta de Cliente é possível criar clientes do tipo Pesso
 | Ambiente de Produção     | https://api.intermediador.yapay.com.br/v1/people/get_person_by_cpf_and_email           |
 | Protocolo                | Rest/HTTP                                                              |
 
+> É necessario utilizar o Protocolo de Criptografia TLS na versão 1.2. 
 
 # Códigos de Exemplo
 
