@@ -50,11 +50,12 @@ Para a integração via <span class="post">POST</span>, segue abaixo os dados ne
 | payment[card_expdate_year]               |   Não    |  Número / 4          |  Ano de vencimento do cartão                             |
 | payment[card_cvv]                        |   Não    |  Número /3           |  Código de segurança do cartão                           |
 | payment[billet_date_expiration]          |   Não    |  Data / 10           |  Data de Vendimento do Boleto                            |
-| reseller_token                           |   Não    |  Texto               |  Valor de repasse ao afiliado <sup>7</sup>               |
-| finger_print                             |   Não    |  Texto /100          |  Token gerado pelo FingerPrint <sup>8</sup>              |
-| affiliates[][account_email]              |   Não    |  Texto / 100         |  Email do afiliado da transação <sup>9</sup>                              |
-| affiliates[][percentage]                 |   Não    |  Número / 3          |  Percentual de repasse ao afiliado <sup>9</sup>          |
-| affiliates[][commission_amount]          |   Não    |  Decimal / 11        |  Valor de repasse ao afiliado <sup>9</sup>               |
+| reseller_token                           |   Não    |  Texto               |  Revendedor <sup>7</sup>                                 |
+| payment_tax_code                         |   Não    |  Texto               |  Código da Tabela de Taxas configurada <sup>8</sup>      |
+| finger_print                             |   Não    |  Texto /100          |  Token gerado pelo FingerPrint <sup>9</sup>              |
+| affiliates[][account_email]              |   Não    |  Texto / 100         |  Email do afiliado da transação <sup>10</sup>            |
+| affiliates[][percentage]                 |   Não    |  Número / 3          |  Percentual de repasse ao afiliado <sup>10</sup>         |
+| affiliates[][commission_amount]          |   Não    |  Decimal / 11        |  Valor de repasse ao afiliado <sup>10</sup>              |
 
 
 > <sup>1</sup> Os parâmetros `customer[trade_name]`, `customer[company_name]`, `consumer[cnpj]` quando for uma compra de pessoa jurídica, são obrigatórios juntamente com o parâmetro `customer[cpf]`. Desta forma os dados da transação e do boletão irão conter as informações da empresa.
@@ -75,6 +76,9 @@ Para a integração via <span class="post">POST</span>, segue abaixo os dados ne
 > <sup>7</sup> O parâmetro `reseller_token` é informado para comunicar que a transação é vinculada a um revendedor. Dessa forma todas as transações que são enviadas com esse parâmetro ficam vinculadas ao revendedor.
 
 
-> <sup>8</sup> O parâmetro `finger_print` é informado por um script Javascript que faz uma coleta de dados e realiza a analise das informações disponíveis publicamente na máquina. Dessa forma é realizada a Análise de Risco.
+> <sup>8</sup> O parâmetro `payment_tax_code` é informado juntamente com o `reseller_token` e permite que a tabela de taxa do Revendedor seja repassada para o Vendedor. É importante as tabelas negociadas sejam configuradas corretamente no revendedor.
 
-> <sup>9</sup> O parâmetro `affiliates[][]` é informado quando é necessário que seja feito Repasse Automático ao Revendedor. Essa opção é utilizada na Integração com Marketplace.
+
+> <sup>9</sup> O parâmetro `finger_print` é informado por um script Javascript que faz uma coleta de dados e realiza a analise das informações disponíveis publicamente na máquina. Dessa forma é realizada a Análise de Risco.
+
+> <sup>10</sup> O parâmetro `affiliates[][]` é informado quando é necessário que seja feito Repasse Automático ao Revendedor. Essa opção é utilizada na Integração com Marketplace.
