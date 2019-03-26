@@ -13,7 +13,6 @@ Abaixo você consegue visualizar a tabela com as bandeiras e produtos suportados
 |--------------------------------|-----------------------|---------------------|---------|--------|
 | Visa                           | 3                     | 12                  | Sim     | Não    |
 | Mastercard                     | 4                     | 12                  | Sim     | Não    |
-| Diners                         | 2                     | 12                  | Sim     | Não    |
 | American Express               | 5                     | 12                  | Sim     | Não    |
 | Elo                            | 16                    | 12                  | Sim     | Não    |
 | Aura                           | 18                    | 12                  | Sim     | Não    |

@@ -42,7 +42,6 @@ Abaixo segue tabelas com essas informações pré-definidas:
 
 | **Cartões de Crédito**          |    | Credito Parcelado |
 |---------------------------------|----:|-----:|
-| Diners Club                     | 2  | 12x |
 | Visa                            | 3  | 12x |
 | Mastercard                      | 4  | 12x |
 | American Express                | 5  | 12x |
