@@ -42,7 +42,7 @@ Para a integração via <span class="post">POST</span>, segue abaixo os dados ne
 | transaction[max_split_transaction]       |   Não    |  Número /10          |  Número máximo de parcelas                                  |
 | payment[payment_method_id]               |   Sim    |  Texto /2            |  Forma de Pagamento                                      |
 | payment[split]                           |   Sim    |  Texto /2            |  Número de parcelas (01 a 12)                            |
-| payment[person_card_id]                  |   Não    |  Texto /100          |  Código do cartão cadastrado em nosso cofre <sup>4</sup> |
+| payment[card_token]                      |   Não    |  Texto /100          |  Código do cartão cadastrado em nosso cofre <sup>4</sup> |
 | payment[card_token]                      |   Não    |  Texto /100          |  Token do cartão cadastrado em nosso cofre <sup>5</sup> |
 | payment[card_name]                       |   Não    |  Texto /100          |  Nome impresso no cartão                                 |
 | payment[card_number]                     |   Não    |  Número /20          |  Número do cartão                                        |

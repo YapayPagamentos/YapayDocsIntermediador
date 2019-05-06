@@ -32,7 +32,7 @@ A Yapay irá realizar o <span class="post">POST</span> tipo formulário com a se
 | transaction[payment][selling_message]            | Mensagem do Vendedor           |
 | transaction[payment][url_payment]                | url do pagamento               |
 | transaction[payment][payment_method_id]          | ID do Meio de Pagamento        |
-| transaction[payment][card_id]                    | ID do cartão de crédito        |
+| transaction[payment][card_token]                 | Token do cartão de crédito     |
 | transaction[payment][number_proccess]            | Número do processamento        |
 | transaction[payment][date_payment]               | Data do pagamento              |
 | transaction[payment][payment_method_name]        | Meio de pagamento              |
