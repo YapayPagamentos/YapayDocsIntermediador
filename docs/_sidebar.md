@@ -47,6 +47,8 @@
 	* [OsCommerce](modulos-yapay-oscommerce.md)
 	* [PrestaShop](modulos-yapay-prestashop.md)
 
+* Criador de Sites
+	* [Tutorial Configuração](criador-sites.md)
 
 * APIs
 	* [API Consultar Transação](api-consultar-transacao.md)
