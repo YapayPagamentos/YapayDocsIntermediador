@@ -39,11 +39,10 @@ Para a integração via <span class="post">POST</span>, segue abaixo os dados ne
 | transaction_product[][code]              |   Não    |  Texto /10           |  Código do produto                                       |
 | transaction_product[][sku_code]          |   Não    |  Texto /50           |  Código SKU do produto                                   |
 | transaction_product[][extra]             |   Não    |  Texto /100          |  Campo Livre do produto                                  |
-| transaction[max_split_transaction]       |   Não    |  Número /10          |  Número máximo de parcelas                                  |
+| transaction[max_split_transaction]       |   Não    |  Número /10          |  Número máximo de parcelas                               |
 | payment[payment_method_id]               |   Sim    |  Texto /2            |  Forma de Pagamento                                      |
 | payment[split]                           |   Sim    |  Texto /2            |  Número de parcelas (01 a 12)                            |
-| payment[card_token]                      |   Não    |  Texto /100          |  Código do cartão cadastrado em nosso cofre <sup>4</sup> |
-| payment[card_token]                      |   Não    |  Texto /100          |  Token do cartão cadastrado em nosso cofre <sup>5</sup> |
+| payment[card_token]                      |   Não    |  Texto /100          |  Token do cartão cadastrado em nosso cofre <sup>5</sup>  |
 | payment[card_name]                       |   Não    |  Texto /100          |  Nome impresso no cartão                                 |
 | payment[card_number]                     |   Não    |  Número /20          |  Número do cartão                                        |
 | payment[card_expdate_month]              |   Não    |  Número /2           |  Mês de vencimento do cartão                             |
@@ -65,8 +64,6 @@ Para a integração via <span class="post">POST</span>, segue abaixo os dados ne
 
 > <sup>3</sup> O parâmetro `transaction[available_payment_methods]` permite que sejam enviados os códigos de meios de pagamento que poderão ser disponibilizados no processo de recobrança de transações. Os códigos deverão ser enviados separados por vírgula (,). Esse campo é útil quando a loja oferece uma condição especial de pagamento, por exemplo Desconto de 10% no Boleto Bancário. Assim deve-se enviar apenas o código do boleto bancário para que seja disponibilizada somente esta forma de pagamento no processo de recobrança.
 
-
-> <sup>4</sup> O parâmetro `payment[person_card_id]` é informado com o código do cartão de crédito cadastrado em nossos cofres. Esse código é vinculado ao Vendedor e ao Cliente do Cartão de Crétido. O person_card_id ficará disponível até Dezembro/2019.
 
 > <sup>5</sup> O parâmetro `payment[card_token]` o token do cadastro do cartão de crédito é enviado na transação que já foi cadastrado o cartão de crédito. É **obrigatório** enviar o parâmetro `payment[card_cvv]` na transação.
 
