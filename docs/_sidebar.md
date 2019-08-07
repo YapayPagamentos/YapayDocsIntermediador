@@ -4,6 +4,7 @@
 
 * Conhecendo a Yapay
 	* [Introdução](/)
+	* [Slack Integração](slack-integracao.md)
 
 * Integração News
 	* [News](integracao-news.md)
