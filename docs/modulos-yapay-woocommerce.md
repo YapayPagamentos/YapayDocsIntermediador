@@ -65,3 +65,10 @@ Clique em uma das opções de configuração da Yapay que será carregada a pág
 **Meios de Pagamento Disponíveis:** Seleção dos meios de pagamento que estarão disponíveis no checkout do WooCommerce (Opção somente na configuração de Cartão de Crédito e Transferência Online).
 
 **Prefixo do Pedido:** Prefixo enviado para o Yapay.
+
+
+> Plugins adicionais **IMPORTANTES**
+
+Para o plugin funcionar normalmente com os campos no checkout como CPF e outros deve ser adicionado o plugin [WooCommerce Extra Checkout Fields for Brazil](https://wordpress.org/plugins/woocommerce-extra-checkout-fields-for-brazil/)
+
+Caso queira utilizar desconto por forma de pagamento, indicamos o plugin [WooCommerce Discounts Per Payment Method](https://wordpress.org/plugins/woocommerce-payment-discounts/)
