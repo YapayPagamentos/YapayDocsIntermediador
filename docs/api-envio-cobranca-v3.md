@@ -99,7 +99,7 @@ Para a integração via <span class="post">POST</span>, segue abaixo os dados ne
 | access_token                        |	Sim     | Token de acesso                                        |
 | customer_email                      | Não     | Envia solicitação para email informado                 |
 | order_number                        | Sim     | Número do Pedido (não pode ser repetido)               |
-| code                                | Não     | Descrição do Produto                                   |
+| code                                | Não     | DCódigo do Produto                                     |
 | value                               | Sim     | Preço                                                  |
 | description                         | Sim     | Descrição do produto                                   |
 | max_split_transaction               | Não     | Valor máximo de parcela                                |
