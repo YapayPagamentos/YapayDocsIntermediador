@@ -103,7 +103,9 @@ Para a integração via <span class="post">POST</span>, segue abaixo os dados ne
 | value                               | Sim     | Preço                                                  |
 | description                         | Sim     | Descrição do produto                                   |
 | max_split_transaction               | Não     | Valor máximo de parcela                                |
-| available_payment_methods           | Não     | Formas de pagamento disponíveis para essa compra. Enviando null aceitará todas [(Tabela)](https://intermediador.dev.yapay.com.br/#/tabelas?id=tabela-3-formas-de-pagamento) 
+| available_payment_methods           | Não     | Formas de pagamento disponíveis para essa compra<sup>1</sup>. Enviando null aceitará todas [(Tabela)](https://intermediador.dev.yapay.com.br/#/tabelas?id=tabela-3-formas-de-pagamento) 
 | new_checkout                        | Não     | Utilizará o novo checkout TRUE / FALSE |
-| use_cards                           | Não     | Disponibiliza a forma de pagamento cartão TRUE / FALSE |
+| use_cards                           | Não     | Verifica cartões liberados para essa conta TRUE / FALSE |
 
+
+> <sup>1</sup> Caso queira limitar as formas de pagamento, o parâmetro `use_cards` deve ser FALSE. 
