@@ -27,7 +27,7 @@ Exemplo:
 # Códigos de Exemplo
 
 
-```curl
+```bash
     curl --request GET \
          --url 'https://api.intermediador.sandbox.yapay.com.br/api/v3/charges/974/inactivate' \
          --header 'Authorization: Token token=p07511206953c5e62dccfa320k74a17fc9838ac287765641a8e65ab32740ddb0, type=access_token' \
