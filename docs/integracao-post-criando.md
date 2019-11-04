@@ -13,13 +13,9 @@ Abaixo você consegue visualizar o código de exemplo:
        <input type="hidden" name="transaction_product[][quantity]" value="1"> 
        <input type="hidden" name="transaction_product[][price_unit]" value="2430.00"> 
 
-       <!-- Itens do produto 2 --> 
-       <input type="hidden" name="transaction_product[][description]" value="Notebook Branco"> 
-       <input type="hidden" name="transaction_product[][quantity]" value="1"> 
-       <input type="hidden" name="transaction_product[][price_unit]" value="2599.00"> 
 
        <!-- Código de referência do pagamento no seu sistema (opcional) --> 
-       <input type="hidden" name="order_number" value="56789"> 
+       <input type="hidden" name="order_number" value="562789"> 
 
        <!-- submit do form --> 
        <input type="submit" name="submit" value="Pagar com Yapay" > 
