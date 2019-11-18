@@ -55,15 +55,15 @@ Abaixo segue tabelas com essas informações pré-definidas:
 
 ## **Tabela 4 - Status da Transação**
 
-| Status da Transação             |    |
-|---------------------------------|----:|
-| Aguardando Pagamento            | 4  |
-| Em Processamento                | 5  |
-| Aprovada                        | 6  |
-| Cancelada                       | 7  |
-| Em Contestação                  | 24 |
-| Em Monitoramento                | 87 |
-| Reprovada                       | 89 |
+| Status da Transação em Inglês   | Status da Transação em Portugês  | Status ID  |
+|---------------------------------|----------------------------------|-----------:|
+| Aguardando Pagamento            | waiting_payment                  | 4  |
+| Em Processamento                | processing                       | 5  |
+| Aprovada                        | approved                         | 6  |
+| Cancelada                       | canceled                         | 7  |
+| Em Contestação                  | contestation                     | 24 |
+| Em Monitoramento                | monitoring                       | 87 |
+| Reprovada                       | failed                           | 89 |
 
 
 ## **Tabela 5 - Gênero**
