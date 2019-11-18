@@ -182,7 +182,7 @@ Criando <span class="get">GET</span> de uma transação especifica:
 ```
 
 > Nessa API o nó status[name] é retornado em inglês. Veja em <a href="/#/tabelas?a=22&id=tabela-4-status-da-transa%c3%a7%c3%a3o">Tabela 4 - Status da Transação</a> 
-https://intermediador.dev.yapay.com.br/#/tabelas?a=22&id=tabela-4-status-da-transa%c3%a7%c3%a3o
+
 
 # Tabela de Parâmetros
 
