@@ -56,31 +56,34 @@ Criando <span class="get">GET</span> de uma transação especifica:
 
 ```javascript
 {
-    "resource": "list",
-    "pagination": {
-        "current_page": 0,
-        "per_page": 20,
-        "page_amount": 1,
-        "count": 1
-    },
-    "data": [
-        {
-            "resource": "charge",
-            "id": 974,
-            "order_number": "123456",
-            "code": "12",
-            "value": "12.5",
-            "description": "Camiseta House Targaryen",
-            "max_split_transaction": 2,
-            "available_payment_methods": "6",
-            "payment_link": "https://pagar.online/b7tg",
-            "status": true,
-            "created_at": 1572461048
-        }
-    ]
+  resource: "charge",
+  id: 974,
+  order_number: "123456",
+  code: "12",
+  value: "12.5",
+  description: "Camiseta House Targaryen",
+  max_split_transaction: 2,
+  available_payment_methods: "6",
+  payment_link: "https://pagar.online/b7tg",
+  status: true,
+  created_at: 1572461048,
+  email_customer: "emaildocliente@email.com",
+  transactions: [
+    {
+      resource: "transaction",
+      id: 302256,
+      customer_name: "Jon Snow",
+      customer_email: "jonsnow@housetargaryen7.com",
+      price: "12.5",
+      status_tag: "approved",
+      status_name: "Aprovada",
+      created_at: "2019-10-30T18:45:55.000-03:00"
+    }
+  ]
 }
 ```
 
+> Observe que no nó transaction é retornado o status_name da transação criada após o pagamento da cobrança.
 
 > Exemplo de resposta com `erro` baseando no envio do exemplo:
 
