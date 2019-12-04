@@ -150,3 +150,4 @@ Para a integração via <span class="post">POST</span>, segue abaixo os dados ne
 |----------------------------------------|----------|----------------------|-------------------------------|
 | token_account                          |   Sim    |  Texto / 20          |  Token da conta da Loja       |   
 | price                                  |   Sim    |  Decimal / 11        |  Valor da Transação           |  
+| type_response                          |   Não    |  Texto / 20          |  Tipo de Resposta (J => JSON, OUTROS => XML)           |  
