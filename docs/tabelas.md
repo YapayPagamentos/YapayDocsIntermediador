@@ -23,24 +23,24 @@ Abaixo segue tabelas com essas informações pré-definidas:
 
 ## **Tabela 3 - Formas de Pagamento**
 
-| **Transferências Online**       |    |
+| **Transferências Online**       | ID |
 |---------------------------------|---:|
 | Itaú Shopline                   | 7  |
 | Transf. Online Bradesco         | 22 |
 | Transf. Online Banco do Brasil  | 23 |
 
 
-| **Boleto**       |    |
+| **Boleto**       |  ID  |
 |---------------------------------|---:|
 | **Boleto Bancário**             | 6  |
 
-| **Saldo**       |    |
+| **Saldo**       |  ID  |
 |---------------------------------|---:|
 | **Pagamento com Saldo**         | 8  |
 
 
 
-| **Cartões de Crédito**          |    | Credito Parcelado |
+| **Cartões de Crédito**          |  ID  | Credito Parcelado |
 |---------------------------------|----:|-----:|
 | Visa                            | 3  | 12x |
 | Mastercard                      | 4  | 12x |
