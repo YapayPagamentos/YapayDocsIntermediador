@@ -114,7 +114,7 @@ Abaixo você consegue visualizar um exemplo do <span class="patch">PATCH</span> 
 }
 ```
 
-# API Cancelar Transação valor Parcial
+# API Cancelar Transação com Estorno Parcial
 
 A API de Cancelar Transação permite que seja realizado o estorno parcial da transação, para isso você deve enviar o parâmetro `refund_amount`. 
 
