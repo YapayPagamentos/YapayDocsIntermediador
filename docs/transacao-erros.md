@@ -31,7 +31,7 @@ As mensagens de erros retornados pela API estão listadas na tabela abaixo:
 |  003004   |     Número da Parcela Inválido                   | Verificar o parâmetro `transaction[split]`              |
 |  003011   |     Numero do cartão inválido                    | Verificar o parâmetro `transaction[card_number]`        |
 |  003012   |     Nome do cartão em branco                     | Verificar o parâmetro `transaction[card_name]`          |
-|  003014   |     Código de segurança inválido                 | Verificar o parâmetro `transaction[cvv]`                |
+|  003014   |     Código de segurança inválido                 | Verificar o parâmetro `transaction[card_cvv]`                |
 |  003015   |     Mês de vencimento do cartão inválido         | Verificar o parâmetro `transaction[card_expdate_month]` |
 |  003020   |     Ano de vencimento do cartão inválido         | Verificar o parâmetro `transaction[card_expdate_year]`  |
 |  003021   |     O vendedor não pode ser igual ao comprador   | Verificar os parâmetros token_account, `costumer[email]` e `costumer[cpf]`. Os dados não podem ser iguais |
