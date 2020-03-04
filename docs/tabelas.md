@@ -62,6 +62,7 @@ Abaixo segue tabelas com essas informações pré-definidas:
 | Aprovada                        | approved                         | 6  |
 | Cancelada                       | canceled                         | 7  |
 | Em Contestação                  | contestation                     | 24 |
+| Em Contestação                  | chargeback                       | 24 |
 | Em Monitoramento                | monitoring                       | 87 |
 | Reprovada                       | failed                           | 89 |
 
