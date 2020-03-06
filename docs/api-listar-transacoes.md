@@ -53,131 +53,121 @@ Criando <span class="get">GET</span> de uma transação especifica:
 > Exemplo de resposta com `sucesso` baseando no envio do exemplo:
 
 ```javascript
-    {
-        "resource": "list",
-        "pagination": {
-            "current_page": 0,
-            "per_page": 20,
-            "page_amount": 1,
-            "count": 1
-        },
-        "data": [
-            {
-                "resource": "sale",
-                "id": 109661,
-                "order_number": "109661",
-                "original_price": 142,
-                "tax": 9.469999999999999,
-                "seller_price": 132.53,
-                "payment_price": 142,
-                "discount_price": 0,
-                "sub_store": "",
-                "created": 1528469296,
-                "updated": 1528469296,
-                "schedulings": {
-                    "resource": "list",
-                    "data": [],
-                    "options": {
-                        "total_amount": 0,
-                        "all_status": [
-                            [
-                                "to_credit",
-                                12
-                            ],
-                            [
-                                "blocked_down_payment",
-                                13
-                            ],
-                            [
-                                "blocked_canceled",
-                                14
-                            ],
-                            [
-                                "finalized",
-                                15
-                            ],
-                            [
-                                "processed_early",
-                                16
-                            ]
-                        ]
-                    }
-                },
-                "remaining_time_to_open_dispute": null,
-                "status": {
-                    "resource": "status",
-                    "name": "waiting_payment",
-                    "id": 4
-                },
-                "url_notification": "",
-                "payment": {
-                    "resource": "payment",
-                    "tid": null,
-                    "payment_method_id": 6,
-                    "payment_method_name": "Boleto Bancario",
-                    "installments": 1,
-                    "payment_url": "https://tc.intermediador.sandbox.yapay.com.br/payment/billet/2536492c4170741fc15e146ea82cadb9",
-                    "typeful_line": "123123123123123131232131232131313211231321321"
-                },
-                "customer": {
-                    "resource": "customer",
-                    "name": "Stephen Strange",
-                    "email": "stephen.strange@avengers.com",
-                    "cpf": "37573138792",
-                    "phone": "1433225544"
-                },
-                "seller": {
-                    "resource": "seller",
-                    "name": "Thanos Titã",
-                    "email": "thanos@tita.com",
-                    "cpf": "34236440440",
-                    "cnpj": null,
-                    "phone": "1433225544"
-                },
-                "transaction_products": [
-                    {
-                        "resource": "transaction_product",
-                        "code": "1",
-                        "description": "Infinity Stone",
-                        "extra": "",
-                        "unit_price": 130,
-                        "quantity": "1.0",
-                        "sku_code": "0001",
-                        "img_url": null
-                    }
-                ],
-                "shipping": {
-                    "resource": "shipping",
-                    "shipping_price": 12,
-                    "shipping_type": "Sedex",
-                    "tracking_code": null,
-                    "tracking_url": null,
-                    "posted_date": null,
-                    "address": {
-                        "resource": "address",
-                        "id": 138681,
-                        "active": true,
-                        "primary": true,
-                        "postal_code": "17000000",
-                        "street": "Av Themyscira",
-                        "complement": "A",
-                        "number": "1001",
-                        "neighborhood": "Jd das Rochas",
-                        "city": "Themyscira",
-                        "state": "SP",
-                        "type": "billing"
-                    }
+{
+    "resource": "list",
+    "pagination": {
+        "current_page": 0,
+        "per_page": 20,
+        "page_amount": 1,
+        "count": 1
+    },
+    "data": [
+        {
+            "resource": "sale",
+            "id": 364815,
+            "order_number": "364815",
+            "original_price": 142.0,
+            "tax": 3.0900000000000034,
+            "seller_price": 138.91,
+            "payment_price": 142.0,
+            "discount_price": 0.0,
+            "additional_price": 0.0,
+            "sub_store": "",
+            "created": 1583514061,
+            "updated": 1583514070,
+            "schedulings": {
+                "resource": "list",
+                "data": []
+            },
+            "remaining_time_to_open_dispute": null,
+            "status": {
+                "resource": "status",
+                "name": "waiting_payment",
+                "id": 4
+            },
+            "status_changed_at": 1583514061,
+            "url_notification": "https://urlnotificacao.com/1ehx4741",
+            "transaction_token": "8da3123373bb1e9fc32de71b9ca3b16",
+            "contestation_id": null,
+            "canceled_by": "",
+            "fraud_confirmated": false,
+            "payment": {
+                "resource": "payment",
+                "tid": "",
+                "payment_method_id": 3,
+                "payment_method_name": "Visa",
+                "installments": 1,
+                "payment_url": null,
+                "typeful_line": null
+            },
+            "customer": {
+                "resource": "customer",
+                "name": "Stephen Strange",
+                "business_name": null,
+                "email": "stephen.strange@avengers.com",
+                "cpf": "50235335142",
+                "cnpj": null,
+                "phone": "1133221122"
+            },
+            "seller": {
+                "resource": "seller",
+                "name": "Tony Stark Store",
+                "email": "tony@stark.com",
+                "cpf": "37558792045",
+                "cnpj": null,
+                "phone": "1499999999"
+            },
+            "transaction_products": [
+                {
+                    "resource": "transaction_product",
+                    "code": "1",
+                    "description": "Camiseta Tony Stark",
+                    "extra": "Informação Extra",
+                    "unit_price": 130.0,
+                    "quantity": "1.0",
+                    "sku_code": "0001",
+                    "img_url": null
+                }
+            ],
+            "shipping": {
+                "resource": "shipping",
+                "shipping_price": 12.0,
+                "shipping_type": "Sedex",
+                "tracking_code": null,
+                "tracking_url": null,
+                "posted_date": null,
+                "address": {
+                    "resource": "address",
+                    "id": 152154,
+                    "active": true,
+                    "primary": false,
+                    "postal_code": "17000000",
+                    "street": "Rua Bleecker",
+                    "complement": "A",
+                    "number": "177",
+                    "neighborhood": "Greenwich Village",
+                    "city": "Nova York",
+                    "state": "SP",
+                    "type": "billing"
                 }
             }
-        ],
-        "options": {
-            "sum_price_original": 142,
-            "sum_tax": 9.469999999999999,
-            "sum_price_seller": 132.53,
-            "sum_price_payment": 142,
-            "columns": {}
+        }
+    ],
+    "options": {
+        "sum_price_original": 142.0,
+        "sum_tax": 3.0900000000000034,
+        "sum_price_seller": 138.91,
+        "sum_price_payment": 142.0,
+        "columns": {
+            "buyer_seller": "true",
+            "tracking": "true",
+            "payment_method": "true",
+            "tax": "false",
+            "price_seller": "false",
+            "price_payment": "false"
         }
     }
+}
 
 ```
 
