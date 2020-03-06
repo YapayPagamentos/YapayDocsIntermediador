@@ -192,4 +192,7 @@ Para a integração via <span class="get">GET</span>, segue abaixo os dados nece
 |-------------------|--------|-------------------------------------------|
 | token             | Sim    | Token de Acesso ou Session ID             |         
 | type              | Sim    | Tipo de acesso access_token ou session_id |
+| status            | Não    | Status                                    |
 | id                | Não    | ID da Transação                           |
+| order_number      | Não    | Número do Pedido                          |
+| customer          | Não    | Cliente (email ou Nome)                   |
