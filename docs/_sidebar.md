@@ -61,7 +61,6 @@
 	* [API Inativar de Cobrança V3](api-inativar-cobranca-v3.md)
 	* [API Carrinho de Compra](api-carrinho-compra.md)
 	* [API Consultar Carrinho de Compra](api-consultar-carrinho-compra.md)
-	* [API Cadastrar Cliente](api-cadastrar-cliente.md)
 	* [API Consultar Clientes](api-consulta-cliente.md)
 	* [API Simulação de Parcelamento](api-simulacao-parcelamento.md)
 	* [API Código de Rastreio](api-codigo-rastreio.md)

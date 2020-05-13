@@ -5,6 +5,8 @@
 
 A Yapay disponibiliza uma versão transparente para cancelamento de transações, permitindo que seja cancelada a transação de forma transparente. 
 
+> O prazo para cancelamento via API é de 90 dias, após esse período é necessário entrar em contato com a Yapay.
+
 Através do `access_token` e o id da transação, é possivel realizar um <span class="patch">PATCH</span> na API de Cancelamento de Transação. Lembrando que o `access_token` você pega utilizando a [API de Autorização]()<sup>1</sup>.
 
 
