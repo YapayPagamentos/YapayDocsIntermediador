@@ -40,4 +40,33 @@ As mensagens de erros retornados pela API estão listadas na tabela abaixo:
 |  009006   |     Número da parcela maior que o permitido      | Verificar os parâmetros `transaction[payment_method_id]` e `transaction[split]` se a quantidade de parcelas é aceita pelo Meio de Pagamento. <sup>1</sup> |
 |  058001   |     Revendedor inválido.                         | Verifique o parâmetro `reseller_token`. Deve estar devidamente configurado na Yapay como Revendedor |
 
+
 > <sup>1</sup> <a href="/#/transacao-introducao?id=bandeiras-e-produtos-suportados">Clique Aqui</a> e verifique pela nossa tabela de Produtos e Bandeiras Suportadas
+
+
+Os erros de validações de parâmetros serão retornados STATUS CODE `422 - Unprocessable Entity`. Exemplo:
+
+```json
+{
+    "message_response": {
+        "message": "error"
+    },
+    "error_response": {
+        "validation_errors": [
+            {
+                "code": "3",
+                "message": "não é válido",
+                "field": "price_discount",
+                "message_complete": "Valor Desconto não é válido"
+            }
+        ]
+    },
+    "additional_data": {
+        "transaction_id": null,
+        "order_number": null,
+        "status_id": null,
+        "status_name": null,
+        "token_transaction": null
+    }
+}
+```
