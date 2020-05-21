@@ -46,7 +46,7 @@ As mensagens de erros retornados pela API estão listadas na tabela abaixo:
 
 Os erros de validações de parâmetros serão retornados STATUS CODE `422 - Unprocessable Entity`. Exemplo:
 
-```json
+```javascript
 {
     "message_response": {
         "message": "error"
