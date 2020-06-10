@@ -186,3 +186,9 @@ Para a integração via <span class="get">GET</span>, segue abaixo os dados nece
 | id                | Não    | ID da Transação                           |
 | order_number      | Não    | Número do Pedido                          |
 | customer          | Não    | Cliente (email ou Nome)                   |
+| start_date_created | Não   | Data inicial de Criação                   |
+| end_date_created  | Não    | Data final de Criação                     |
+| current_page      | Não    | Página                                    |
+| per_page          | Não    | Transações por página                     |
+
+

@@ -7,6 +7,13 @@ Uma das funcionalidades do Yapay Intermediador é criação de transações pela
 
 Você pode visualizar os ID's referente as formas de pagamento na nossa <a href="/#/tabelas?id=tabela-3-formas-de-pagamento">Tabela Auxiliar 3 - Formas de Pagamento</a>
 
+Durante os testes em Sandbox, as compras que forem processadas com cartões de crédito poderão ser aprovadas ou reprovadas em tempo real. Este procedimento poderá ser realizado de acordo com o parcelamento escolhido:
+
+**Aprovada**: transações com parcelamento ímpar (1, 3, 5, 7, 9, 11);
+
+**Reprovada**: transações com parcelamento par (2, 4, 6, 8, 10, 12).
+
+
 Altere o 'nó payment' para:
 
 ```javascript
