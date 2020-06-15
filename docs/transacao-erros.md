@@ -40,6 +40,7 @@ As mensagens de erros retornados pela API estão listadas na tabela abaixo:
 |  009006   |     Número da parcela maior que o permitido      | Verificar os parâmetros `transaction[payment_method_id]` e `transaction[split]` se a quantidade de parcelas é aceita pelo Meio de Pagamento. <sup>1</sup> |
 |  058001   |     Revendedor inválido.                         | Verifique o parâmetro `reseller_token`. Deve estar devidamente configurado na Yapay como Revendedor |
 |  037010   |     E-mail do afiliado informado deve ser diferente do vendedor                         | O email enviado como cliente não pode ser o mesmo que o e-mail do vendedor (token_account) |
+|  3   |     Comissão Valor da comissão é maior que o valor do pedido                         | O valor da comissão está sendo enviado maior que o valor da comissão do afiliado. |
 
 
 > <sup>1</sup> <a href="/#/transacao-introducao?id=bandeiras-e-produtos-suportados">Clique Aqui</a> e verifique pela nossa tabela de Produtos e Bandeiras Suportadas
