@@ -55,6 +55,7 @@ Para a integração via <span class="post">POST</span>, segue abaixo os dados ne
 | affiliates[][account_email]              |   Não    |  Texto / 100         |  Email do afiliado da transação <sup>10</sup>            |
 | affiliates[][percentage]                 |   Não    |  Número / 3          |  Percentual de repasse ao afiliado <sup>10</sup>         |
 | affiliates[][commission_amount]          |   Não    |  Decimal / 11        |  Valor de repasse ao afiliado <sup>10</sup>              |
+| affiliates[][type_affiliate]             |   Não    | Texto / 100          | Tipo do afiliado                      |
 
 
 > <sup>1</sup> Os parâmetros `customer[trade_name]`, `customer[company_name]`, `consumer[cnpj]` quando for uma compra de pessoa jurídica, são obrigatórios juntamente com o parâmetro `customer[cpf]`. Desta forma os dados da transação e do boletão irão conter as informações da empresa.
