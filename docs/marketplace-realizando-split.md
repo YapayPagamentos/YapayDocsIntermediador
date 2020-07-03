@@ -7,6 +7,9 @@ Para que o repasse ao revendedor seja automático, utilizamos a API de Transaç�
 |   affiliates[][account_email]         |   Não    | Texto / 100          | Email do afiliado da transação        |
 |   affiliates[][percentage]            |   Não    | Número / 3           | Percentual de repasse ao afiliado     |
 |   affiliates[][commission_amount]     |   Não    | Decimal / 11         | Valor de repasse ao afiliado          |
+|   affiliates[][type_affiliate]        |   Não    | Texto / 100          | Tipo do afiliado                      |
+
+
 
 
 > Caso o afiliado não tenha cadastro na Yapay, o valor repassado fica aguardando o cadastro do afiliado.
