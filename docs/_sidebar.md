@@ -11,6 +11,7 @@
 
 * Transação
 	* [Introdução](transacao-introducao.md)
+	* [Boas práticas de Integração](boas-praticas-integracao.md)
 	* [Fingerprint](transacao-fingerprint.md)
 	* [Cartão de Crédito](transacao-cartao-credito.md)
 	* [Boleto](transacao-boleto.md)
