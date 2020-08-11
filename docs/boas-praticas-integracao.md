@@ -16,9 +16,9 @@ Para criar uma transação nós precisamos de alguns campos obrigatórios, esses
 
 **customer[email]** O e-mail deve ser válido, respeitando regras .com .com.br e @gmai, @hotmai, @teste **não** são aceitos.
 
-**customer[contacts][][type_contact]	** O tipo de contato deve ser H-Residencial, M-Celular ou W-Comercial. De acordo com a quantidade de caracteres enviado **contacts[number_contact]**.
+**customer[contacts][][type_contact]** O tipo de contato deve ser H-Residencial, M-Celular ou W-Comercial. De acordo com a quantidade de caracteres enviado **contacts[number_contact]**.
 
-**customer[contacts][][number_contact]	** O número do telefone deve ser validado a quantidade de caracteres máximo 15 e minimo 8.
+**customer[contacts][][number_contact]** O número do telefone deve ser validado a quantidade de caracteres máximo 15 e minimo 8.
 
 **customer[addresses][][postal_code]** Deve ser enviado máximo 8 caracteres.
 
@@ -41,7 +41,7 @@ Para criar uma transação nós precisamos de alguns campos obrigatórios, esses
 
 **transaction[price_discount]** Caso tenha casas decimais, deve ser validado para enviar com duas casas decimais.
 
-**transaction[shipping_price]	** Caso tenha casas decimais, deve ser validado para enviar com duas casas decimais.
+**transaction[shipping_price]** Caso tenha casas decimais, deve ser validado para enviar com duas casas decimais.
 
 **transaction[price_additional]** Caso tenha casas decimais, deve ser validado para enviar com duas casas decimais.
 
