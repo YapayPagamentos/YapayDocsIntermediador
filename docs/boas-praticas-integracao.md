@@ -8,7 +8,7 @@ Nesse artigo será possível verificar algumas dicas para integração com a nos
 Para criar uma transação nós precisamos de alguns campos obrigatórios, esses campos devem ser validados antes de enviar para a API assim é possível evitar retornos de erros. Abaixo as validações recomendadas para cada campo.
 
 
-> Parâmetros de dados do **cliente**
+> **Parâmetros de dados do cliente**
 
 **customer[cpf]** Deve ser enviado o número de CPF válido.
 
@@ -27,17 +27,17 @@ Para criar uma transação nós precisamos de alguns campos obrigatórios, esses
 **customer[addresses][][state]** Deve ser enviado a sigla do estado. Exemplo: SP
 
 
-> Parâmetro IP
+> **Parâmetro IP**
 
 **transaction[customer_ip]** Deve ser enviado o IP do devide. Normalmente enviado pelo REMOTE_ADDR.
 
 
-> Parâmetro Número do Pedido
+> **Parâmetro Número do Pedido**
 
 **transaction[order_number]** Máximo 20 caracteres. Caso não seja enviado esse parâmetro será o mesmo que o ID da Transação. **O NÚMERO DO PEDIDO NÃO DEVE SE REPETIR**
 
 
-> Parâmetros valores
+> **Parâmetros valores**
 
 **transaction[price_discount]** Caso tenha casas decimais, deve ser validado para enviar com duas casas decimais.
 
@@ -46,26 +46,26 @@ Para criar uma transação nós precisamos de alguns campos obrigatórios, esses
 **transaction[price_additional]** Caso tenha casas decimais, deve ser validado para enviar com duas casas decimais.
 
 
-> Parâmetros do produto
+> **Parâmetros do produto**
 
 **transaction_product[][sku_code]** Máximo 50 caracteres.
 
 **transaction_product[][price_unit]** Caso tenha casas decimais, deve ser validado para enviar com duas casas decimais.
 
 
-> Parâmetro **finger_print**
+> **Parâmetro finger_print**
 
 O parâmetro `finger_print` é de extrema importância nas transações de cartão de crédito, deve ser enviado em TODAS as transações que sejam cartão. Veja como implementa-lo clicando [aqui](https://intermediador.dev.yapay.com.br/#/transacao-fingerprint).
 
 
-> Parâmetros de **Pagamento**
+> **Parâmetros de Pagamento**
 
 **payment[payment_method_id]** Deve ser verificada a tabela [Formas de Pagamentos](https://intermediador.dev.yapay.com.br/#/tabelas?id=tabela-3-formas-de-pagamento) aceitas pela Yapay.
 
 **payment[split]** Algumas formas de pagamento não aceitam parcelamento, apenas à vista, deve ser validado se o payment[payment_method_id] for igual a 5 ou 19 e apenas apresentar uma parcela.
 
 
-> Parâmetros de **Cartão de Crédito**
+> **Parâmetros de Cartão de Crédito**
 
 **payment[card_name]** Não deve ser enviado números nesse parâmetro, validar o input para não aceitar que seja digitado números.
 
@@ -78,7 +78,7 @@ O parâmetro `finger_print` é de extrema importância nas transações de cart�
 **payment[card_cvv]** Deve ser validado para acertar no máximo 4 caracteres.
 
 
-> Parâmetros de **Afiliados**
+> **Parâmetros de Afiliados**
 
 **affiliates[][account_email]** Para melhor fluxo, o e-mail do afiliado deve estar cadastrado na Yapay. 
 
