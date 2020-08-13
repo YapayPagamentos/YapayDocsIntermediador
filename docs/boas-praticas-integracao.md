@@ -10,9 +10,9 @@ Para criar uma transação nós precisamos de alguns campos obrigatórios, esses
 
 > **Parâmetros de dados do cliente**
 
-**customer[cpf]** Deve ser enviado o número de CPF válido.
+**customer[cpf]** Deve ser enviado o número de CPF válido. Apenas números.
 
-**customer[cnpj]** Deve ser enviado o númdo de CNPJ válido.
+**customer[cnpj]** Deve ser enviado o número de CNPJ válido. Apenas números.
 
 **customer[email]** O e-mail deve ser válido, respeitando regras .com .com.br e @gmai, @hotmai, @teste **não** são aceitos.
 
@@ -71,9 +71,9 @@ O parâmetro `finger_print` é de extrema importância nas transações de cart�
 
 **payment[card_number]** Não deve ser enviado letras nesse parâmetro, validar o input para não aceitar que seja digitado letras.
 
-**payment[card_expdate_month]** O mês de vencimento do cartão de crédito deve ser validado para ser IGUAL ou MAIOR que o mês atual.
+**payment[card_expdate_month]** O mês de vencimento do cartão de crédito deve ser validado para ser IGUAL ou MAIOR que o mês atual. Deve ser enviado o mês com dois digitos. Exemplo 04
 
-**payment[card_expdate_year]** O ano de vencimento do cartão de crédito deve ser validado para ser IGUAL ou MAIOR que o ano atual.
+**payment[card_expdate_year]** O ano de vencimento do cartão de crédito deve ser validado para ser IGUAL ou MAIOR que o ano atual. Deve ser enviado o mês com quatro digitos. Exemplo 2022
 
 **payment[card_cvv]** Deve ser validado para acertar no máximo 4 caracteres.
 
