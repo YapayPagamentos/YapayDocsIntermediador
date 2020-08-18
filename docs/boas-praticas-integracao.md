@@ -20,7 +20,7 @@ Para criar uma transação nós precisamos de alguns campos obrigatórios, esses
 
 **customer[contacts][][number_contact]** O número do telefone deve ser validado a quantidade de caracteres máximo 15 e minimo 8.
 
-**customer[addresses][][postal_code]** Deve ser enviado máximo 8 caracteres.
+**customer[addresses][][postal_code]** Deve ser enviado em TEXTO e no máximo 8 caracteres. 
 
 **customer[addresses][][street]** Deve ser enviado apenas a RUA, e enviando o número no parâmetro **customer[addresses][][number]**.
 
