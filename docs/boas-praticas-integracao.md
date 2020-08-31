@@ -65,6 +65,11 @@ O parâmetro `finger_print` é de extrema importância nas transações de cart�
 **payment[split]** Algumas formas de pagamento não aceitam parcelamento, apenas à vista, deve ser validado se o payment[payment_method_id] for igual a 5 ou 19 e apenas apresentar uma parcela.
 
 
+> **Parâmetros de Boleto**
+
+**payment[billet_date_expiration]** Deve ser enviado no formato DD/MM/YYYY.
+
+
 > **Parâmetros de Cartão de Crédito**
 
 **payment[card_name]** Não deve ser enviado números nesse parâmetro, validar o input para não aceitar que seja digitado números.
