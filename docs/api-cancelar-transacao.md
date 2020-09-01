@@ -246,6 +246,7 @@ Para a integração via <span class="patch">PATCH</span>, segue abaixo os dados 
 | access_token                           |   Sim    |  Access Token de identificação do vendedor |
 | transaction_id                         |   Sim    |  ID da Transação                           |
 | refund_amount                          |   Não    |  Valor do estorno parcial                  |
+| message_cancellation                   |   Não    |  Mensagem de Cancelamento                  |
 
 
 
