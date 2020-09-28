@@ -78,7 +78,7 @@ O parâmetro `finger_print` é de extrema importância nas transações de cart�
 
 **payment[card_expdate_month]** O mês de vencimento do cartão de crédito deve ser validado para ser IGUAL ou MAIOR que o mês atual. Deve ser enviado o mês com dois digitos. Exemplo 04
 
-**payment[card_expdate_year]** O ano de vencimento do cartão de crédito deve ser validado para ser IGUAL ou MAIOR que o ano atual. Deve ser enviado o mês com quatro digitos. Exemplo 2022
+**payment[card_expdate_year]** O ano de vencimento do cartão de crédito deve ser validado para ser IGUAL ou MAIOR que o ano atual. Deve ser enviado o ano com quatro digitos. Exemplo 2022
 
 **payment[card_cvv]** Deve ser validado para acertar no máximo 4 caracteres.
 
