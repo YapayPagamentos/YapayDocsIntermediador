@@ -72,6 +72,8 @@ O parâmetro `finger_print` é de extrema importância nas transações de cart�
 
 > **Parâmetros de Cartão de Crédito**
 
+**payment[card_token]** Quando é utilizado a API de Cadastro de Cartão de Crédito é retonado o card_token, que deve ser enviado na API de Transação juntamente com o parâmetro `payment[card_cvv]`. Nós não armazenamos o parãmetro `card_cvv` devido as regras do PCI-DSS. Recomendamos que seja salvo em sua aplicação os parãmetros `card_token` e `card_cvv` ou salvar apenas o `card_cvv` e deverá solicitar o `card_cvv` em TODAS as transações. **IMPORTANTE SEMPRE ENVIAR OS DOIS PARÂMETROS JUNTOS, pois se não for enviado as transações serão recusadas pela adquirente.**
+
 **payment[card_name]** Não deve ser enviado números nesse parâmetro, validar o input para não aceitar que seja digitado números.
 
 **payment[card_number]** Não deve ser enviado letras nesse parâmetro, validar o input para não aceitar que seja digitado letras.
@@ -80,7 +82,7 @@ O parâmetro `finger_print` é de extrema importância nas transações de cart�
 
 **payment[card_expdate_year]** O ano de vencimento do cartão de crédito deve ser validado para ser IGUAL ou MAIOR que o ano atual. Deve ser enviado o ano com quatro digitos. Exemplo 2022
 
-**payment[card_cvv]** Deve ser validado para acertar no máximo 4 caracteres.
+**payment[card_cvv]** **OBRIGATÓRIO**. Deve ser validado para acertar no máximo 4 caracteres.
 
 
 > **Parâmetros de Afiliados**
