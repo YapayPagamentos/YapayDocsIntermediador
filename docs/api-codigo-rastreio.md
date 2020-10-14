@@ -16,6 +16,8 @@ A Yapay disponibiliza uma versão transparente para a integração do código de
 
 > É necessario utilizar o Protocolo de Criptografia TLS na versão 1.2. 
 
+**Dica: Sempre que a forma de entrega for CORREIOS deve ser enviado no parâmetro `url` a URL do Correios: `http://www2.correios.com.br/sistemas/rastreamento/`**
+
 # Códigos de Exemplo
 
 
