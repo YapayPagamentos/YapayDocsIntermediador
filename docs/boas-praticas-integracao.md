@@ -16,6 +16,8 @@ Para criar uma transação nós precisamos de alguns campos obrigatórios, esses
 
 **customer[email]** O e-mail deve ser válido, respeitando regras .com .com.br e @gmai, @hotmai, @teste **não** são aceitos.
 
+**customer[birth_date]** Deve ser enviado como string no formato DD/MM/YYYY.
+
 **customer[contacts][][type_contact]** O tipo de contato deve ser H-Residencial, M-Celular ou W-Comercial. De acordo com a quantidade de caracteres enviado **contacts[number_contact]**.
 
 **customer[contacts][][number_contact]** O número do telefone deve ser validado a quantidade de caracteres máximo 15 e minimo 8.
