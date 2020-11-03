@@ -58,7 +58,7 @@ Para a integração via <span class="post">POST</span>, segue abaixo os dados ne
 | affiliates[][type_affiliate]             |   Não    | Texto / 100          | Tipo do afiliado                      |
 
 
-> <sup>1</sup> Os parâmetros `customer[trade_name]`, `customer[company_name]`, `consumer[cnpj]` quando for uma compra de pessoa jurídica, são obrigatórios juntamente com o parâmetro `customer[cpf]`. Desta forma os dados da transação e do boletão irão conter as informações da empresa.
+> <sup>1</sup> Os parâmetros `customer[trade_name]`, `customer[company_name]`, `customer[cnpj]` quando for uma compra de pessoa jurídica, são obrigatórios juntamente com o parâmetro `customer[cpf]`. Desta forma os dados da transação e do boletão irão conter as informações da empresa.
 
 > <sup>2</sup> Note que nas informações acima que alguns dados possuem uma característica diferente, tendo um elemento [] dentro de sua formatação. Isso ocorre justamente para permitir que sejam enviados diversos itens na mesma requisição. 
 
