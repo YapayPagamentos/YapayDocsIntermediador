@@ -55,7 +55,7 @@ Abaixo segue tabelas com essas informações pré-definidas:
 
 ## **Tabela 4 - Status da Transação**
 
-| Status da Transação em Inglês   | Status da Transação em Portugês  | Status ID  |
+| Status da Transação em Portugês   | Status da Transação em Inglês  | Status ID  |
 |---------------------------------|----------------------------------|-----------:|
 | Aguardando Pagamento            | waiting_payment                  | 4  |
 | Em Processamento                | processing                       | 5  |
