@@ -5,6 +5,7 @@ Para a integração via <span class="post">POST</span>, segue abaixo os dados ne
 | Dados de Entrada                         |  Obrig.  | Formato / Tam. Max   | Descrição                                                  |
 |------------------------------------------|----------|----------------------|------------------------------------------------------------|
 | token_account                            |   Sim    |  Texto /20           |  Token de identificação do vendedor                      |
+| sub_store                                |   Não    |  Texto /20           |  Sub-Loja                                                |
 | customer[name]                           |   Sim    |  Texto /100          |  Nome do Comprador                                       |
 | customer[cpf]                            |   Sim    |  Texto /14           |  CPF do Comprador                                        |
 | customer[email]                          |   Sim    |  Texto /100          |  E-mail do Comprador                                     |
@@ -32,7 +33,6 @@ Para a integração via <span class="post">POST</span>, segue abaixo os dados ne
 | transaction[price_additional]            |   Não    |  Decimal / 11        |  Valor adicional. Formato: 0.00                          | 
 | transaction[url_notification]            |   Não    |  Texto /255          |  URL de Notificação Automática de Status<sup>6</sup>     |
 | transaction[free]                        |   Não    |  Texto /200          |  Campo Livre                                             |
-| transaction[sub_store]                   |   Não    |  Texto /20           |  Sub-Loja                                                |
 | transaction_product[][description]       |   Sim    |  Texto /100          |  Nome do produto <sup>2</sup>                            |
 | transaction_product[][quantity]          |   Sim    |  Número / 3          |  Quantidade do item do produto                           |
 | transaction_product[][price_unit]        |   Sim    |  Decimal / 11        |  Valor unitário. Formato: 0.00                           |
