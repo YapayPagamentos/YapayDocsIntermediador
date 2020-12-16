@@ -23,6 +23,9 @@ Adicionando no nó payment:
       }
 ```
 
+> Valor mínimo de transação de boleto é R$ 1,00
+
+
 ## Enviando uma transação
 
 
