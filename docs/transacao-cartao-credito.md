@@ -14,6 +14,9 @@ Durante os testes em Sandbox, as compras que forem processadas com cartões de c
 **Reprovada**: transações com parcelamento par (2, 4, 6, 8, 10, 12).
 
 
+> Valor mínimo de transação de cartão de crédito é R$ 1,00
+
+
 Altere o 'nó payment' para:
 
 ```javascript
