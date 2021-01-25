@@ -2,6 +2,9 @@
 
 Para que o repasse ao revendedor seja automático, utilizamos a API de Transação na integração com Marketplace informando os campos affiliates[], esses campos quando são enviados são identificamos que é referente a transações Marketplace:
 
+> **Observação: a conta do afiliado deve ser criada antes da criação da transação.**
+
+
 | Dados de Entrada                      |  Obrig.  | Formato / Tam. Max   | Descrição                             |
 |---------------------------------------|----------|----------------------|---------------------------------------|
 |   affiliates[][account_email]         |   Não    | Texto / 100          | Email do afiliado da transação        |
