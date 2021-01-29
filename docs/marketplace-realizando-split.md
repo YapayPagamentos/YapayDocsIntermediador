@@ -94,3 +94,39 @@ Abaixo você consegue visualizar um exemplo em JSON da criação passando 15% pa
 
 ```
 
+# Mensagens de Erros
+
+No caso de erro, a API retorna uma mensagem de erro. Assim é possível identificar o erro ocorrido e realizar o tratamento através do código e/ou mensagem retornada.
+
+Abaixo segue os detalhes de cada nó do JSON de resposta:
+
+
+```javascript
+{
+    "message_response": {
+        "message": "error"
+    },
+    "error_response": {
+        "general_errors": [
+            {
+                "code": "037022",
+                "message": "Afiliado não possui conta. Email: email_informado"
+            }
+        ]
+    }
+}
+```
+
+
+As mensagens de erros retornados relacionados a AFILIADOS que são retornados pela API:
+
+| Código    |  Mensagem                                        | Solução                                               |
+|-----------|--------------------------------------------------|-------------------------------------------------------|
+|  037010   |     E-mail do afiliado informado deve ser diferente do vendedor                         | O email enviado como cliente não pode ser o mesmo que o e-mail do vendedor (token_account) |
+|  037021   |     É necessário informar uma comissão ou um percentual para o afiliado.                         | O valor enviado no campo de comissão está vazio |
+|  037022   |     Afiliado não possui conta. Email: email_informado                         | O e-mail enviado no parâmetro `affiliates[account_email]` não tem cadastro na Yapay. TODAS as contas de afiliados devem ter conta cadastrada. |
+| 22 | Comissão não é um número | O valor enviado no campo de comissão não é um número |
+
+
+
+
