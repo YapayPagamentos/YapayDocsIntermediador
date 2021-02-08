@@ -138,6 +138,7 @@ Para a integração via <span class="post">post</span>, segue abaixo os dados ne
 | max_split_transaction                           |  Não    | Quantidade máxima de parcelamento          |
 | shipping_type                                   |  Não    | Tipo de Frete                              |
 | shipping_price                                  |  Não    | Valor do Frete                             |
+| url_notification                                |  Não    | URL de Notificação                         |
 | transaction_product[][code]                     |  Sim    | Código do Produto                          |
 | transaction_product[][description]              |  Sim    | Descrição do Produto                       |
 | transaction_product[][quantity]                 |  Sim    | Quantidade do produto                      |
