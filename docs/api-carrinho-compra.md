@@ -132,6 +132,9 @@ Para a integração via <span class="post">post</span>, segue abaixo os dados ne
 | price_additional                                |  Não    | Preço adicional                            |
 | price_discount                                  |  Não    | Desconto Adicional                         |
 | url_notification                                |  Não    | URL de Notificação                         |
+| url_success                                     |  Não    |  URL para redirecionamento caso concluída a transação com sucesso <sup>5</sup>   |
+| url_process                                     |  Não    |  URL para redirecionamento caso pedido esteja aguardando a confirmação de pagamento <sup>5</sup> |
+| url_cancel                                      |  Não    |  URL para redirecionamento caso concluída a transação mas ocorreu falha no pagamento <sup>5</sup> |
 | postal_code_seller                              |  Sim    | CEP do Vendedor                            |
 | postal_code_customer                            |  Não    | CEP do Cliente                             |
 | available_payment_methods                       |  Não    | Meios de Pagamento disponíveis             |
@@ -163,3 +166,5 @@ Para a integração via <span class="post">post</span>, segue abaixo os dados ne
 > <sup>3</sup> Tipo de produto deve ser S para Serviço ou vazio para produto normal.
 
 > <sup>4</sup> Nesse campo você informa se é possível realizar a alteração da quantidade do produto no checkout Yapay.  True ou false.
+
+> <sup>5</sup> Para o redirecionamento basta utilizar somente o campo '[url_process]', pois caso seja omitido os campos '[url_success]' e '[url_cancel]', é utilizado o campo '[url_process]' para o redirecionamento.
