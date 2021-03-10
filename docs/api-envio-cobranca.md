@@ -105,6 +105,8 @@ Para a integração via <span class="post">POST</span>, segue abaixo os dados ne
 | session_id                          |	Não	    | ID do Cliente                                          |
 | email_customer                      |	Sim     | E-mail do cliente                                      |
 | order_number                        | Não     | Número do Pedido                                       |
+| max_split_transaction               | Não     | Valor máximo de parcela                                |
+| available_payment_methods           | Não     | Formas de pagamento disponíveis para essa compra. Enviando null aceitará todas [(Tabela)](https://intermediador.dev.yapay.com.br/#/tabelas?id=tabela-3-formas-de-pagamento)   
 | transaction_product[][description]  | Sim     | Descrição do Produto                                   |
 | transaction_product[][price_unit]   | Sim     | Preço                                                  |
 | transaction_product[][type_product] | Não     | Tipo do produto (S = serviço / Vazio = normal)         |
