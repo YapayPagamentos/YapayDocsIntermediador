@@ -58,7 +58,6 @@ Abaixo segue tabelas com essas informações pré-definidas:
 | Status da Transação em Portugês   | Status da Transação em Inglês  | Status ID  |
 |---------------------------------|----------------------------------|-----------:|
 | Aguardando Pagamento            | waiting_payment                  | 4  |
-| Em Processamento                | processing                       | 5  |
 | Aprovada                        | approved                         | 6  |
 | Cancelada                       | canceled                         | 7  |
 | Em Contestação                  | contestation                     | 24 |
