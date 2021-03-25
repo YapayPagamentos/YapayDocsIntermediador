@@ -18,6 +18,10 @@
 	* [Transf. Bancária](transacao-tef.md)
 	* [Tabela de Campos](transacao-tabela-campos.md)
 	* [Mensagens de Erro](transacao-erros.md)
+	* [API Código de Rastreio](api-codigo-rastreio.md)
+	* [API Cancelar Transação](api-cancelar-transacao.md)
+	* [API Consultar Transação](api-consultar-transacao.md)	
+	* [API Listagem de Transações](api-listar-transacoes.md)
 
 * Pagamento Recorrente
 	* [Introdução](recorrencia.md)
@@ -53,18 +57,15 @@
 	* [Tutorial Configuração](criador-sites.md)
 
 * APIs
-	* [API Consultar Transação](api-consultar-transacao.md)
-	* [API Cancelar Transação](api-cancelar-transacao.md)
-	* [API Listagem de Transações](api-listar-transacoes.md)
+	* [API Consultar Clientes](api-consulta-cliente.md)
 	* [API Envio de Cobrança](api-envio-cobranca.md)
 	* [API Envio de Cobrança V3](api-envio-cobranca-v3.md)
 	* [API Consultar de Cobrança V3](api-consulta-cobranca-v3.md)
 	* [API Inativar de Cobrança V3](api-inativar-cobranca-v3.md)
 	* [API Carrinho de Compra](api-carrinho-compra.md)
 	* [API Consultar Carrinho de Compra](api-consultar-carrinho-compra.md)
-	* [API Consultar Clientes](api-consulta-cliente.md)
 	* [API Simulação de Parcelamento](api-simulacao-parcelamento.md)
-	* [API Código de Rastreio](api-codigo-rastreio.md)
+	
 
 * Tabelas Auxiliares
 	* [Tabelas](tabelas.md)
