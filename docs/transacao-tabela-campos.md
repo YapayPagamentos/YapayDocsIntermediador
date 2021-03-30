@@ -38,7 +38,7 @@ Para a integração via <span class="post">POST</span>, segue abaixo os dados ne
 | transaction_product[][price_unit]        |   Sim    |  Decimal / 11        |  Valor unitário. Formato: 0.00                           |
 | transaction_product[][code]              |   Não    |  Texto /10           |  Código do produto                                       |
 | transaction_product[][sku_code]          |   Não    |  Texto /50           |  Código SKU do produto                                   |
-| transaction_product[][extra]             |   Não    |  Texto /100          |  Campo Livre do produto                                  |
+| transaction_product[][extra]             |   Não    |  Texto /255          |  Campo Livre do produto                                  |
 | transaction[max_split_transaction]       |   Não    |  Número /10          |  Número máximo de parcelas                               |
 | payment[payment_method_id]               |   Sim    |  Texto /2            |  Forma de Pagamento                                      |
 | payment[split]                           |   Sim    |  Texto /2            |  Número de parcelas (01 a 12)                            |
