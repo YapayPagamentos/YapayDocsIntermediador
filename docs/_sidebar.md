@@ -24,8 +24,6 @@
 	* [API Consultar Transação](api-consultar-transacao.md)	
 	* [API Listagem de Transações](api-listar-transacoes.md)
 
-* Pagamento Recorrente
-	* [Introdução](recorrencia.md)
 
 * Integração POST
 	* [Introdução](integracao-post-introducao.md)	
