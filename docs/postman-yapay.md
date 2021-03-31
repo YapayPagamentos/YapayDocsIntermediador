@@ -6,6 +6,7 @@ Para melhor entendimento das APIs, importe essa collection no POSTMAN e verifiqu
 
 Caso tenha dúvidas mande um e-mail para nosso time de integração `integracao@yapay.com.br`.
 
+> Clique na imagem abaixo:
 
 <a href="https://www.getpostman.com/collections/dec91372e9defff7130a" target="_blank">![APIs POSTMAN Yapay](/images/POSTMAN.png "Acesse o POSTMAN com as APIs da Yapay")</a>
 
