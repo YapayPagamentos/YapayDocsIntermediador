@@ -5,6 +5,7 @@
 * Conhecendo a Yapay
 	* [Introdução](/)
 	* [Slack Integração](slack-integracao.md)
+	* [APIs no POSTMAN](postman-yapay.md)
 
 * Integração News
 	* [News](integracao-news.md)
