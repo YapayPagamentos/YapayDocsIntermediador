@@ -1,4 +1,4 @@
-# POSTMAN APIs
+# APIs no POSTMAN
 
 A Yapay disponibiliza um POSTMAN com as APIs públicas da Yapay.
 
