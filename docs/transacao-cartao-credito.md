@@ -158,3 +158,4 @@ Exemplo de resposta com sucesso, se baseando no envio do exemplo acima:
 }
 ```
 
+> O campo retornado `payment[payment_response_code]` é o código de retorno. Veja a lista [completa](https://intermediador.dev.yapay.com.br/#/transacao-codigos-retorno-abecs) de erros.
