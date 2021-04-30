@@ -139,6 +139,7 @@ Exemplo de resposta com sucesso, se baseando no envio do exemplo acima:
                 "price_payment": "147.69",
                 "price_original": "142.0",
                 "payment_response": "Autorização aprovada",
+		"payment_response_code": "00",
                 "url_payment": "",
                 "tid": "10347871500026BF1001",
                 "split": 3,
