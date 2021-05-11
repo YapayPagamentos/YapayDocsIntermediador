@@ -45,7 +45,6 @@ Abaixo segue tabelas com essas informações pré-definidas:
 | Visa                            | 3  | 12x |
 | Mastercard                      | 4  | 12x |
 | American Express                | 5  | 12x |
-| Discover                        | 15 | À Vista |
 | Elo                             | 16 | 12x |
 | Aura                            | 18 | 12x |
 | JCB                             | 19 | À Vista |
