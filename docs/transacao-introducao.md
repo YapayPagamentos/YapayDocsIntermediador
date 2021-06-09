@@ -16,10 +16,8 @@ Abaixo você consegue visualizar a tabela com as bandeiras e produtos suportados
 | Mastercard                     | 4                     | 12                  | Sim     | Não    |
 | American Express               | 5                     | 12                  | Sim     | Não    |
 | Elo                            | 16                    | 12                  | Sim     | Não    |
-| Aura                           | 18                    | 12                  | Sim     | Não    |
 | Hipercard                      | 20                    | 12                  | Sim     | Não    |
 | Hiper                          | 25                    | 12                  | Sim     | Não    |
-| JCB                            | 19                    | 1                   | Sim     | Não    |
 | Boleto Bancário                | 6                     | 1                   | Sim     | Não    |
 | Transf. Online Itaú            | 7                     | 1                   | Sim     | Não    |
 | Transf. Online Bradesco        | 22                    | 1                   | Sim     | Não    |
