@@ -4,12 +4,12 @@ Abaixo você consegue visualizar o código de exemplo:
 
 | Endereço para Integração |                                                                         |
 |--------------------------|------------------------------------------------------------------------|
-| Ambiente de Testes       | https://tc.intermediador.sandbox.yapay.com.br/payment/transaction   |
+| Ambiente de Testes       | https://tc-intermediador-sandbox.yapay.com.br/payment/transaction   |
 | Ambiente de Produção     | https://tc.intermediador.yapay.com.br/payment/transaction           |
 
 
 ```html
-  <form method="post" action="https://tc.intermediador.sandbox.yapay.com.br/payment/transaction"> 
+  <form method="post" action="https://tc-intermediador-sandbox.yapay.com.br/payment/transaction"> 
         <!-- Campos obrigatórios --> 
        <input type="hidden" name="token_account" value="SEU_TOKEN_AQUI"> 
 
