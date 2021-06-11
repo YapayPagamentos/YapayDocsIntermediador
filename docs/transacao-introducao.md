@@ -12,6 +12,7 @@ Abaixo você consegue visualizar a tabela com as bandeiras e produtos suportados
 
 | Bandeira/Produto               | ID Forma de Pagamento | Parcelamento em até | À Vista | Débito |
 |--------------------------------|-----------------------|---------------------|---------|--------|
+| Diners                         | 2                     | 12                  | Sim     | Não    |
 | Visa                           | 3                     | 12                  | Sim     | Não    |
 | Mastercard                     | 4                     | 12                  | Sim     | Não    |
 | American Express               | 5                     | 12                  | Sim     | Não    |
