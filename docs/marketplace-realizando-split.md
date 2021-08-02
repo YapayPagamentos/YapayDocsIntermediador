@@ -7,7 +7,7 @@ Para que o repasse ao revendedor seja automático, utilizamos a API de Transaç�
 
 | Dados de Entrada                      |  Obrig.  | Formato / Tam. Max   | Descrição                             |
 |---------------------------------------|----------|----------------------|---------------------------------------|
-|   affiliates[][account_email]         |   Não    | Texto / 100          | Email do afiliado da transação        |
+|   affiliates[][email]                 |   Não    | Texto / 100          | Email do afiliado da transação        |
 |   affiliates[][percentage]            |   Não    | Número / 3           | Percentual de repasse ao afiliado     |
 |   affiliates[][commission_amount]     |   Não    | Decimal / 11         | Valor de repasse ao afiliado          |
 |   affiliates[][type_affiliate]        |   Não    | Texto / 100          | Tipo do afiliado                      |
@@ -77,7 +77,7 @@ Abaixo você consegue visualizar um exemplo em JSON da criação passando 15% pa
 
         "affiliates":[  
              {  
-                 "account_email":"emaildoafiliado@afiliado.com",
+                 "email":"emaildoafiliado@afiliado.com",
                  "percentage":"15"
              }
          ],
