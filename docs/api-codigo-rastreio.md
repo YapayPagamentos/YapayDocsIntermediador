@@ -103,7 +103,7 @@ Para a integração via <span class="post">POST</span>, segue abaixo os dados ne
 |-------------------|----------|------------------------------------------|
 | access_token      | Sim      | Token de acesso                          |
 | order_number      | Sim      | Número do pedido                         |
-| url               | Não      | URL do site de consulta de postagem      |
+| url               | Sim      | URL do site de consulta de postagem      |
 | code              | Sim      | Código de postagem                       |
 | tag_search        | Não      | Tag de Busca                             |
 | date_posting      | Sim      | Data de Postagem                         |
