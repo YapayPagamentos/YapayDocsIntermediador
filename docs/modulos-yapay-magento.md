@@ -1,4 +1,4 @@
-# Magento
+.1.# Magento
 
 Para disponibilizar a API de Pagamento da **Yapay** como facilitador de pagamento na plataforma Magento, basta acessar o _Magento Connect Manager_ de sua loja e instalar o módulo disponível no repositório Magento Connect ou baixar o pacote disponível no site institucional da Yapay.
 
@@ -20,7 +20,7 @@ Existem duas formas de realizar a instalação do módulo Magento:
 
 Para instalar o módulo é necessário baixar o arquivo através da página a seguir:
 
-<a href="https://intermediador.dev.yapay.com.br/download/yapay/magento/Yapay_Intermediador-2.1.6.tgz" class="btn  btn-default btn-wide btn-call-to-action btnMagento"><i class="fa fa-arrow-circle-down" aria-hidden="true"></i>Magento 1.X</a>
+<a href="https://intermediador.dev.yapay.com.br/download/yapay/magento/Yapay_Intermediador-2.1.7.tgz" class="btn  btn-default btn-wide btn-call-to-action btnMagento"><i class="fa fa-arrow-circle-down" aria-hidden="true"></i>Magento 1.X</a>
 
 
 Acesse o _Magento Connect Manager_ de sua loja Magento (menu **Sistema > Conexão Magento > Gerenciador de Conexão Magento**), e clique no botão **Selecionar arquivo** da opção _Upload Package File_, conforme imagem abaixo. Selecione o pacote da Yapay baixado anteriormente, em seguida clique em **Upload**.
