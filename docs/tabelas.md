@@ -38,6 +38,9 @@ Abaixo segue tabelas com essas informações pré-definidas:
 |---------------------------------|---:|
 | **Pagamento com Saldo**         | 8  |
 
+| **Pix**       |  ID  |
+|---------- ----|---:|
+| **Pix**       | 27  |
 
 
 | **Cartões de Crédito**          |  ID  | Credito Parcelado |
