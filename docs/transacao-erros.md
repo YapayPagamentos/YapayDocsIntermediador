@@ -42,6 +42,7 @@ As mensagens de erros retornados pela API estão listadas na tabela abaixo:
 |  037010   |     E-mail do afiliado informado deve ser diferente do vendedor                         | O email enviado como cliente não pode ser o mesmo que o e-mail do vendedor (token_account) |
 |  3   |     Comissão Valor da comissão é maior que o valor do pedido                         | O valor da comissão está sendo enviado maior que o valor da comissão do afiliado. |
 |  037022   |     Afiliado não possui conta. Email: email_informado                         | O e-mail enviado no parâmetro `affiliates[account_email]` não tem cadastro na Yapay. TODAS as contas de afiliados devem ter conta cadastrada. |
+| 003081    | Não foi possível finalizar sua compra. Entre em contato através do telefone (11)2111-8710 ou e-mail atendimento@yapay.com.br, informando o código '003081' | A conta do comprador está Inativa na Yapay |
 
 
 > <sup>1</sup> <a href="/#/transacao-introducao?id=bandeiras-e-produtos-suportados">Clique Aqui</a> e verifique pela nossa tabela de Produtos e Bandeiras Suportadas
