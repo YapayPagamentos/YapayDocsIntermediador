@@ -101,7 +101,10 @@ Abaixo você consegue visualizar um exemplo em cURL da criação de uma Transaç
                 "shipping_type":"Sedex",
                 "shipping_price":"12",
                 "url_notification":"http://www.loja.com.br/notificacao",
-                "free":"",
+                "free":""
+              },
+              "transaction_trace": {
+                 "estimated_date": "02/04/2022"
               },
                 "payment":{  
                   "payment_method_id":"27",  
