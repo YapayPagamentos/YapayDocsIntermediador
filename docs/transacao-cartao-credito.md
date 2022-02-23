@@ -101,6 +101,9 @@ Abaixo você consegue visualizar um exemplo em cURL da criação de uma Transaç
                 "url_notification":"http://www.loja.com.br/notificacao",
                 "free":"Campo Livre"
               },
+              "transaction_trace": {
+                 "estimated_date": "02/04/2022"
+              },	      
               "payment":{  
                 "payment_method_id":"3",
                 "card_name":"STEPHEN STRANGE",
@@ -145,7 +148,8 @@ Exemplo de resposta com sucesso, se baseando no envio do exemplo acima:
                 "split": 3,
                 "payment_method_id": 3,
                 "payment_method_name": "Visa",
-                "linha_digitavel": null
+                "linha_digitavel": null,
+		"card_token": "a66cf237-3541-45d1-ab9c-a6b6e3f795f5"
             },
             "customer": {
                 "name": "Stephen Strange",
@@ -159,3 +163,5 @@ Exemplo de resposta com sucesso, se baseando no envio do exemplo acima:
 ```
 
 > O campo retornado `payment[payment_response_code]` é o código de retorno. Veja a lista [completa](https://intermediador.dev.yapay.com.br/#/transacao-codigos-retorno-abecs) de erros.
+
+> O campo retornado `payment[card_token]` pode ser salvo e utilizado nas compras futuras informando na requisição do comprador + `payment[card_cvv]`.
