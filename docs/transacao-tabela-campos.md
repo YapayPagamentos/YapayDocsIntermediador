@@ -41,6 +41,7 @@ Para a integração via <span class="post">POST</span>, segue abaixo os dados ne
 | transaction_product[][sku_code]          |   Não    |  Texto /50           |  Código SKU do produto                                   |
 | transaction_product[][extra]             |   Não    |  Texto /255          |  Campo Livre do produto                                  |
 | transaction[max_split_transaction]       |   Não    |  Número /10          |  Número máximo de parcelas                               |
+| transaction_trace[estimated_date]        |   Não    |  Data /10            |  Data estimada do recebimento do pedido                  |
 | payment[payment_method_id]               |   Sim    |  Texto /2            |  Forma de Pagamento                                      |
 | payment[split]                           |   Sim    |  Texto /2            |  Número de parcelas (01 a 12)                            |
 | payment[card_token]                      |   Não    |  Texto /100          |  Token do cartão cadastrado em nosso cofre <sup>5</sup>  |
