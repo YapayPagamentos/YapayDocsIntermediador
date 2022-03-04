@@ -15,7 +15,7 @@ Para que o repasse ao revendedor seja automático, utilizamos a API de Transaç�
 
 
 
-> Caso o afiliado não tenha cadastro na Yapay, o valor repassado fica aguardando o cadastro do afiliado.
+> O afiliado precisa ter conta cadastrada na Yapay, senão a transação será **recusada**!
 
 # Código de Exemplo
 
