@@ -11,15 +11,18 @@ Para que o repasse ao revendedor seja automático, utilizamos a API de Transaç�
 |   affiliates[][percentage]            |   Não    | Número / 3           | Percentual de repasse ao afiliado     |
 |   affiliates[][commission_amount]     |   Não    | Decimal / 11         | Valor de repasse ao afiliado          |
 |   affiliates[][type_affiliate]        |   Não    | Texto / 100          | Tipo do afiliado                      |
+|   affiliates[][url_notification]      |   Não    | Texto / 100          | URL de Notificação do Afiliado        |
 
 
 
 
 > O afiliado precisa ter conta cadastrada na Yapay, senão a transação será **recusada**!
 
+
+
 # Código de Exemplo
 
-Abaixo você consegue visualizar um exemplo em JSON da criação passando 15% para o afiliado `emaildoafiliado@afiliado.com`:
+Abaixo você consegue visualizar um exemplo em JSON da criação passando R$ 22,00 (valor fixo) para o afiliado `emaildoafiliado@afiliado.com`:
 
 
 > **Exemplo em JSON**
@@ -58,7 +61,7 @@ Abaixo você consegue visualizar um exemplo em JSON da criação passando 15% pa
             {  
                 "description":"Camiseta Wonder Woman",
                 "quantity":"1",
-                "price_unit":"130.00",
+                "price_unit":"13000.00",
                 "code": "1",
                 "sku_code": "0001",
                 "extra": "Informação Extra"
@@ -68,7 +71,7 @@ Abaixo você consegue visualizar um exemplo em JSON da criação passando 15% pa
             "available_payment_methods": "2,3,4,5,6,7,14,15,16,18,19,21,22,23,27",
             "customer_ip":"127.0.0.1",
             "shipping_type":"Sedex",
-            "shipping_price":"12",
+            "shipping_price":"0",
             "price_discount": "",
             "url_notification":"http://www.loja.com.br/notificacao",
             "free": "Campo Livre"      
@@ -78,7 +81,8 @@ Abaixo você consegue visualizar um exemplo em JSON da criação passando 15% pa
         "affiliates":[  
              {  
                  "email":"emaildoafiliado@afiliado.com",
-                 "percentage":"15"
+                 "commission_amount":"22",
+                 "url_notification": "http://www.lojadoafiliado.com.br/notificacao" 
              }
          ],
          "payment":{  
@@ -86,13 +90,41 @@ Abaixo você consegue visualizar um exemplo em JSON da criação passando 15% pa
             "card_name": "DIANA PRINCE",
             "card_number": "4111111111111111",
             "card_expdate_month": "01",
-            "card_expdate_year": "2021",
+            "card_expdate_year": "2029",
             "card_cvv": "644",
             "split": "1"
          }
     }
 
 ```
+
+
+
+# URL de Notificação do Afiliado
+
+Sempre que for adicionado no nó `affiliates` o parâmetro `url_notification` será enviado para a URL do afiliado as alterações dessa transação, junto com os valores de recebimento. **É enviado em parâmetros em form/post**.
+
+
+Abaixo o exemplo do que é enviado para essa URL de Notificação, e é baseado no exemplo acima, sendo assim o valor da comissão do afiliado é R$ 22,00 (valor fixo):
+
+
+```html
+    transaction_token=68d9aaf5ej7bc02935e51f47f0385416&status_name=Aprovada&payment_method=Boleto%20Bancario&qtd=22.0&price=13000.0
+```
+
+Detalhamento de cada campo enviado:
+
+| Campo              |  Descrição                                           |  
+|--------------------|------------------------------------------------------|
+|  transaction_token | Token da Transação                                   |
+|  status_name       | Nome do Status da Transação                          |
+|  payment_method    | Forma de Pagamento                                   |
+|  qtd               | Valor da comissão que será repassada para o afiliado |
+|  price             | Valor total da transação                             |
+
+
+
+
 
 # Mensagens de Erros
 
@@ -126,7 +158,4 @@ As mensagens de erros retornados relacionados a AFILIADOS que são retornados pe
 |  037021   |     É necessário informar uma comissão ou um percentual para o afiliado.                         | O valor enviado no campo de comissão está vazio |
 |  037022   |     Afiliado não possui conta. Email: email_informado                         | O e-mail enviado no parâmetro `affiliates[account_email]` não tem cadastro na Yapay. TODAS as contas de afiliados devem ter conta cadastrada. |
 | 22 | Comissão não é um número | O valor enviado no campo de comissão não é um número |
-
-
-
 
