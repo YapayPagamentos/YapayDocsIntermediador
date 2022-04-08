@@ -57,8 +57,7 @@
 * Criador de Sites
 	* [Tutorial Configuração](criador-sites.md)
 
-* APIs
-	* [API Consultar Clientes](api-consulta-cliente.md)
+* APIs	
 	* [API Envio de Cobrança](api-envio-cobranca.md)
 	* [API Envio de Cobrança V3](api-envio-cobranca-v3.md)
 	* [API Consultar de Cobrança V3](api-consulta-cobranca-v3.md)
