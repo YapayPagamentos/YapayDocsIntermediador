@@ -76,7 +76,7 @@ Abaixo você consegue visualizar um exemplo em cURL da criação de uma Transaç
                 }
               ],
               "transaction":{  
-                "available_payment_methods":"2,3,4,5,6,7,14,15,16,18,19,21,22,23",
+                "available_payment_methods":"2,3,4,5,6,7,14,15,16,18,19,21,23",
                 "customer_ip":"127.0.0.1",
                 "shipping_type":"Sedex",
                 "shipping_price":"12",
