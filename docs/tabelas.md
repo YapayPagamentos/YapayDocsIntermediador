@@ -26,7 +26,6 @@ Abaixo segue tabelas com essas informações pré-definidas:
 | **Transferências Online**       | ID |
 |---------------------------------|---:|
 | Itaú Shopline                   | 7  |
-| Transf. Online Bradesco         | 22 |
 | Transf. Online Banco do Brasil  | 23 |
 
 
