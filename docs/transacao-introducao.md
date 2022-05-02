@@ -20,7 +20,6 @@ Abaixo você consegue visualizar a tabela com as bandeiras e produtos suportados
 | Hiper                          | 25                    | 12                  | Sim     | Não    |
 | Boleto Bancário                | 6                     | 1                   | Sim     | Não    |
 | Transf. Online Itaú            | 7                     | 1                   | Sim     | Não    |
-| Transf. Online Bradesco        | 22                    | 1                   | Sim     | Não    |
 | Transf. Online Banco do Brasil | 23                    | 1                   | Sim     | Não    |
 | Pagamento com Saldo            | 8                     | 1                   | Sim     | Não    |
 
