@@ -3,9 +3,9 @@
 **Para começar**
 
 * Conhecendo a Yapay
-	* [Introdução](/)
-	* [Slack Integração](slack-integracao.md)
+	* [Introdução](/)	
 	* [APIs no POSTMAN](postman-yapay.md)
+	* [Dúvidas?](atendimento-yapay.md)
 
 * Integração News
 	* [News](integracao-news.md)
