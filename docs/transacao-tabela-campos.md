@@ -37,6 +37,7 @@ Para a integração via <span class="post">POST</span>, segue abaixo os dados ne
 | transaction_product[][description]       |   Sim    |  Texto /100          |  Nome do produto <sup>2</sup>                            |
 | transaction_product[][quantity]          |   Sim    |  Número / 3          |  Quantidade do item do produto                           |
 | transaction_product[][price_unit]        |   Sim    |  Decimal / 11        |  Valor unitário. Formato: 0.00                           |
+| transaction_product[][url_img]           |   Não    |  Texto / 255         |  URL da Imagem do Produto                                |
 | transaction_product[][code]              |   Não    |  Texto /10           |  Código do produto                                       |
 | transaction_product[][sku_code]          |   Não    |  Texto /50           |  Código SKU do produto                                   |
 | transaction_product[][extra]             |   Não    |  Texto /255          |  Campo Livre do produto                                  |
