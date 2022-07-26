@@ -34,6 +34,7 @@
 * Marketplace
 	* [Introdução](marketplace-introducao.md)
 	* [Realizando split de pagamento](marketplace-realizando-split.md)
+	* [Cancelar transação com split de pagamento](marketplace-cancelamento-split.md)
 
 * Botão de Compra
 	* [Introdução](botao-compra-introducao.md)
