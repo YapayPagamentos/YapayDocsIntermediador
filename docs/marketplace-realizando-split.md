@@ -157,5 +157,8 @@ As mensagens de erros retornados relacionados a AFILIADOS que são retornados pe
 |  037010   |     E-mail do afiliado informado deve ser diferente do vendedor                         | O email enviado como cliente não pode ser o mesmo que o e-mail do vendedor (token_account) |
 |  037021   |     É necessário informar uma comissão ou um percentual para o afiliado.                         | O valor enviado no campo de comissão está vazio |
 |  037022   |     Afiliado não possui conta. Email: email_informado                         | O e-mail enviado no parâmetro `affiliates[account_email]` não tem cadastro na Yapay. TODAS as contas de afiliados devem ter conta cadastrada. |
+|  037024   |     O afiliado não possui conta verificada. Email: email_informado                         | O e-mail enviado no parâmetro `affiliates[account_email]` não está verificada na Vindi Pagamentos |
 | 22 | Comissão não é um número | O valor enviado no campo de comissão não é um número |
+
+
 
