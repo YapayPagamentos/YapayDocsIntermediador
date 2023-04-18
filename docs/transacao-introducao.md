@@ -1,13 +1,13 @@
 # Introdução
 
-O Yapay disponibiliza uma versão transparente para a integração de transações, permitindo que o usuário efetue o processamento dos pedidos sem necessitar o redirecionamento para outra aplicação e preenchimento de novos formulários.
+A Vindi disponibiliza uma versão transparente para a integração de transações, permitindo que o usuário efetue o processamento dos pedidos sem necessitar o redirecionamento para outra aplicação e preenchimento de novos formulários.
 
 
 ![Fluxo Transação](/images/FluxoTransacao.png "Fluxo Transação")
 
 # Bandeiras e Produtos Suportados
 
-Abaixo você consegue visualizar a tabela com as bandeiras e produtos suportados pelo Yapay Intermediador:
+Abaixo você consegue visualizar a tabela com as bandeiras e produtos suportados pela Vindi:
 
 
 | Bandeira/Produto               | ID Forma de Pagamento | Parcelamento em até | À Vista | Débito |
@@ -28,4 +28,4 @@ Abaixo você consegue visualizar a tabela com as bandeiras e produtos suportados
 
 De uma forma simplificada, abaixo está disponível o fluxo de status de uma transação dentro do sistema:
 
-![Fluxo de Transação Yapay](/images/status_transacao.png "Fluxo de Transação Yapay")
+![Fluxo de Transação Vindi](/images/status_transacao.png "Fluxo de Transação Vindi")
