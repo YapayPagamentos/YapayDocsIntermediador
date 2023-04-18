@@ -2,7 +2,7 @@
 
 **Para começar**
 
-* Conhecendo a Yapay
+* Conhecendo a Vindi
 	* [Introdução](/)	
 	* [APIs no POSTMAN](postman-yapay.md)
 	* [Dúvidas?](atendimento-yapay.md)
