@@ -1,6 +1,6 @@
 # Transferência Bancária
 
-Também é dispobilizada a funcionalidade de pagamentos com o meio de pagamento por Transferência Bancária pela API de Transação. É de extrema importância a utilização do nosso fingerprint, abaixo você verá uma explicação mais detalhada sobre isso.
+A Vindi disponibiliza a funcionalidade de pagamentos com o meio de pagamento por Transferência Bancária pela API de Transação. É de extrema importância a utilização do nosso fingerprint, abaixo você verá uma explicação mais detalhada sobre isso.
 
 Você pode visualizar os IDs para as formas de pagamento na nossa <a href="/#/tabelas?id=tabela-3-formas-de-pagamento">Tabela Auxiliar 3 - Formas de Pagamento</a>
 
