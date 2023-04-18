@@ -1,10 +1,10 @@
 # APIs no POSTMAN
 
-A Yapay disponibiliza um POSTMAN com as APIs públicas da Yapay.
+A Yapay disponibiliza um POSTMAN com as APIs públicas da Vindi.
 
 Para melhor entendimento das APIs, importe essa collection no POSTMAN e verifique como realizar a integração.
 
-Caso tenha dúvidas mande um e-mail para nosso time de integração `integracao@yapay.com.br`.
+<a href="https://vindi.com.br/professional-services/" target="_blank" class="linkPadraoVerde">Fale com um especialista</a>
 
 > Clique na imagem abaixo:
 
