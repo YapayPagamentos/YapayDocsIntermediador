@@ -3,9 +3,9 @@
 <span class="patch">PATCH</span><span class="beforePost">/api/v3/transactions/cancel</span>
 
 
-A Yapay disponibiliza uma versão transparente para cancelamento de transações, permitindo que seja cancelada a transação de forma transparente. 
+A Vindi disponibiliza uma versão transparente para cancelamento de transações, permitindo que seja cancelada a transação de forma transparente. Esse cancelamento pode ser SÍNCRONO ou ASSÍNCRONO.
 
-> O prazo para cancelamento via API é de 90 dias, após esse período é necessário entrar em contato com a Yapay.
+> O prazo para cancelamento via API é de 90 dias, após esse período é necessário entrar em contato com a Vindi.
 
 Através do `access_token` e o id da transação, é possivel realizar um <span class="patch">PATCH</span> na API de Cancelamento de Transação. Lembrando que o `access_token` você pega utilizando a [API de Autorização]()<sup>1</sup>.
 
@@ -250,4 +250,41 @@ Para a integração via <span class="patch">PATCH</span>, segue abaixo os dados 
 
 
 
-> <sup>1</sup> Para maiores informações sobre esta API, entre em contato com através do email **integracao@yapay.com.br**.
+# Fluxo Síncrono e Assíncrono
+
+## Síncrono
+
+Esse fluxo será síncrono quando o recebível da transação que está sendo solicitado o cancelamento NÃO for creditado. Será retornado de imediato que o cancelamento da transação foi concluído.
+
+## Assíncrono
+
+No fluxo assíncrono, significa que o recebível da transação já foi creditado na conta bancária do cliente, ao solicitar o cancelamento será criada uma solicitação de cancelamento que ficará com o status Pendente até que a Vindi consiga realizar recuperar o valor informado. Ou seja, a transação continuará com o status 6-Aprovada. 
+
+Importante SEMPRE realizar a consulta pelo endpoint <span class="patch">GET</span><span class="beforePost">/api/v3/transactions/get_by_token_brief</span> terá a informação no nó `refunds`, com os seguintes status:
+
+| ID Status | Status de Cancelamento | Observação do Status |
+|-----------|------------------------|----------------------|
+| 155 | Pendente | Status significa que a solicitação de estorno está PENDENTE de recuperação do valor |
+| 156 | Aguardando confirmação | Status significa a solicitação de estorno está aguardando confirmação da recuperação do valor |
+| 157 | Finalizado | Status significa que a solicitação de estorno está FNIALIZADA, ou seja conseguimos recuperar o valor |
+| 161 | Cancelado | Status significa que a solicitação de estorno foi Cancelada |
+| 183 | Expirado | Status significa que a solicitação de estorno foi EXPIRADA, ou seja não conseguimos recuperar o valor para o cancelamento. Se o comprador ainda quiser o cancelamento será necessário solicitar novamente o cancelamento. |
+
+
+
+```javascript
+         "refunds":[
+            {
+               "id":26065839,
+               "value":15.0,
+               "observation":"Cancelamento",
+               "status_id":155,
+               "status_name":"Pendente",
+               "refund_kind_id":53,
+               "refund_kind_name":"refund_kind_full",
+               "refund_method_id":55,
+               "refund_method_name":"refund_method_balance",
+               "created_at":1678714901
+            }
+         ],
+```
