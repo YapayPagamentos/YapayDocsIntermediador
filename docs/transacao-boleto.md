@@ -1,6 +1,6 @@
 # Boleto
 
-Também é disponibilizada a funcionalidade de pagamentos com o meio de pagamento Boleto pela API de Transação. É de extrema importância a utilização do nosso fingerprint, abaixo você verá uma explicação mais detalhada sobre isso.
+A Vindi disponibiliza a funcionalidade de pagamentos com o meio de pagamento Boleto pela API de Transação. É de extrema importância a utilização do nosso fingerprint, abaixo você verá uma explicação mais detalhada sobre isso.
 
 Você pode visualizar os IDs para as formas de pagamento na nossa <a href="/#/tabelas?id=tabela-3-formas-de-pagamento">Tabela Auxiliar 3 - Formas de Pagamento</a>
 
@@ -12,7 +12,7 @@ Basta você alterar o nó payment para:
 	    }
 ```	    
 
-No parâmetro `payment[billet_date_expiration]` você pode enviar a data de vencimento do boleto, caso não queira utilizar a padrão das contas Yapay.
+No parâmetro `payment[billet_date_expiration]` você pode enviar a data de vencimento do boleto, caso não queira utilizar a padrão das contas Vindi.
 
 Adicionando no nó payment:
 
