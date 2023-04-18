@@ -1,7 +1,7 @@
 ## Dados do Cartão de Crédito
 
 
-Uma das funcionalidades do Yapay Intermediador é criação de transações pela API de Transação com o meio de pagamento **Cartão de Crédito**.
+Uma das funcionalidades da Vindi é criação de transações pela API de Transação com o meio de pagamento **Cartão de Crédito**.
 
 É de extrema importância a utilização do nosso Fingerprint, visto que é uma importante ferramenta no processo de análise antifraude das transações criadas em sua loja. Você pode entender mais do sobre o Fingerprint clicando [aqui](https://intermediador.dev.yapay.com.br/#/transacao-fingerprint)
 
