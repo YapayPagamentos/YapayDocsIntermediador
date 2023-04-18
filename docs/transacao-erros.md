@@ -38,11 +38,11 @@ As mensagens de erros retornados pela API estão listadas na tabela abaixo:
 |  003039   |     Vendedor inválido ou não encontrado          | Verificar o `token_account` |
 |  003065   |     Valor menor que mínimo permitido             | Verificar os transaction[split] e (`transaction_product[price_unit]` x `transaction_product[quantity]`). Somando os valores transaction[shipping_price] + (`transaction_product[price_unit]` x `transaction_product[quantity]`) o valor mínimo da parcela deve ser R$ 10,00 |
 |  009006   |     Número da parcela maior que o permitido      | Verificar os parâmetros `transaction[payment_method_id]` e `transaction[split]` se a quantidade de parcelas é aceita pelo Meio de Pagamento. <sup>1</sup> |
-|  058001   |     Revendedor inválido.                         | Verifique o parâmetro `reseller_token`. Deve estar devidamente configurado na Yapay como Revendedor |
+|  058001   |     Revendedor inválido.                         | Verifique o parâmetro `reseller_token`. Deve estar devidamente configurado na Vindi como Revendedor |
 |  037010   |     E-mail do afiliado informado deve ser diferente do vendedor                         | O email enviado como cliente não pode ser o mesmo que o e-mail do vendedor (token_account) |
 |  3   |     Comissão Valor da comissão é maior que o valor do pedido                         | O valor da comissão está sendo enviado maior que o valor da comissão do afiliado. |
-|  037022   |     Afiliado não possui conta. Email: email_informado                         | O e-mail enviado no parâmetro `affiliates[account_email]` não tem cadastro na Yapay. TODAS as contas de afiliados devem ter conta cadastrada. |
-| 003081    | Não foi possível finalizar sua compra. Entre em contato através do telefone (11)2111-8710 ou e-mail atendimento@yapay.com.br, informando o código '003081' | A conta do comprador está Inativa na Yapay |
+|  037022   |     Afiliado não possui conta. Email: email_informado                         | O e-mail enviado no parâmetro `affiliates[account_email]` não tem cadastro na Vindi. TODAS as contas de afiliados devem ter conta cadastrada. |
+| 003081    | Não foi possível finalizar sua compra. Entre em contato por <a href="[https://vindi.com.br/professional-services/](https://atendimento.yapay.com.br/hc/pt-br)" target="_blank" class="linkPadraoVerde">Ticket</a>, informando o código '003081' | A conta do comprador está Inativa na Vindi |
 | 003097    | É necessário informar o CPF para realizar uma transação com essa loja | Conta está sem CPF, para realizar vendas é necessário ter os dados informados no cadastro |
 
 
