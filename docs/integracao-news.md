@@ -2,7 +2,7 @@
 
 Aqui você fica por dentro das novidades do nosso setor de Integração.
 
-Nesse portal serão adicionadas todas as novidades de Integrção com a Yapay. 
+Nesse portal serão adicionadas todas as novidades de Integrção com a Vindi. 
 
 Novidades de módulos e plugins, atualicações...
 
