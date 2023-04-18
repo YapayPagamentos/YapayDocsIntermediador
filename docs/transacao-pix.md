@@ -1,7 +1,7 @@
 ## PIX
 
 
-A forma de pagamento **PIX** na Yapay já está disponível para todos na criação de transações pela API de Transação.
+A forma de pagamento **PIX** na Vindi já está disponível para todos na criação de transações pela API de Transação.
 
 Para utilizar é simples, você precisa passar o `payment_method_id` igual a `27`. No response da API vem os seguintes campos:
 
@@ -15,7 +15,7 @@ Para utilizar é simples, você precisa passar o `payment_method_id` igual a `27
 
 ##### Informações importantes
 
-**Tempo Expiração**: O tempo de expiração do QRCode vem configurado default em 24h (1440 minutos). Para configura-lo você precisa acessar o [Portal](https://intermediador.yapay.com.br/settings/sales) da Yapay -> Configurações -> Transação de vendas -> Duração do QRCode (PIX). A transação PIX que está com o status Aguardando Pagamento que está com o QRCode expirado, nós realizamos o Cancelamento da transação no minuto 40 de cada hora. 
+**Tempo Expiração**: O tempo de expiração do QRCode vem configurado default em 24h (1440 minutos). Para configura-lo você precisa acessar o [Portal](https://intermediador.yapay.com.br/settings/sales) da Vindi -> Configurações -> Transação de vendas -> Duração do QRCode (PIX). A transação PIX que está com o status Aguardando Pagamento que está com o QRCode expirado, nós realizamos o Cancelamento da transação no minuto 40 de cada hora. 
 
 
 **Cancelamento de transação PIX**: O cancelamento da transação, via API ou Portal, com a forma de pagamento PIX é somente com o status AGUARDANDO PAGAMENTO. Não é possível cancelar transação PIX com o status APROVADA. 
