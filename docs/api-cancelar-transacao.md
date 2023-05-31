@@ -289,7 +289,7 @@ Importante SEMPRE realizar a consulta pelo endpoint <span class="patch">GET</spa
          ],
 ```
 
-# Estorno de Boleto/TEF novo fluxo Automatização de Reembolso
+# Cancelamento de Boleto/TEF novo fluxo Automatização de Reembolso
 
 
 Com o novo fluxo de [Automatização de Reembolso](https://atendimento.yapay.com.br/hc/pt-br/articles/13144282149403-Automatiza%C3%A7%C3%A3o-de-estorno-e-reembolso-de-pagamentos), o cancelamento de transações Boleto e TEF deverão ser feitas, obrigatoriamente, com os dados da conta bancária do comprador.
