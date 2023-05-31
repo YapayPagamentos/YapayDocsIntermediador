@@ -288,3 +288,28 @@ Importante SEMPRE realizar a consulta pelo endpoint <span class="patch">GET</spa
             }
          ],
 ```
+
+# Estorno de Boleto/TEF novo fluxo Automatização de Reembolso
+
+
+Com o novo fluxo de [Automatização de Reembolso](https://atendimento.yapay.com.br/hc/pt-br/articles/13144282149403-Automatiza%C3%A7%C3%A3o-de-estorno-e-reembolso-de-pagamentos), o cancelamento de transações Boleto e TEF deverão ser feitas, obrigatoriamente, com os dados da conta bancária do comprador.
+# Códigos de Exemplo
+
+Observe abaixo que na requisição de uma transação Boleto ou TEF, é adicionado o nó `bank_account[]` para inclusão dos dados bancários do comprador:
+
+```bash
+    curl --request PATCH \
+         --url 'https://api.intermediador.sandbox.yapay.com.br/api/v3/transactions/cancel' \
+         --header 'Content-Type: application/json' \
+         --data '  {  
+                 "access_token":"SEU_ACCESS_TOKEN",
+                 "transaction_id": 79717,
+                 "bank_account": {
+                      "agency_number": "0011",
+                      "account_number": "12345",
+                      "account_digit": "6",
+                      "account_type": "C",
+                      "bank_code": "33"
+                      }                 
+                }'
+```
