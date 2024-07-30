@@ -156,3 +156,8 @@ Exemplo de resposta com sucesso, se baseando no envio do exemplo acima:
    }
 }
 ```
+
+## Exemplo de Bolepix
+
+
+![Obtendo o Token de Integração Vindi](/images/bolepix_vindi.png "Bolepix Vindi")
