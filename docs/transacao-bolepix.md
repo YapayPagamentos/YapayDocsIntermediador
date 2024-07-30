@@ -140,8 +140,8 @@ Exemplo de resposta com sucesso, se baseando no envio do exemplo acima:
                 "qrcode_original_path": "00020101021226860014BR.GOV.BCB.PIX2564spi-h.itau.com.br/pix/qr/v2/e8772e8f-3e31-4766-831c-c3ce8f453b635204000053039865802BR5920CARVALHEIRA GERALDES6009SAO PAULO62070503***63048DAC",
 	"tid":"",
             "split":1,
-            "payment_method_id":27,
-            "payment_method_name":"Pix",
+            "payment_method_id":28,
+            "payment_method_name":"Bolepix",
             "linha_digitavel":""
          },
          "customer":{
