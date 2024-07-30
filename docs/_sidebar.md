@@ -15,7 +15,7 @@
 	* [Boas práticas de Integração](boas-praticas-integracao.md)
 	* [Fingerprint](transacao-fingerprint.md)
 	* [PIX](transacao-pix.md)
-        * [Bolepix](transacao-bolepix.md) 	 
+        * [Bolepix](transacao-bolepix.md) 	         
 	* [Cartão de Crédito](transacao-cartao-credito.md)	
 	* [Boleto](transacao-boleto.md)
 	* [Transf. Bancária](transacao-tef.md)
