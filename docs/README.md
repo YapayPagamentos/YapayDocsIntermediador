@@ -9,12 +9,12 @@ O Vindi é o meio mais seguro para recebimento de pagamentos online, venda os se
 
 ## Sandbox
 
-Para realizar as integrações, o Vindi disponibiliza um ambiente de testes <a href="https://intermediador.sandbox.yapay.com.br/signin" target="_blank" class="linkPadraoVerde">Sandbox</a>. Este ambiente permite que sejam efetuadas todas as operações disponíveis em produção, com simulações sem a necessidade de uso de dados reais.  
+Para realizar as integrações, o Vindi disponibiliza um ambiente de testes <a href="https://signin-sandbox.yapay.com.br/login/intermediador" target="_blank" class="linkPadraoVerde">Sandbox</a>. Este ambiente permite que sejam efetuadas todas as operações disponíveis em produção, com simulações sem a necessidade de uso de dados reais.  
 
 Mesmo que você já possua uma conta no ambiente de produção, será necessário criar uma conta específica para testes. Basta clicar <a href="https://www.yapay.com.br/criar-conta/sandbox/" target="_blank" class="linkPadraoVerde">aqui</a> e realizar o cadastro e já tenha seu token.
 
 
-Durante os testes em <a href="https://intermediador.sandbox.yapay.com.br/signin" target="_blank" class="linkPadraoVerde">Sandbox</a>, as compras que forem processadas com cartões de crédito poderão ser aprovadas ou reprovadas em tempo real. 
+Durante os testes em <a href="https://signin-sandbox.yapay.com.br/login/intermediador" target="_blank" class="linkPadraoVerde">Sandbox</a>, as compras que forem processadas com cartões de crédito poderão ser aprovadas ou reprovadas em tempo real. 
 
 Este procedimento poderá ser realizado utilizando a bandeira de cartão MasterCard de acordo com o parcelamento escolhido: 
 
