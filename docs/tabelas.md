@@ -63,6 +63,7 @@ Abaixo segue tabelas com essas informações pré-definidas:
 | Em Contestação                  | chargeback                       | 24 |
 | Em Monitoramento                | monitoring                       | 87 |
 | Reprovada                       | failed                           | 89 |
+| Aguardando confirmação          | awaiting_confirmation            | 184 |
 
 
 ## **Tabela 5 - Gênero**
