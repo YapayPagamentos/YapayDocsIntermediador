@@ -54,24 +54,23 @@ Abaixo você consegue visualizar um exemplo em cURL da criação de uma Transaç
 > **Exemplo de criação de Transação com PIX**
 
 ```bash
-    curl  --request POST \
-          --url 'https://api.intermediador.sandbox.yapay.com.br/api/v3/transactions/payment' \
-          --header 'Content-Type: application/json' \
-          --data '{  
-                "token_account":"SEU_TOKEN_AQUI",
-                "customer":{  
-                "contacts":[  
-                    {  
+curl --location 'https://api.intermediador.sandbox.yapay.com.br/api/v3/transactions/payments' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+              "token_account":"SEU TOKEN",
+              "customer":{
+                "contacts":[
+                  {
                     "type_contact":"H",
                     "number_contact":"1133221122"
-                    },
-                    {  
+                  },
+                  {
                     "type_contact":"M",
                     "number_contact":"11999999999"
-                    }
+                  }
                 ],
-                "addresses":[  
-                    {  
+                "addresses":[
+                  {
                     "type_address":"B",
                     "postal_code":"17000-000",
                     "street":"Av Esmeralda",
@@ -80,36 +79,38 @@ Abaixo você consegue visualizar um exemplo em cURL da criação de uma Transaç
                     "neighborhood":"Jd Esmeralda",
                     "city":"Marilia",
                     "state":"SP"
-                    }
+                  }
                 ],
-                "name":"Wanda Maximoff",
+                "name":"Stephen Strange",
                 "birth_date":"21/05/1941",
                 "cpf":"50235335142",
-                "email":"wanda@avengers.com"
-                },
-                "transaction_product":[  
-                {  
-                    "description":"Camiseta Tony Stark",
-                    "quantity":"1",
-                    "price_unit":"130.00",
-                    "code":"1",
-                    "sku_code":"0001",
-                    "extra":"Informação Extra"
+                "email":"stephen.strange@avengers.com"
+              },
+              "transaction_product":[
+                {
+                  "description":"Camiseta",
+                  "quantity":"1",
+                  "price_unit":"130.00",
+                  "code":"1",
+                  "sku_code":"0001",
+                  "extra":"Informação Extra"
                 }
-                ],
-                "transaction":{  
+              ],
+              "transaction":{
+                "customer_ip":"127.0.0.1",
                 "shipping_type":"Sedex",
                 "shipping_price":"12",
-                "url_notification":"http://www.loja.com.br/notificacao",
-                "free":""
+                "price_discount":"",
+                "url_notification":"http://www.site.com.br/notificacao",
+                "free":"Campo Livre"
               },
               "transaction_trace": {
-                 "estimated_date": "02/04/2022"
+                 "estimated_date": "15/10/2024"
               },
-                "payment":{  
-                  "payment_method_id":"27",  
-                  "split":"1"
-                }
+              "payment":{
+                "payment_method_id":"27",
+                "split":"1"
+              }
             }'
 
 ```
