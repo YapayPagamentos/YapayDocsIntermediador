@@ -18,7 +18,6 @@
 	* [Bolepix](transacao-bolepix.md)	
 	* [Cartão de Crédito](transacao-cartao-credito.md)	
 	* [Boleto](transacao-boleto.md)
-	* [Transf. Bancária](transacao-tef.md)
 	* [Tabela de Campos](transacao-tabela-campos.md)
 	* [Código Retorno de Erros ABECs](transacao-codigos-retorno-abecs.md)
 	* [Mensagens de Erro](transacao-erros.md)
